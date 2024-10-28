@@ -20,9 +20,9 @@
 </head>
 <body>
 
-
+<!-- 
   <nav class="p-4 text-white shadow-md bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 "><div></div><div class="container flex items-center justify-between mx-auto"><a class="flex items-center text-lg font-bold text-white" href="/"><img alt="no-data" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="h-auto max-w-full p-1 mx-3 bg-gray-100 rounded-full" src="https://aungthuoo.github.io/images/logos/softwarezay.png" style="color: transparent;"><span class="hidden md:block">InfoLink</span></a><div class="hidden space-x-4 md:flex"><a class="text-gray-300 hover:text-white" href="/">Home</a><a class="text-gray-300 hover:text-white" href="/mindmaps/">Mindmaps</a><a class="text-gray-300 hover:text-white" href="/products/">Products</a><a class="text-gray-300 hover:text-white" href="/blogs/">Blogs</a><a class="text-gray-300 hover:text-white" href="/services/">Services</a><a class="text-gray-300 hover:text-white" href="/contact/">Contact</a></div><div class="md:hidden"><button class="text-white focus:outline-none" aria-label="Toggle Menu"><svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg></button></div></div></nav>
-
+ -->
 
 
   
@@ -53,6 +53,57 @@
 <!-- hacking -->
 <script src="https://cdn.tailwindcss.com"></script>
 <div class="fixed bottom-0 left-0 right-0 z-50 max-w-md p-1 mx-auto rounded-t-lg lg:right-auto lg:left-4 lg:mx-0 bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 animate-border"><div class="px-4 py-2 bg-white rounded-t-lg"><div class="flex items-center justify-between"><div class="flex items-center space-x-3"><a href="https://linkedin.com/in/aungthuoo"><img alt="" loading="lazy" width="50" height="50" decoding="async" data-nimg="1" class="h-auto max-w-full bg-gray-100 rounded-full" src="https://aungthuoo.github.io/images/profile/ato.jpeg" style="color: transparent;"></a><div><p class="text-sm font-bold text-gray-700">Available for Work</p><p class="text-xs text-gray-500">I am currently open to new opportunities!</p><a class="text-xs text-indigo-500 hover:underline" href="https://linkedin.com/in/aungthuoo">View more</a></div></div><button class="text-gray-500 hover:text-gray-700 focus:outline-none">✖</button></div></div></div>
+
+
+
+
+<style>
+  body {
+    overflow: hidden;
+  }
+</style>
+<!-- Toggle Icon Button -->
+<button id="menu-toggle" class="fixed p-2 bg-white rounded-full shadow-lg top-4 left-4">
+  <!-- Icon: Menu (Hamburger) -->
+  <svg class="w-6 h-6 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+  </svg>
+</button>
+
+<!-- Floating Menu -->
+<div id="floating-menu" class="fixed hidden p-4 bg-white border border-gray-300 rounded-lg shadow-lg top-14 left-4">
+  <ul class="space-y-2">
+      <li><a href="#" class="block text-gray-800 hover:text-blue-600">Home</a></li>
+      <li><a href="#" class="block text-gray-800 hover:text-blue-600">About</a></li>
+      <li><a href="#" class="block text-gray-800 hover:text-blue-600">Services</a></li>
+      <li><a href="#" class="block text-gray-800 hover:text-blue-600">Contact</a></li>
+  </ul>
+</div>
+
+<!-- JavaScript for Toggle Functionality -->
+<script>
+  const menuToggle = document.getElementById('menu-toggle');
+  const floatingMenu = document.getElementById('floating-menu');
+
+  menuToggle.addEventListener('click', () => {
+      floatingMenu.classList.toggle('hidden'); // Toggle visibility
+  });
+</script>
+
+
+
+
+<div class="relative">
+  <!-- Image Watermark -->
+  <img src="path/to/your-watermark-image.png" alt="Watermark" class="absolute inset-0 object-cover w-full h-full pointer-events-none opacity-5">
+
+  <!-- Page Content -->
+  <div class="relative z-10 p-8">
+      <h1 class="text-2xl font-bold">Your Content Here</h1>
+      <p class="mt-4">This is the content on your page. The watermark image is placed behind it.</p>
+  </div>
+</div>
+
 
 </body>
 </html>
