@@ -1,0 +1,77 @@
+[
+  {
+    "author": {
+      "name": "Aung Thu Oo",
+      "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+      "position": "Senior developer",
+      "link": "https://linkedin.com/in/aungthuoo"
+    },
+    "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+    "categories": [
+      {
+        "name": "CSS"
+      },
+      {
+        "name": "TailwindCSS"
+      }
+    ],
+    "date": "24 Oct, 2024",
+    "title": "Tailwind CSS classes and directives",
+    "slug": "tailwind-css-classes-and-directives",
+    "images": [
+      "images/img-001.gif"
+    ],
+    "description": "Tailwind CSS provides a comprehensive set of utility classes and directives to style your HTML elements. These classes are categorized into several groups"
+  },
+  {
+    "author": {
+      "name": "Aung Thu Oo",
+      "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+      "position": "Senior developer",
+      "link": "https://linkedin.com/in/aungthuoo"
+    },
+    "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+    "categories": [
+      {
+        "name": "React.js"
+      },
+      {
+        "name": "JavaScript"
+      },
+      {
+        "name": "Miroservice"
+      }
+    ],
+    "date": "21 Oct, 2024",
+    "title": "Understanding Next.js",
+    "slug": "understanding-nextjs",
+    "images": [
+      "images/img-001.gif"
+    ],
+    "description": "A Micro Frontend is an architectural approach for web applications where the front-end code is divided into smaller, independently developed and deployable units called micro frontends. "
+  },
+  {
+    "author": {
+      "name": "Aung Thu Oo",
+      "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+      "position": "Senior developer",
+      "link": "https://linkedin.com/in/aungthuoo"
+    },
+    "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+    "categories": [
+      {
+        "name": "TypeScript"
+      },
+      {
+        "name": "JavaScript"
+      }
+    ],
+    "date": "1 Oct, 2024",
+    "title": "JavaScript Roadmap",
+    "slug": "javascript-roadmap",
+    "images": [
+      "images/img-001.gif"
+    ],
+    "description": "TypeScript is a superset of JavaScript, meaning that it does everything that JavaScript does, but with some added features."
+  }
+]
