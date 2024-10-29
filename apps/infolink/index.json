@@ -89,32 +89,7 @@
         "link": "https://linkedin.com/in/aungthuoo"
       },
       "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
-      "link": "https://aungthuoo.github.io/share/topics/reactjs-micro-frontend/index.html",
-      "categories": [
-        {
-          "name": "CSS"
-        },
-        {
-          "name": "TailwindCSS"
-        }
-      ],
-      "date": "24 Oct, 2024",
-      "title": "Page 5) Tailwind CSS classes and directives",
-      "slug": "tailwind-css-classes-and-directives",
-      "images": [
-        "images/img-001.gif"
-      ],
-      "description": "Tailwind CSS provides a comprehensive set of utility classes and directives to style your HTML elements. These classes are categorized into several groups"
-    },
-    {
-      "author": {
-        "name": "Aung Thu Oo",
-        "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
-        "position": "Senior developer",
-        "link": "https://linkedin.com/in/aungthuoo"
-      },
-      "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
-      "link": "https://aungthuoo.github.io/share/topics/reactjs-micro-frontend/index.html",
+      "link": "", 
       "categories": [
         {
           "name": "React.js"
@@ -126,9 +101,10 @@
           "name": "Miroservice"
         }
       ],
-      "date": "21 Oct, 2024",
-      "title": "Understanding Next.js",
-      "slug": "understanding-nextjs",
+      "date": "5 Oct, 2024",
+      "title": "The Complete Guide to Micro Frontend with React.js",
+      "slug": "the-complete-guide-to-micro-frontend-with-reactjs",
+      "gist": "67f09992e02b237f8e1d8f8b7bd5a98f", 
       "images": [
         "images/img-001.gif"
       ],
@@ -142,7 +118,7 @@
         "link": "https://linkedin.com/in/aungthuoo"
       },
       "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
-      "link": "https://aungthuoo.github.io/share/topics/reactjs-micro-frontend/index.html",
+      "link": "", 
       "categories": [
         {
           "name": "TypeScript"
@@ -152,12 +128,123 @@
         }
       ],
       "date": "1 Oct, 2024",
-      "title": "JavaScript Roadmap",
-      "slug": "javascript-roadmap",
+      "title": "Understanding TypeScript",
+      "slug": "understanding-typescript",
+      "gist": "21a2bb8a4c529de92b260972a9d5175d",
       "images": [
         "images/img-001.gif"
       ],
       "description": "TypeScript is a superset of JavaScript, meaning that it does everything that JavaScript does, but with some added features."
+    },
+    {
+      "author": {
+        "name": "Aung Thu Oo",
+        "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+        "position": "Senior developer",
+        "link": "https://linkedin.com/in/aungthuoo"
+      },
+      "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+      "link": "", 
+      "categories": [
+        {
+          "name": "Next.js"
+        },
+        {
+          "name": "JavaScript"
+        }
+      ],
+      "date": "25 Sep, 2024",
+      "title": "Understanding Routing in Next.js",
+      "slug": "understanding-nextjs-routing",
+      "gist": "8917b47979fee6100d6864663f181cb1",
+      "images": [
+        "images/img-001.gif"
+      ],
+      "description": "Routing is a vital component of web applications, facilitating seamless navigation between various pages and features. "
+    },
+    {
+      "author": {
+        "name": "Aung Thu Oo",
+        "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+        "position": "Senior developer",
+        "link": "https://linkedin.com/in/aungthuoo"
+      },
+      "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+      "link": "", 
+      "categories": [
+        {
+          "name": "Next.js"
+        },
+        {
+          "name": "Node.js"
+        },
+        {
+          "name": "PostgreSQL"
+        }
+      ],
+      "date": "22 Sep, 2024",
+      "title": "Building a Simple CRUD Application with Next.js, TypeScript, and Docker",
+      "slug": "nextjs-crud-typescript-docker",
+      "gist": "c9b663ab1d2c2962487dbee66d523df2",
+      "images": [
+        "images/img-001.gif"
+      ],
+      "description": "Building a Simple CRUD Application with Next.js, TypeScript, and Docker"
+    },
+    {
+      "author": {
+        "name": "Aung Thu Oo",
+        "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+        "position": "Senior developer",
+        "link": "https://linkedin.com/in/aungthuoo"
+      },
+      "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+      "link": "", 
+      "categories": [
+        {
+          "name": "Next.js"
+        },
+        {
+          "name": "Node.js"
+        },
+        {
+          "name": "PostgreSQL"
+        }
+      ],
+      "date": "20 Sep, 2024",
+      "title": "Using Prisma with Node.js in a Dockerized Environment",
+      "slug": "using-prisma-with-node-js-in-a-dockerized-environment",
+      "gist": "6915e3ea3816f67633571b26d8707f71",
+      "images": [
+        "images/img-001.gif"
+      ],
+      "description": "I will use Node.js and Express. We will also use Prisma to interact with the database."
+    },
+    {
+      "author": {
+        "name": "Aung Thu Oo",
+        "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+        "position": "Senior developer",
+        "link": "https://linkedin.com/in/aungthuoo"
+      },
+      "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+      "link": "", 
+      "categories": [
+        {
+          "name": "Next.js"
+        },
+        {
+          "name": "PostgreSQL"
+        }
+      ],
+      "date": "19 Sep, 2024",
+      "title": "Install PostgreSQL in a Docker Container",
+      "slug": "install-postgresql-in-a-docker-container",
+      "gist": "6c32497e371a8b5ee6013d71aef10b4f",
+      "images": [
+        "images/img-001.png"
+      ],
+      "description": "Install PostgreSQL in a Docker Container: A Beginner's Guide"
     }
   ]
 }
