@@ -429,10 +429,10 @@
       "name": "Aung Thu Oo",
       "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
       "position": "Senior developer",
-      "link": "https://linkedin.com/in/aungthuoo"
+      "link": "https://aungthuoo.github.io/share/topics/reactjs-the-difference-between-debouncing-throttling/index.html"
     },
-    "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
-    "link": "", 
+    "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/reactjs-the-difference-between-debouncing-throttling",
+    "link": "https://aungthuoo.github.io/share/topics/reactjs-the-difference-between-debouncing-throttling/index.html", 
     "categories": [
       {
         "name": "React.js"
@@ -458,7 +458,7 @@
       "link": "https://linkedin.com/in/aungthuoo"
     },
     "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
-    "link": "", 
+    "link": "https://aungthuoo.github.io/share/topics/reactjs-useref-usage-with-simple-example/index.html", 
     "categories": [
       {
         "name": "React.js"
@@ -484,7 +484,7 @@
       "link": "https://linkedin.com/in/aungthuoo"
     },
     "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
-    "link": "", 
+    "link": "https://aungthuoo.github.io/share/topics/reactjs-the-difference-between-usememo-and-usecallback/index.html", 
     "categories": [
       {
         "name": "JavaScript"
@@ -507,7 +507,7 @@
       "link": "https://linkedin.com/in/aungthuoo"
     },
     "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
-    "link": "", 
+    "link": "https://aungthuoo.github.io/share/topics/reactjs-summary-note-fo-react-hooks/index.html", 
     "categories": [
       {
         "name": "JavaScript"
@@ -530,7 +530,7 @@
       "link": "https://linkedin.com/in/aungthuoo"
     },
     "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
-    "link": "", 
+    "link": "https://aungthuoo.github.io/share/topics/javascript-tips-and-tricks-to-become-a-senior-developer/index.html", 
     "categories": [
       {
         "name": "JavaScript"
@@ -553,7 +553,7 @@
       "link": "https://linkedin.com/in/aungthuoo"
     },
     "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
-    "link": "", 
+    "link": "https://aungthuoo.github.io/share/topics/node-js-project-with-prisma-orm-and-mysql/index.html", 
     "categories": [
       {
         "name": "JavaScript"
@@ -576,7 +576,7 @@
       "link": "https://linkedin.com/in/aungthuoo"
     },
     "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
-    "link": "", 
+    "link": "https://aungthuoo.github.io/share/topics/javascript-amazing-things-you-can-do-with-simple/index.html", 
     "categories": [
       {
         "name": "JavaScript"
@@ -599,7 +599,7 @@
       "link": "https://linkedin.com/in/aungthuoo"
     },
     "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
-    "link": "", 
+    "link": "https://aungthuoo.github.io/share/topics/nodejs-deliver-html-at-speciﬁed-path/index.html", 
     "categories": [
       {
         "name": "Node.js"
@@ -625,7 +625,7 @@
       "link": "https://linkedin.com/in/aungthuoo"
     },
     "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
-    "link": "", 
+    "link": "https://aungthuoo.github.io/share/topics/nodejs-taking-advantage-of-clusters/index.html", 
     "categories": [
       {
         "name": "Node.js"
@@ -651,7 +651,7 @@
       "link": "https://linkedin.com/in/aungthuoo"
     },
     "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
-    "link": "", 
+    "link": "https://aungthuoo.github.io/share/topics/expressjs-application-structured-in-a-modular-way/index.html", 
     "categories": [
       {
         "name": "Node.js"
@@ -677,7 +677,7 @@
       "link": "https://linkedin.com/in/aungthuoo"
     },
     "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
-    "link": "", 
+    "link": "https://aungthuoo.github.io/share/topics/nodejs-modular-express-application/index.html", 
     "categories": [
       {
         "name": "Node.js"
@@ -703,7 +703,7 @@
       "link": "https://linkedin.com/in/aungthuoo"
     },
     "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
-    "link": "", 
+    "link": "https://aungthuoo.github.io/share/topics/nodejs-hello-world/index.html", 
     "categories": [
       {
         "name": "Node.js"
@@ -729,7 +729,7 @@
       "link": "https://linkedin.com/in/aungthuoo"
     },
     "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
-    "link": "", 
+    "link": "https://aungthuoo.github.io/share/topics/javascript-promise/index.html", 
     "categories": [
       {
         "name": "React.js"
@@ -755,7 +755,7 @@
       "link": "https://linkedin.com/in/aungthuoo"
     },
     "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
-    "link": "", 
+    "link": "https://aungthuoo.github.io/share/topics/javascript-callback/index.html", 
     "categories": [
       {
         "name": "React.js"
@@ -781,7 +781,7 @@
       "link": "https://linkedin.com/in/aungthuoo"
     },
     "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
-    "link": "", 
+    "link": "https://aungthuoo.github.io/share/topics/javascript-fun-export-import/index.html", 
     "categories": [
       {
         "name": "React.js"
