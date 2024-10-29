@@ -7,30 +7,7 @@
       "link": "https://linkedin.com/in/aungthuoo"
     },
     "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
-    "categories": [
-      {
-        "name": "CSS"
-      },
-      {
-        "name": "TailwindCSS"
-      }
-    ],
-    "date": "24 Oct, 2024",
-    "title": "Page 1) Tailwind CSS classes and directives",
-    "slug": "tailwind-css-classes-and-directives",
-    "images": [
-      "images/img-001.gif"
-    ],
-    "description": "Tailwind CSS provides a comprehensive set of utility classes and directives to style your HTML elements. These classes are categorized into several groups"
-  },
-  {
-    "author": {
-      "name": "Aung Thu Oo",
-      "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
-      "position": "Senior developer",
-      "link": "https://linkedin.com/in/aungthuoo"
-    },
-    "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+    "link": "", 
     "categories": [
       {
         "name": "React.js"
@@ -42,9 +19,10 @@
         "name": "Miroservice"
       }
     ],
-    "date": "21 Oct, 2024",
-    "title": "Understanding Next.js",
-    "slug": "understanding-nextjs",
+    "date": "5 Oct, 2024",
+    "title": "The Complete Guide to Micro Frontend with React.js",
+    "slug": "the-complete-guide-to-micro-frontend-with-reactjs",
+    "gist": "67f09992e02b237f8e1d8f8b7bd5a98f", 
     "images": [
       "images/img-001.gif"
     ],
@@ -58,6 +36,7 @@
       "link": "https://linkedin.com/in/aungthuoo"
     },
     "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+    "link": "", 
     "categories": [
       {
         "name": "TypeScript"
@@ -67,11 +46,758 @@
       }
     ],
     "date": "1 Oct, 2024",
-    "title": "JavaScript Roadmap",
-    "slug": "javascript-roadmap",
+    "title": "Understanding TypeScript",
+    "slug": "understanding-typescript",
+    "gist": "21a2bb8a4c529de92b260972a9d5175d",
     "images": [
       "images/img-001.gif"
     ],
     "description": "TypeScript is a superset of JavaScript, meaning that it does everything that JavaScript does, but with some added features."
+  },
+  {
+    "author": {
+      "name": "Aung Thu Oo",
+      "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+      "position": "Senior developer",
+      "link": "https://linkedin.com/in/aungthuoo"
+    },
+    "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+    "link": "", 
+    "categories": [
+      {
+        "name": "Next.js"
+      },
+      {
+        "name": "JavaScript"
+      }
+    ],
+    "date": "25 Sep, 2024",
+    "title": "Understanding Routing in Next.js",
+    "slug": "understanding-nextjs-routing",
+    "gist": "8917b47979fee6100d6864663f181cb1",
+    "images": [
+      "images/img-001.gif"
+    ],
+    "description": "Routing is a vital component of web applications, facilitating seamless navigation between various pages and features. "
+  },
+  {
+    "author": {
+      "name": "Aung Thu Oo",
+      "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+      "position": "Senior developer",
+      "link": "https://linkedin.com/in/aungthuoo"
+    },
+    "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+    "link": "", 
+    "categories": [
+      {
+        "name": "Next.js"
+      },
+      {
+        "name": "Node.js"
+      },
+      {
+        "name": "PostgreSQL"
+      }
+    ],
+    "date": "22 Sep, 2024",
+    "title": "Building a Simple CRUD Application with Next.js, TypeScript, and Docker",
+    "slug": "nextjs-crud-typescript-docker",
+    "gist": "c9b663ab1d2c2962487dbee66d523df2",
+    "images": [
+      "images/img-001.gif"
+    ],
+    "description": "Building a Simple CRUD Application with Next.js, TypeScript, and Docker"
+  },
+  {
+    "author": {
+      "name": "Aung Thu Oo",
+      "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+      "position": "Senior developer",
+      "link": "https://linkedin.com/in/aungthuoo"
+    },
+    "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+    "link": "", 
+    "categories": [
+      {
+        "name": "Next.js"
+      },
+      {
+        "name": "Node.js"
+      },
+      {
+        "name": "PostgreSQL"
+      }
+    ],
+    "date": "20 Sep, 2024",
+    "title": "Using Prisma with Node.js in a Dockerized Environment",
+    "slug": "using-prisma-with-node-js-in-a-dockerized-environment",
+    "gist": "6915e3ea3816f67633571b26d8707f71",
+    "images": [
+      "images/img-001.gif"
+    ],
+    "description": "I will use Node.js and Express. We will also use Prisma to interact with the database."
+  },
+  {
+    "author": {
+      "name": "Aung Thu Oo",
+      "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+      "position": "Senior developer",
+      "link": "https://linkedin.com/in/aungthuoo"
+    },
+    "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+    "link": "", 
+    "categories": [
+      {
+        "name": "Next.js"
+      },
+      {
+        "name": "PostgreSQL"
+      }
+    ],
+    "date": "19 Sep, 2024",
+    "title": "Install PostgreSQL in a Docker Container",
+    "slug": "install-postgresql-in-a-docker-container",
+    "gist": "6c32497e371a8b5ee6013d71aef10b4f",
+    "images": [
+      "images/img-001.png"
+    ],
+    "description": "Install PostgreSQL in a Docker Container: A Beginner's Guide"
+  },
+  {
+    "author": {
+      "name": "Aung Thu Oo",
+      "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+      "position": "Senior developer",
+      "link": "https://linkedin.com/in/aungthuoo"
+    },
+    "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+    "link": "", 
+    "categories": [
+      {
+        "name": "Next.js"
+      },
+      {
+        "name": "JavaScript"
+      }
+    ],
+    "date": "17 Sep, 2024",
+    "title": "Understanding Next.js Data Fetching",
+    "slug": "next-js-data-fetching",
+    "gist": "ed082dec155f1cf9c6f9387511c53c6b",
+    "images": [
+      "images/img-001.gif"
+    ],
+    "description": "Next.js provides several data fetching methods that allow you to fetch data from various sources and render it in your components."
+  },
+  {
+    "author": {
+      "name": "Aung Thu Oo",
+      "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+      "position": "Senior developer",
+      "link": "https://linkedin.com/in/aungthuoo"
+    },
+    "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+    "link": "", 
+    "categories": [
+      {
+        "name": "React.js"
+      },
+      {
+        "name": "JavaScript"
+      }
+    ],
+    "date": "16 Sep, 2024",
+    "title": "Understanding React Design Patterns - Part - 1",
+    "slug": "understanding-react-js-design-patterns",
+    "gist": "a5dfd5e3115b0b1c942a0ed7741da16f",
+    "images": [
+      "images/img-001.png"
+    ],
+    "description": "Design patterns are important in React.js because they provide a standardized and efficient way to solve common problems, leading to better organized, maintainable, and scalable code."
+  },
+  {
+    "author": {
+      "name": "Aung Thu Oo",
+      "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+      "position": "Senior developer",
+      "link": "https://linkedin.com/in/aungthuoo"
+    },
+    "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+    "link": "", 
+    "categories": [
+      {
+        "name": "React.js"
+      },
+      {
+        "name": "JavaScript"
+      }
+    ],
+    "date": "11 Sep, 2024",
+    "title": "The difference between React.memo() and useMemo()",
+    "slug": "the-different-between-reactmemo-and-usememo",
+    "gist": "823937eeb1b99e20cbb61b091d06a1a2",
+    "images": [
+      "images/img-001.png"
+    ],
+    "description": "React.memo() and useMemo() are both used in React to optimize performance by preventing unnecessary re-renders, but they are used in different scenarios. "
+  },
+  {
+    "author": {
+      "name": "Aung Thu Oo",
+      "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+      "position": "Senior developer",
+      "link": "https://linkedin.com/in/aungthuoo"
+    },
+    "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+    "link": "", 
+    "categories": [
+      {
+        "name": "React.js"
+      },
+      {
+        "name": "JavaScript"
+      }
+    ],
+    "date": "10 Sep, 2024",
+    "title": "Mastering Tailwind CSS: The Complete Guide",
+    "slug": "mastering-tailwind-css-the-complete-guide",
+    "gist": "53571800e2014d13240841aad1a0cb4f",
+    "images": [
+      "images/img-001.png"
+    ],
+    "description": "Generally, CSS frameworks can be divided into two groups based on their nature.Utility-based frameworks Component-based frameworks."
+  },
+  {
+    "author": {
+      "name": "Aung Thu Oo",
+      "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+      "position": "Senior developer",
+      "link": "https://linkedin.com/in/aungthuoo"
+    },
+    "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+    "link": "", 
+    "categories": [
+      {
+        "name": "React.js"
+      },
+      {
+        "name": "JavaScript"
+      }
+    ],
+    "date": "4 Sep, 2024",
+    "title": "Learning TypeScript in React.js: A Simple, Step-by-Step Approach with Examples",
+    "slug": "learning-typescript-in-react-js",
+    "gist": "957c75a39656c4498724725203366aa2",
+    "images": [
+      "images/img-001.png"
+    ],
+    "description": "TypeScript is a superset of JavaScript, which means that it extends JavaScript by adding new features and capabilities."
+  },
+  {
+    "author": {
+      "name": "Aung Thu Oo",
+      "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+      "position": "Senior developer",
+      "link": "https://linkedin.com/in/aungthuoo"
+    },
+    "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+    "link": "", 
+    "categories": [
+      {
+        "name": "React.js"
+      },
+      {
+        "name": "JavaScript"
+      }
+    ],
+    "date": "2 Sep, 2024",
+    "title": "Understanding JavaScript Hoisting",
+    "slug": "javascript-hoisting",
+    "gist": "bf80b73823bd41644f1ce4567ee5d177",
+    "images": [
+      "images/img-001.png"
+    ],
+    "description": "Understanding hoisting helps in predicting the behavior of your code and avoiding potential bugs related to variable and function declarations."
+  },
+  {
+    "author": {
+      "name": "Aung Thu Oo",
+      "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+      "position": "Senior developer",
+      "link": "https://linkedin.com/in/aungthuoo"
+    },
+    "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+    "link": "", 
+    "categories": [
+      {
+        "name": "React.js"
+      },
+      {
+        "name": "JavaScript"
+      }
+    ],
+    "date": "2 Sep, 2024",
+    "title": "Different kinds of Flutter Riverpod providers",
+    "slug": "difference-kinds-of-flutter-riverpod-providers",
+    "gist": "a21108773fb505a5642d401c61db48b3",
+    "images": [
+      "images/img-001.png"
+    ],
+    "description": "In Flutter's Riverpod, there are different types of providers depending on the kind of state you want to manage. Here's a simple explanation of the main types of providers with examples:"
+  },
+  {
+    "author": {
+      "name": "Aung Thu Oo",
+      "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+      "position": "Senior developer",
+      "link": "https://linkedin.com/in/aungthuoo"
+    },
+    "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+    "link": "", 
+    "categories": [
+      {
+        "name": "React.js"
+      },
+      {
+        "name": "JavaScript"
+      }
+    ],
+    "date": "1 Sep, 2024",
+    "title": "Dart Essentials: A Quick Path from Beginner to Pro",
+    "slug": "dart-essentials",
+    "gist": "3ab7835ca039fd8f61b37867afad87be",
+    "images": [
+      "images/img-001.png"
+    ],
+    "description": "Dart is a programming language developed by Google, and it serves as the backbone of Flutter, a popular framework for building cross-platform mobile applications. Dart’s syntax and features make it an ideal choice for Flutter, enabling fast development and smooth performance across both Android and iOS platforms. "
+  },
+  {
+    "author": {
+      "name": "Aung Thu Oo",
+      "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+      "position": "Senior developer",
+      "link": "https://linkedin.com/in/aungthuoo"
+    },
+    "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+    "link": "", 
+    "categories": [
+      {
+        "name": "React.js"
+      },
+      {
+        "name": "JavaScript"
+      }
+    ],
+    "date": "28 Jun, 2024",
+    "title": "Flutter - Layouts",
+    "slug": "flutter-layouts",
+    "gist": "971a825fa655f096d39e8981553f718e",
+    "images": [
+      "images/img-001.png"
+    ],
+    "description": "Set of Flutter layout code snippets, I will keep it short, sweet and simple with loads of visual examples."
+  },
+  {
+    "author": {
+      "name": "Aung Thu Oo",
+      "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+      "position": "Senior developer",
+      "link": "https://linkedin.com/in/aungthuoo"
+    },
+    "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+    "link": "", 
+    "categories": [
+      {
+        "name": "React.js"
+      },
+      {
+        "name": "JavaScript"
+      }
+    ],
+    "date": "28 Jun, 2024",
+    "title": "Flutter - How To Fetch API With Riverpod?",
+    "slug": "flutter-fetch-api-with-riverpod",
+    "gist": "849f23efe3b68465dcecea22f86e81f9",
+    "images": [
+      "images/img-001.png"
+    ],
+    "description": "Riverpod is a reactive caching and data-binding framework that was born as an evolution of the Provider package."
+  },
+  {
+    "author": {
+      "name": "Aung Thu Oo",
+      "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+      "position": "Senior developer",
+      "link": "https://linkedin.com/in/aungthuoo"
+    },
+    "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+    "link": "", 
+    "categories": [
+      {
+        "name": "React.js"
+      },
+      {
+        "name": "JavaScript"
+      }
+    ],
+    "date": "27 Jun, 2024",
+    "title": "The difference between Debouncing and Throttling in React",
+    "slug": "reactjs-the-difference-between-debouncing-throttling",
+    "gist": "a8fb12203a46c5d353221651d4b2ea31",
+    "images": [
+      "images/img-001.png"
+    ],
+    "description": "Debouncing delays the execution of a function until after a specified time has passed since the last event. It's useful for scenarios like search inputs, where you want to wait until the user stops typing before sending a search request."
+  },
+  {
+    "author": {
+      "name": "Aung Thu Oo",
+      "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+      "position": "Senior developer",
+      "link": "https://linkedin.com/in/aungthuoo"
+    },
+    "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+    "link": "", 
+    "categories": [
+      {
+        "name": "React.js"
+      },
+      {
+        "name": "JavaScript"
+      }
+    ],
+    "date": "25 Jun, 2024",
+    "title": "Understanding useRef in React with a Simple Example",
+    "slug": "reactjs-useref-usage-with-simple-example",
+    "gist": "4b6f40d76f8862fa9a083461efdcd14a",
+    "images": [
+      "images/img-001.png"
+    ],
+    "description": "useRef is a built-in function that allows you to create a reference to a DOM(Document Object Model) element, enabling direct interaction with it."
+  },
+  {
+    "author": {
+      "name": "Aung Thu Oo",
+      "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+      "position": "Senior developer",
+      "link": "https://linkedin.com/in/aungthuoo"
+    },
+    "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+    "link": "", 
+    "categories": [
+      {
+        "name": "JavaScript"
+      }
+    ],
+    "date": "22 Aug, 2024",
+    "title": "The Difference Between the useMemo and useCallback Hooks",
+    "slug": "reactjs-the-difference-between-usememo-and-usecallback",
+    "gist": "5fd5ca1343140f487f81f89abb036567",
+    "images": [
+      "images/img-001.png"
+    ],
+    "description": "useMemo hook memoizes the return value of an expensive calculation. useCallback hook memoizes a callback function and returns it."
+  },
+  {
+    "author": {
+      "name": "Aung Thu Oo",
+      "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+      "position": "Senior developer",
+      "link": "https://linkedin.com/in/aungthuoo"
+    },
+    "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+    "link": "", 
+    "categories": [
+      {
+        "name": "JavaScript"
+      }
+    ],
+    "date": "19 Aug, 2024",
+    "title": "React.js - Summary note of React Hooks",
+    "slug": "reactjs-summary-note-fo-react-hooks",
+    "gist": "f431c38e372214db86fdf64416683047",
+    "images": [
+      "images/img-001.png"
+    ],
+    "description": "React hooks are a powerful feature in React that allow you to add state and other features to functional components. I’ll explore some of the most commonly used React hooks and provide easy-to-understand examples."
+  },
+  {
+    "author": {
+      "name": "Aung Thu Oo",
+      "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+      "position": "Senior developer",
+      "link": "https://linkedin.com/in/aungthuoo"
+    },
+    "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+    "link": "", 
+    "categories": [
+      {
+        "name": "JavaScript"
+      }
+    ],
+    "date": "17 Aug, 2024",
+    "title": "JavaScript Tips and Tricks to become a Senior Developer",
+    "slug": "javascript-tips-and-tricks-to-become-a-senior-developer",
+    "gist": "2d9e6015c5d48279bd748873850b7ac1",
+    "images": [
+      "images/img-001.png"
+    ],
+    "description": "JavaScript Tips and Tricks to become a Senior Developer"
+  },
+  {
+    "author": {
+      "name": "Aung Thu Oo",
+      "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+      "position": "Senior developer",
+      "link": "https://linkedin.com/in/aungthuoo"
+    },
+    "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+    "link": "", 
+    "categories": [
+      {
+        "name": "JavaScript"
+      }
+    ],
+    "date": "16 Aug, 2024",
+    "title": "Setting Up a Node.js Project with Prisma ORM and MySQL",
+    "slug": "node-js-project-with-prisma-orm-and-mysql",
+    "gist": "2da5b6ecc0f1d194d61e8e8a7faa9245",
+    "images": [
+      "images/img-001.png"
+    ],
+    "description": "Setting Up a Node.js Project with Prisma ORM and MySQL"
+  },
+  {
+    "author": {
+      "name": "Aung Thu Oo",
+      "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+      "position": "Senior developer",
+      "link": "https://linkedin.com/in/aungthuoo"
+    },
+    "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+    "link": "", 
+    "categories": [
+      {
+        "name": "JavaScript"
+      }
+    ],
+    "date": "13 Aug, 2024",
+    "title": "Amazing things you can do with simple JavaScript",
+    "slug": "javascript-amazing-things-you-can-do-with-simple",
+    "gist": "7af41f7bd4cb3c02053bed2619b64db6",
+    "images": [
+      "images/img-001.png"
+    ],
+    "description": "JavaScript because it's full of surprises and is used for so many amazing things. Many developers love it, and many still hate it for obvious reasons."
+  },
+  {
+    "author": {
+      "name": "Aung Thu Oo",
+      "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+      "position": "Senior developer",
+      "link": "https://linkedin.com/in/aungthuoo"
+    },
+    "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+    "link": "", 
+    "categories": [
+      {
+        "name": "Node.js"
+      },
+      {
+        "name": "Express.js"
+      }
+    ],
+    "date": "13 Aug, 2024",
+    "title": "Node.js - Deliver HTML at speciﬁed path",
+    "slug": "nodejs-deliver-html-at-speciﬁed-path",
+    "gist": "9a87f125ab4ce493eb50f9d137c2aed9",
+    "images": [
+      "images/img-001.png"
+    ],
+    "description": "Here's how to create an Express server and serve index.html by default (empty path /), and page1.html for /page1 path."
+  },
+  {
+    "author": {
+      "name": "Aung Thu Oo",
+      "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+      "position": "Senior developer",
+      "link": "https://linkedin.com/in/aungthuoo"
+    },
+    "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+    "link": "", 
+    "categories": [
+      {
+        "name": "Node.js"
+      },
+      {
+        "name": "Express.js"
+      }
+    ],
+    "date": "25 Jun, 2024",
+    "title": "Node.js - Taking advantage of clusters",
+    "slug": "nodejs-taking-advantage-of-clusters",
+    "gist": "26c97e066c9cdfd10e26e9ebaa1d3d2b",
+    "images": [
+      "images/img-001.png"
+    ],
+    "description": "Node.js applications run on a single thread by default, which means they can only utilize one CPU core. To take advantage of multiple CPU cores, you can use the cluster module. The cluster module allows you to create child processes (workers) that run simultaneously and can share the same server port."
+  },
+  {
+    "author": {
+      "name": "Aung Thu Oo",
+      "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+      "position": "Senior developer",
+      "link": "https://linkedin.com/in/aungthuoo"
+    },
+    "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+    "link": "", 
+    "categories": [
+      {
+        "name": "Node.js"
+      },
+      {
+        "name": "Express.js"
+      }
+    ],
+    "date": "24 Jun, 2024",
+    "title": "Express.js application structured in a modular way",
+    "slug": "expressjs-application-structured-in-a-modular-way",
+    "gist": "2e7b01536222cdbeeb74578e5bd34f36",
+    "images": [
+      "images/img-001.png"
+    ],
+    "description": "Here’s an example of an Express.js application structured in a modular way, demonstrating the advantages of using middleware factories with services."
+  },
+  {
+    "author": {
+      "name": "Aung Thu Oo",
+      "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+      "position": "Senior developer",
+      "link": "https://linkedin.com/in/aungthuoo"
+    },
+    "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+    "link": "", 
+    "categories": [
+      {
+        "name": "Node.js"
+      },
+      {
+        "name": "JavaScript"
+      }
+    ],
+    "date": "24 Jun, 2024",
+    "title": "Node.js Modular express application",
+    "slug": "nodejs-modular-express-application",
+    "gist": "bfbfce9d47af667625377af51e58357a",
+    "images": [
+      "images/img-001.png"
+    ],
+    "description": "To make express web application modular use router factories"
+  },
+  {
+    "author": {
+      "name": "Aung Thu Oo",
+      "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+      "position": "Senior developer",
+      "link": "https://linkedin.com/in/aungthuoo"
+    },
+    "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+    "link": "", 
+    "categories": [
+      {
+        "name": "Node.js"
+      },
+      {
+        "name": "JavaScript"
+      }
+    ],
+    "date": "24 Jun, 2024",
+    "title": "Node.js Hello world",
+    "slug": "nodejs-hello-world",
+    "gist": "07263e5f6100f4bdf6d30139ece60ffa",
+    "images": [
+      "images/img-001.png"
+    ],
+    "description": "I will create an HTTP server listening on port 1337, which sends Hello, World! to the browser. Note that, instead of using port 1337, you can use any port number of your choice which is currently not in use by any other service."
+  },
+  {
+    "author": {
+      "name": "Aung Thu Oo",
+      "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+      "position": "Senior developer",
+      "link": "https://linkedin.com/in/aungthuoo"
+    },
+    "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+    "link": "", 
+    "categories": [
+      {
+        "name": "React.js"
+      },
+      {
+        "name": "JavaScript"
+      }
+    ],
+    "date": "21 Jun, 2024",
+    "title": "JavaScript Promise",
+    "slug": "javascript-promise",
+    "gist": "ed704b1f6f64fdc8c2d6b54b25cc5357",
+    "images": [
+      "images/img-001.png"
+    ],
+    "description": "A promise is an object that will produce a single value sometime in the future. If the promise is successful, it will produce a resolved value, but if something goes wrong then it will produce a reason why the promise failed."
+  },
+  {
+    "author": {
+      "name": "Aung Thu Oo",
+      "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+      "position": "Senior developer",
+      "link": "https://linkedin.com/in/aungthuoo"
+    },
+    "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+    "link": "", 
+    "categories": [
+      {
+        "name": "React.js"
+      },
+      {
+        "name": "JavaScript"
+      }
+    ],
+    "date": "21 Jun, 2024",
+    "title": "JavaScript Callback",
+    "slug": "javascript-callback",
+    "gist": "250a2c6736b59666ebecf3da1a3af668",
+    "images": [
+      "images/img-001.png"
+    ],
+    "description": "A JavaScript callback is a function which is to be executed after another function has finished execution."
+  },
+  {
+    "author": {
+      "name": "Aung Thu Oo",
+      "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+      "position": "Senior developer",
+      "link": "https://linkedin.com/in/aungthuoo"
+    },
+    "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+    "link": "", 
+    "categories": [
+      {
+        "name": "React.js"
+      },
+      {
+        "name": "JavaScript"
+      }
+    ],
+    "date": "21 Jun, 2024",
+    "title": "JavaScript Imports / Exports ( Named exports, Function exports)",
+    "slug": "javascript-fun-export-import",
+    "gist": "ed704b1f6f64fdc8c2d6b54b25cc5357",
+    "images": [
+      "images/img-001.png"
+    ],
+    "description": "ES6 modules are used to access variables or functions in a module explicitly exported by the modules it imports."
   }
+  
 ]

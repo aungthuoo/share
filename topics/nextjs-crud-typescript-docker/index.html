@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Gist</title>
+</head>
+<body>
+    <!-- Step 1-->  
+    <div class="fixed top-0 left-0 w-full h-1 mb-72 bg-gradient-to-r from-pink-500 v ia-purple-500 to-indigo-500 animate-border"></div>
+    <div class="pb-16"></div>
+
+    <div class="max-w-3xl mx-auto overflow-hidden bg-white">
+        <script src="https://gist.github.com/aungthuoo/c9b663ab1d2c2962487dbee66d523df2.js"></script>
+    </div>
+
+
+
+
+    <!-- Logo -->
+    <a href="https://infolink.vercel.app/" class="fixed flex items-center p-2 space-x-2 top-4 left-4">
+        <span>
+        <img src="https://infolink.vercel.app/static/images/logos/softwarezay.gif" alt="infolink" class="w-10 h-10"/>
+        <span class="block text-xs font-bold text-transparent bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text lg:hidden">
+            InfoLink
+        </span>
+        </span>
+        <span class="hidden text-xl font-bold text-transparent lg:inline bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text">InfoLink</span>
+    </a>
+    
+
+    <!-- Toggle Icon Button -->
+    <button id="menu-toggle" class="fixed p-2 bg-white rounded-full shadow-lg top-4 right-4">
+        <svg class="w-6 h-6 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+    </button>
+  
+    <!-- Floating Menu -->
+    <div id="floating-menu" class="fixed hidden p-4 bg-white border border-gray-300 rounded-lg shadow-lg top-14 right-4">
+        <ul class="space-y-2">
+            <li><a href="https://infolink.vercel.app/" class="block text-gray-800 hover:text-blue-600">Home</a></li>
+            <!-- <li><a href="https://linkedin.com/in/aungthuoo" class="block text-gray-800 hover:text-blue-600">About</a></li> -->
+            <!-- <li><a href="#" class="block text-gray-800 hover:text-blue-600">Services</a></li> -->
+            <li><a href="https://linkedin.com/in/aungthuoo" class="block text-gray-800 hover:text-blue-600">Contact</a></li>
+        </ul>
+    </div>
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const floatingMenu = document.getElementById('floating-menu');
+    
+        menuToggle.addEventListener('click', () => {
+            floatingMenu.classList.toggle('hidden'); // Toggle visibility
+        });
+    </script>
+    
+    
+    
+    <!-- Ads  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <div class="fixed bottom-0 left-0 right-0 z-50 max-w-md p-1 mx-auto mt-32 rounded-t-lg lg:right-auto lg:left-4 lg:mx-0 bg-gradient-to-r from-pink-500 v ia-purple-500 to-indigo-500 animate-border">
+        <div class="px-4 py-2 bg-white rounded-t-lg">
+            <div class="flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <a href="https://linkedin.com/in/aungthuoo">
+                <img alt="" loading="lazy" width="50" height="50" decoding="async" data-nimg="1" class="h-auto max-w-full bg-gray-100 rounded-full" src="https://aungthuoo.github.io/images/profile/ato.jpeg" style="color: transparent;">
+                </a>
+                <div>
+                <p class="text-sm font-bold text-gray-700">Available for Work</p><p class="text-xs text-gray-500">I am currently open to new opportunities!
+                    
+                </p>
+                <a class="text-xs text-indigo-500 hover:underline" href="https://linkedin.com/in/aungthuoo">View more</a>
+                </div>
+            </div>
+            <!-- <button class="text-gray-500 hover:text-gray-700 focus:outline-none">✖</button> -->
+        </div>
+        </div>
+    </div>
+
+  
+</body>
+</html>
