@@ -1,5 +1,5 @@
 ---
-title: __JavaScript Hoisted__
+title: JavaScript Hoisted
 markmap: 
   colorFreezeLevel: 2 
   collapsed: false
