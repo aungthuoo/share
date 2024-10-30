@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "slug":"cat-01",
+    "title" : "Vocabulary",
+    "description": "",
+    "image" :""
+  },
+  {
+    "id": 2,
+    "slug":"cat-02",
+    "title" : "Speaking pattern",
+    "description": "",
+    "image" :""
+  },
+  {
+    "id": 2,
+    "slug":"cat-02",
+    "title" : "Speaking pattern",
+    "description": "",
+    "image" :""
+  }
+]

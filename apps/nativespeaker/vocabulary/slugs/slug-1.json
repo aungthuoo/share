@@ -1,0 +1,9 @@
+{
+  "id": 1,
+  "slug": "slug-1",
+  "title" : "Title slug 1",
+  "desciption": "desc", 
+  "images" : [
+    "https://raw.githubusercontent.com/aungthuoo/apis/refs/heads/main/apps/speaknow/words/images/img-001.png"
+  ]
+}
