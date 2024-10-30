@@ -20,10 +20,6 @@
 </head>
 <body>
 
-  <!-- Step 1-->  
-  <div class="w-full h-1 bg-gradient-to-r from-pink-500 v ia-purple-500 to-indigo-500 animate-border"></div>
-
-  
   
 <svg id="mindmap"></svg>
 <script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.17.2/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.17.2/dist/index.js"></script><script>(r => {
@@ -48,72 +44,16 @@
             })(() => window.markmap,null,{"content":"JavaScript Hoisted","children":[{"content":"What is JavaScript Hoisted?","children":[{"content":"\n<p data-lines=\"3,4\"><code>hoisting</code> helps in <ins>predicting the behavior of your code<br> and avoiding potential bugs related to variable <br>and function declarations.</ins></p>","children":[],"payload":{"lines":"2,5"}},{"content":"\n<p data-lines=\"5,6\">Hoisting in JavaScript is a behavior <br>where variables and function declarations are moved to the top of <br>their containing scope<br> during the compilation phase, before the code is executed.</p>","children":[],"payload":{"lines":"5,7"}},{"content":"\n<p data-lines=\"7,8\">you can use functions and variables<br>before they are declared in your code</p>","children":[],"payload":{"lines":"7,9"}}],"payload":{"lines":"1,2"}},{"content":"Using hoisted <br>in variables and functions","children":[{"content":"\n<p data-lines=\"10,11\">Variable Hoisting</p>","children":[{"content":"\n<p data-lines=\"11,12\"><code>var</code> are hoisted to the top of their scope, <br>but their initialization is not hoisted.</p>","children":[],"payload":{"lines":"11,12"}},{"content":"\n<p data-lines=\"12,13\">the variable is moved to the top of the scope, <br>but it is initialized with undefined <br>until the line of code where the variable is assigned a value is reached</p>","children":[],"payload":{"lines":"12,13"}},{"content":"\n<p data-lines=\"13,14\">Example</p>","children":[{"content":"\n<pre><code class=\"language-javascript\">  <span class=\"hljs-variable language_\">console</span>.<span class=\"hljs-title function_\">log</span>(x); <span class=\"hljs-comment\">// Output: undefined</span>\n  <span class=\"hljs-keyword\">var</span> x = <span class=\"hljs-number\">5</span>;\n  <span class=\"hljs-variable language_\">console</span>.<span class=\"hljs-title function_\">log</span>(x); <span class=\"hljs-comment\">// Output: 5</span>\n</code></pre>","children":[],"payload":{"lines":"15,20"}},{"content":"\n<p data-lines=\"20,21\"><code>var x;</code> is hoisted to the top, so the code behaves like:</p>\n<pre><code class=\"language-javascript\">  <span class=\"hljs-keyword\">var</span> x;\n  <span class=\"hljs-variable language_\">console</span>.<span class=\"hljs-title function_\">log</span>(x); <span class=\"hljs-comment\">// Output: undefined</span>\n  x = <span class=\"hljs-number\">5</span>;\n  <span class=\"hljs-variable language_\">console</span>.<span class=\"hljs-title function_\">log</span>(x); <span class=\"hljs-comment\">// Output: 5</span>\n</code></pre>","children":[],"payload":{"lines":"20,29"}}],"payload":{"lines":"13,29"}}],"payload":{"lines":"10,29"}},{"content":"\n<p data-lines=\"29,30\">Function Hoisting</p>","children":[{"content":"Function declarations are fully hoisted, <br>meaning that both the function name and its implementation <br>are moved to the top of the scope. <br>This allows you to call the function before its declaration in the code.","children":[],"payload":{"lines":"30,31"}},{"content":"Example:","children":[{"content":"\n<pre><code class=\"language-javascript\"> <span class=\"hljs-title function_\">hoistedFunction</span>(); <span class=\"hljs-comment\">// Output: \"This function has been hoisted!\"</span>\n\n <span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">hoistedFunction</span>(<span class=\"hljs-params\"></span>) {\n     <span class=\"hljs-variable language_\">console</span>.<span class=\"hljs-title function_\">log</span>(<span class=\"hljs-string\">\"This function has been hoisted!\"</span>);\n }\n</code></pre>","children":[],"payload":{"lines":"32,38"}}],"payload":{"lines":"31,39"}}],"payload":{"lines":"29,39"}},{"content":"\n<p data-lines=\"39,40\"><code>Let</code> and <code>Const</code> Hoisting</p>","children":[{"content":"Variables declared with <code>let</code> and <code>const</code> <br>are also hoisted but in a different way.","children":[],"payload":{"lines":"40,41"}},{"content":"They are hoisted to the top of their block scope <br>but are not initialized.","children":[],"payload":{"lines":"41,42"}},{"content":"This means they are in a \"temporal dead zone\" <code>(TDZ)</code> <br>from the start of the block until the declaration is encountered in the code.","children":[],"payload":{"lines":"42,43"}},{"content":"Accessing them before their declaration results in a ReferenceError.","children":[],"payload":{"lines":"43,44"}},{"content":"Example :","children":[{"content":"\n<pre><code class=\"language-javascript\"> <span class=\"hljs-variable language_\">console</span>.<span class=\"hljs-title function_\">log</span>(y); <span class=\"hljs-comment\">// ReferenceError: Cannot access 'y' before initialization</span>\n <span class=\"hljs-keyword\">let</span> y = <span class=\"hljs-number\">10</span>;\n <span class=\"hljs-variable language_\">console</span>.<span class=\"hljs-title function_\">log</span>(y); <span class=\"hljs-comment\">// Output: 10</span>\n</code></pre>","children":[],"payload":{"lines":"45,49"}}],"payload":{"lines":"44,52"}}],"payload":{"lines":"39,52"}}],"payload":{"lines":"9,10"}}]},{"colorFreezeLevel":2,"collapsed":false,"nodeMinHeight":30,"initialExpandLevel":2})</script>
 
 
-
-<!-- Logo -->
-<a href="https://infolink.vercel.app/" class="fixed flex items-center p-2 space-x-2 top-4 left-4">
-  <span>
-  <img src="https://infolink.vercel.app/static/images/logos/softwarezay.gif" alt="infolink" class="w-10 h-10"/>
-  <span class="block text-xs font-bold text-transparent bg-gradient-to-r from-pink-500 v ia-purple-500 to-indigo-500 bg-clip-text lg:hidden">
-      InfoLink
-  </span>
-  </span>
-  <span class="hidden text-xl font-bold text-transparent lg:inline bg-gradient-to-r from-pink-500 v ia-purple-500 to-indigo-500 bg-clip-text">InfoLink</span>
-</a>
-
-<!-- Menu -->
-<style>
-body {
-  overflow: hidden;
-}
-</style>
-
-<!-- Toggle Icon Button -->
-<button id="menu-toggle" class="fixed p-2 bg-white rounded-full shadow-lg top-4 right-4">
-<svg class="w-6 h-6 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-</svg>
-</button>
-
-<!-- Floating Menu -->
-<div id="floating-menu" class="fixed hidden p-4 bg-white border border-gray-300 rounded-lg shadow-lg top-14 right-4">
-<ul class="space-y-2">
-    <li><a href="https://infolink.vercel.app/" class="block text-gray-800 hover:text-blue-600">Home</a></li>
-    <!-- <li><a href="https://linkedin.com/in/aungthuoo" class="block text-gray-800 hover:text-blue-600">About</a></li> -->
-    <!-- <li><a href="#" class="block text-gray-800 hover:text-blue-600">Services</a></li> -->
-    <li><a href="https://linkedin.com/in/aungthuoo" class="block text-gray-800 hover:text-blue-600">Contact</a></li>
-</ul>
-</div>
-<script>
-const menuToggle = document.getElementById('menu-toggle');
-const floatingMenu = document.getElementById('floating-menu');
-
-menuToggle.addEventListener('click', () => {
-    floatingMenu.classList.toggle('hidden'); // Toggle visibility
-});
-</script>
-
-
-
-<!-- Ads  -->
+<!-- Load dynamic content script -->
 <script src="https://cdn.tailwindcss.com"></script>
-
-<div class="fixed bottom-0 left-0 right-0 z-50 max-w-md p-1 mx-auto rounded-t-lg lg:right-auto lg:left-4 lg:mx-0 bg-gradient-to-r from-pink-500 v ia-purple-500 to-indigo-500 animate-border">
-<div class="px-4 py-2 bg-white rounded-t-lg">
-    <div class="flex items-center justify-between">
-      <div class="flex items-center space-x-3">
-        <a href="https://linkedin.com/in/aungthuoo">
-          <img alt="" loading="lazy" width="50" height="50" decoding="async" data-nimg="1" class="h-auto max-w-full bg-gray-100 rounded-full" src="https://aungthuoo.github.io/images/profile/ato.jpeg" style="color: transparent;">
-        </a>
-        <div>
-          <p class="text-sm font-bold text-gray-700">Available for Work</p><p class="text-xs text-gray-500">I am currently open to new opportunities!
-            
-          </p>
-          <a class="text-xs text-indigo-500 hover:underline" href="https://linkedin.com/in/aungthuoo">View more</a>
-        </div>
-      </div>
-    <!-- <button class="text-gray-500 hover:text-gray-700 focus:outline-none">✖</button> -->
-  </div>
-</div>
+<script src="../dynamicContent.js"></script>
+<script>
+  // Update the dynamic title using getElementsByTagName
+  const titleElements = document.getElementsByTagName('title');
+  if (titleElements.length > 0) {
+    titleElements[0].innerText = "JavaScript Hoisted"; // Set your dynamic title here
+  }
+</script>
 
 </body>
 </html>
