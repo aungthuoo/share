@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.8.0/styles/default.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.17.2/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.17.2/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.17.2/dist/index.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"JavaScript Hoisted","children":[{"content":"What is JavaScript Hoisted?","children":[{"content":"\n<p data-lines=\"3,4\"><code>hoisting</code> helps in <ins>predicting the behavior of your code<br> and avoiding potential bugs related to variable <br>and function declarations.</ins></p>","children":[],"payload":{"lines":"2,5"}},{"content":"\n<p data-lines=\"5,6\">Hoisting in JavaScript is a behavior <br>where variables and function declarations are moved to the top of <br>their containing scope<br> during the compilation phase, before the code is executed.</p>","children":[],"payload":{"lines":"5,7"}},{"content":"\n<p data-lines=\"7,8\">you can use functions and variables<br>before they are declared in your code</p>","children":[],"payload":{"lines":"7,9"}}],"payload":{"lines":"1,2"}},{"content":"Using hoisted <br>in variables and functions","children":[{"content":"\n<p data-lines=\"10,11\">Variable Hoisting</p>","children":[{"content":"\n<p data-lines=\"11,12\"><code>var</code> are hoisted to the top of their scope, <br>but their initialization is not hoisted.</p>","children":[],"payload":{"lines":"11,12"}},{"content":"\n<p data-lines=\"12,13\">the variable is moved to the top of the scope, <br>but it is initialized with undefined <br>until the line of code where the variable is assigned a value is reached</p>","children":[],"payload":{"lines":"12,13"}},{"content":"\n<p data-lines=\"13,14\">Example</p>","children":[{"content":"\n<pre><code class=\"language-javascript\">  <span class=\"hljs-variable language_\">console</span>.<span class=\"hljs-title function_\">log</span>(x); <span class=\"hljs-comment\">// Output: undefined</span>\n  <span class=\"hljs-keyword\">var</span> x = <span class=\"hljs-number\">5</span>;\n  <span class=\"hljs-variable language_\">console</span>.<span class=\"hljs-title function_\">log</span>(x); <span class=\"hljs-comment\">// Output: 5</span>\n</code></pre>","children":[],"payload":{"lines":"15,20"}},{"content":"\n<p data-lines=\"20,21\"><code>var x;</code> is hoisted to the top, so the code behaves like:</p>\n<pre><code class=\"language-javascript\">  <span class=\"hljs-keyword\">var</span> x;\n  <span class=\"hljs-variable language_\">console</span>.<span class=\"hljs-title function_\">log</span>(x); <span class=\"hljs-comment\">// Output: undefined</span>\n  x = <span class=\"hljs-number\">5</span>;\n  <span class=\"hljs-variable language_\">console</span>.<span class=\"hljs-title function_\">log</span>(x); <span class=\"hljs-comment\">// Output: 5</span>\n</code></pre>","children":[],"payload":{"lines":"20,29"}}],"payload":{"lines":"13,29"}}],"payload":{"lines":"10,29"}},{"content":"\n<p data-lines=\"29,30\">Function Hoisting</p>","children":[{"content":"Function declarations are fully hoisted, <br>meaning that both the function name and its implementation <br>are moved to the top of the scope. <br>This allows you to call the function before its declaration in the code.","children":[],"payload":{"lines":"30,31"}},{"content":"Example:","children":[{"content":"\n<pre><code class=\"language-javascript\"> <span class=\"hljs-title function_\">hoistedFunction</span>(); <span class=\"hljs-comment\">// Output: \"This function has been hoisted!\"</span>\n\n <span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">hoistedFunction</span>(<span class=\"hljs-params\"></span>) {\n     <span class=\"hljs-variable language_\">console</span>.<span class=\"hljs-title function_\">log</span>(<span class=\"hljs-string\">\"This function has been hoisted!\"</span>);\n }\n</code></pre>","children":[],"payload":{"lines":"32,38"}}],"payload":{"lines":"31,39"}}],"payload":{"lines":"29,39"}},{"content":"\n<p data-lines=\"39,40\"><code>Let</code> and <code>Const</code> Hoisting</p>","children":[{"content":"Variables declared with <code>let</code> and <code>const</code> <br>are also hoisted but in a different way.","children":[],"payload":{"lines":"40,41"}},{"content":"They are hoisted to the top of their block scope <br>but are not initialized.","children":[],"payload":{"lines":"41,42"}},{"content":"This means they are in a \"temporal dead zone\" <code>(TDZ)</code> <br>from the start of the block until the declaration is encountered in the code.","children":[],"payload":{"lines":"42,43"}},{"content":"Accessing them before their declaration results in a ReferenceError.","children":[],"payload":{"lines":"43,44"}},{"content":"Example :","children":[{"content":"\n<pre><code class=\"language-javascript\"> <span class=\"hljs-variable language_\">console</span>.<span class=\"hljs-title function_\">log</span>(y); <span class=\"hljs-comment\">// ReferenceError: Cannot access 'y' before initialization</span>\n <span class=\"hljs-keyword\">let</span> y = <span class=\"hljs-number\">10</span>;\n <span class=\"hljs-variable language_\">console</span>.<span class=\"hljs-title function_\">log</span>(y); <span class=\"hljs-comment\">// Output: 10</span>\n</code></pre>","children":[],"payload":{"lines":"45,49"}}],"payload":{"lines":"44,52"}}],"payload":{"lines":"39,52"}}],"payload":{"lines":"9,10"}}]},{"colorFreezeLevel":2,"collapsed":false,"nodeMinHeight":30,"initialExpandLevel":2})</script>
+</body>
+</html>
