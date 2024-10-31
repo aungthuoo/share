@@ -1,0 +1,358 @@
+[
+  {
+      "phrase": "I'm",
+      "slug": "im"
+  },
+  {
+      "phrase": "I'm in/at/on",
+      "slug": "im-in-at-on"
+  },
+  {
+      "phrase": "I'm good at",
+      "slug": "im-good-at"
+  },
+  {
+      "phrase": "I'm + (verb)",
+      "slug": "im-verb"
+  },
+  {
+      "phrase": "I'm getting",
+      "slug": "im-getting"
+  },
+  {
+      "phrase": "I'm trying + (verb)",
+      "slug": "im-trying-verb"
+  },
+  {
+      "phrase": "I'm gonna + (verb)",
+      "slug": "im-gonna-verb"
+  },
+  {
+      "phrase": "I have + (noun)",
+      "slug": "i-have-noun"
+  },
+  {
+      "phrase": "I have + (past participle)",
+      "slug": "i-have-past-participle"
+  },
+  {
+      "phrase": "I used to + (verb)",
+      "slug": "i-used-to-verb"
+  },
+  {
+      "phrase": "I have to + (verb)",
+      "slug": "i-have-to-verb"
+  },
+  {
+      "phrase": "I wanna + (verb)",
+      "slug": "i-wanna-verb"
+  },
+  {
+      "phrase": "I gotta + (verb)",
+      "slug": "i-gotta-verb"
+  },
+  {
+      "phrase": "I would like to + (verb)",
+      "slug": "i-would-like-to-verb"
+  },
+  {
+      "phrase": "I plan to + (verb)",
+      "slug": "i-plan-to-verb"
+  },
+  {
+      "phrase": "I've decided to + (verb)",
+      "slug": "ive-decided-to-verb"
+  },
+  {
+      "phrase": "I was about to + (verb)",
+      "slug": "i-was-about-to-verb"
+  },
+  {
+      "phrase": "I didn't mean to + (verb)",
+      "slug": "i-didnt-mean-to-verb"
+  },
+  {
+      "phrase": "I don't have time to + (verb)",
+      "slug": "i-dont-have-time-to-verb"
+  },
+  {
+      "phrase": "I promise not to + (verb)",
+      "slug": "i-promise-not-to-verb"
+  },
+  {
+      "phrase": "I'd rather + (verb)",
+      "slug": "id-rather-verb"
+  },
+  {
+      "phrase": "I feel like + (verb-ing)",
+      "slug": "i-feel-like-verb-ing"
+  },
+  {
+      "phrase": "I can't help + (verb-ing)",
+      "slug": "i-cant-help-verb-ing"
+  },
+  {
+      "phrase": "I was busy + (verb-ing)",
+      "slug": "i-was-busy-verb-ing"
+  },
+  {
+      "phrase": "I'm not used to + (verb-ing)",
+      "slug": "im-not-used-to-verb-ing"
+  },
+  {
+      "phrase": "I want you to + (verb)",
+      "slug": "i-want-you-to-verb"
+  },
+  {
+      "phrase": "I'm here to + (verb)",
+      "slug": "im-here-to-verb"
+  },
+  {
+      "phrase": "I have something + (verb)",
+      "slug": "i-have-something-verb"
+  },
+  {
+      "phrase": "I'm looking forward to",
+      "slug": "im-looking-forward-to"
+  },
+  {
+      "phrase": "I'm calling to + (verb)",
+      "slug": "im-calling-to-verb"
+  },
+  {
+      "phrase": "I'm working on + (noun)",
+      "slug": "im-working-on-noun"
+  },
+  {
+      "phrase": "I'm sorry to + (verb)",
+      "slug": "im-sorry-to-verb"
+  },
+  {
+      "phrase": "I'm thinking of + (verb-ing)",
+      "slug": "im-thinking-of-verb-ing"
+  },
+  {
+      "phrase": "I'll help you + (verb)",
+      "slug": "ill-help-you-verb"
+  },
+  {
+      "phrase": "I'm dying to + (verb)",
+      "slug": "im-dying-to-verb"
+  },
+  {
+      "phrase": "It's my turn to + (verb)",
+      "slug": "its-my-turn-to-verb"
+  },
+  {
+      "phrase": "It's hard for me to + (verb)",
+      "slug": "its-hard-for-me-to-verb"
+  },
+  {
+      "phrase": "I'm having a hard time + (verb-ing)",
+      "slug": "im-having-a-hard-time-verb-ing"
+  },
+  {
+      "phrase": "I think I should + (verb)",
+      "slug": "i-think-i-should-verb"
+  },
+  {
+      "phrase": "I've heard that + (subject + verb)",
+      "slug": "ive-heard-that-subject-verb"
+  },
+  {
+      "phrase": "It occurred to me that (subject + verb)",
+      "slug": "it-occurred-to-me-that-subject-verb"
+  },
+  {
+      "phrase": "Let me + (verb)",
+      "slug": "let-me-verb"
+  },
+  {
+      "phrase": "Thank you for",
+      "slug": "thank-you-for"
+  },
+  {
+      "phrase": "Can I + (verb)",
+      "slug": "can-i-verb"
+  },
+  {
+      "phrase": "Can I get + (noun)",
+      "slug": "can-i-get-noun"
+  },
+  {
+      "phrase": "I'm not sure if (subject + verb)",
+      "slug": "im-not-sure-if-subject-verb"
+  },
+  {
+      "phrase": "Do you mind if I + (verb)",
+      "slug": "do-you-mind-if-i-verb"
+  },
+  {
+      "phrase": "I don't know what to + (verb)",
+      "slug": "i-dont-know-what-to-verb"
+  },
+  {
+      "phrase": "I should have + (past participle)",
+      "slug": "i-should-have-past-participle"
+  },
+  {
+      "phrase": "I wish I could + (verb)",
+      "slug": "i-wish-i-could-verb"
+  },
+  {
+      "phrase": "You should + (verb)",
+      "slug": "you-should-verb"
+  },
+  {
+      "phrase": "You're supposed to + (verb)",
+      "slug": "youre-supposed-to-verb"
+  },
+  {
+      "phrase": "You seem + (adjective)",
+      "slug": "you-seem-adjective"
+  },
+  {
+      "phrase": "You'd better + (verb)",
+      "slug": "you-d-better-verb"
+  },
+  {
+      "phrase": "Are you into + (noun)",
+      "slug": "are-you-into-noun"
+  },
+  {
+      "phrase": "Are you trying to + (verb)",
+      "slug": "are-you-trying-to-verb"
+  },
+  {
+      "phrase": "Please + (verb)",
+      "slug": "please-verb"
+  },
+  {
+      "phrase": "Don't + (verb)",
+      "slug": "dont-verb"
+  },
+  {
+      "phrase": "Do you like",
+      "slug": "do-you-like"
+  },
+  {
+      "phrase": "How often do you",
+      "slug": "how-often-do-you"
+  },
+  {
+      "phrase": "Do you want me to + (verb)",
+      "slug": "do-you-want-me-to-verb"
+  },
+  {
+      "phrase": "What do you think about (verb-ing)",
+      "slug": "what-do-you-think-about-verb-ing"
+  },
+  {
+      "phrase": "Why don't we + (verb)",
+      "slug": "why-dont-we-verb"
+  },
+  {
+      "phrase": "It's too bad that",
+      "slug": "its-too-bad-that"
+  },
+  {
+      "phrase": "You could have + (past participle)",
+      "slug": "you-could-have-past-participle"
+  },
+  {
+      "phrase": "If I were you, I would + (verb)",
+      "slug": "if-i-were-you-i-would-verb"
+  },
+  {
+      "phrase": "It's gonna be + (adjective)",
+      "slug": "its-gonna-be-adjective"
+  },
+  {
+      "phrase": "It looks like + (noun)",
+      "slug": "it-looks-like-noun"
+  },
+  {
+      "phrase": "That's why + (subject + verb)",
+      "slug": "thats-why-subject-verb"
+  },
+  {
+      "phrase": "It's time to + (verb)",
+      "slug": "its-time-to-verb"
+  },
+  {
+      "phrase": "The point is that + (subject + verb)",
+      "slug": "the-point-is-that-subject-verb"
+  },
+  {
+      "phrase": "How was + (noun)",
+      "slug": "how-was-noun"
+  },
+  {
+      "phrase": "How about + (verb-ing)",
+      "slug": "how-about-verb-ing"
+  },
+  {
+      "phrase": "What if + (subject + verb)",
+      "slug": "what-if-subject-verb"
+  },
+  {
+      "phrase": "How much does it cost to + (verb)",
+      "slug": "how-much-does-it-cost-to-verb"
+  },
+  {
+      "phrase": "How come + (subject + verb)",
+      "slug": "how-come-subject-verb"
+  },
+  {
+      "phrase": "What are the chances of + (verb-ing)",
+      "slug": "what-are-the-chances-of-verb-ing"
+  },
+  {
+      "phrase": "There is something wrong with + (noun)",
+      "slug": "there-is-something-wrong-with-noun"
+  },
+  {
+      "phrase": "Let's not + (verb)",
+      "slug": "lets-not-verb"
+  },
+  {
+      "phrase": "Let's say that + (subject + verb)",
+      "slug": "lets-say-that-subject-verb"
+  },
+  {
+      "phrase": "There's no need to + (verb)",
+      "slug": "theres-no-need-to-verb"
+  },
+  {
+      "phrase": "It takes + (time) + to + (verb)",
+      "slug": "it-takes-time-to-verb"
+  },
+  {
+      "phrase": "Please make sure that + (subject + verb)",
+      "slug": "please-make-sure-that-subject-verb"
+  },
+  {
+      "phrase": "Here's to + (noun)",
+      "slug": "heres-to-noun"
+  },
+  {
+      "phrase": "It's no use + (verb-ing)",
+      "slug": "its-no-use-verb-ing"
+  },
+  {
+      "phrase": "There's no way + (subject + verb)",
+      "slug": "theres-no-way-subject-verb"
+  },
+  {
+      "phrase": "It's very kind of you to + (verb)",
+      "slug": "its-very-kind-of-you-to-verb"
+  },
+  {
+      "phrase": "There's nothing + (subject) + can + (verb)",
+      "slug": "theres-nothing-subject-can-verb"
+  },
+  {
+      "phrase": "Rumor has it that + (subject + verb)",
+      "slug": "rumor-has-it-that-subject-verb"
+  }
+]
