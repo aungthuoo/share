@@ -1,0 +1,1200 @@
+{ "phrases": [
+  {
+      "myanmar": "ငါ့နေ့အကြောင်းပြောဖို့ ငါဖုန်းဆက်နေတာ။",
+      "english": "I'm calling to tell you about my day."
+  },
+  {
+      "myanmar": "မင်းရဲ့ ဖိတ်ကြားချက်ကို လက်ခံဖို့ ငါခေါ်နေတာ။",
+      "english": "I'm calling to accept your invitation."
+  },
+  {
+      "myanmar": "မင်းမေးတာကို ဖြေဖို့ ငါခေါ်နေတာ။",
+      "english": "I'm calling to answer your question."
+  },
+  {
+      "myanmar": "မင်းရဲ့ စားသောက်ဆိုင်မှာ ကြိုတင်စာရင်းသွင်းဖို့ ငါခေါ်နေတာ။",
+      "english": "I'm calling to book a reservation at your restaurant."
+  },
+  {
+      "myanmar": "ကျွန်တော် တစ်ခုခုကို တိုင်ကြားဖို့ ခေါ်နေတယ်။",
+      "english": "I'm calling to complain about something."
+  },
+  {
+      "myanmar": "​ကျေးဇူးတင်​ဖို့​ခေါ်​နေတယ်​။",
+      "english": "I'm calling to thank you."
+  },
+  {
+      "myanmar": "မင်းရဲ့ ဆုံးဖြတ်ချက်ကို ထောက်ခံဖို့ ငါခေါ်နေတာ။",
+      "english": "I'm calling to support your decision."
+  },
+  {
+      "myanmar": "ငါတို့ ညစာ အစီအစဉ်တွေကို မင်းကို သတိပေးဖို့ ငါခေါ်နေတာ။",
+      "english": "I'm calling to remind you of our dinner plans."
+  },
+  {
+      "myanmar": "ပိုက်ဆံအိတ် ပျောက်သွားလို့ သတင်းပို့ဖို့ ခေါ်နေတယ်",
+      "english": "I'm calling to report a lost wallet."
+  },
+  {
+      "myanmar": "ငါ့ဆုလာယူဖို့ ငါခေါ်နေတယ်",
+      "english": "I'm calling to receive my prize."
+  },
+  {
+      "myanmar": "ကျွန်တော်က ပရောဂျက်ကြီးတစ်ခု လုပ်နေတယ်။",
+      "english": "I'm working on a big project."
+  },
+  {
+      "myanmar": "ငါ့ခွေးကို လေ့ကျင့်ဖို့ လုပ်နေတယ်",
+      "english": "I'm working on training my dog."
+  },
+  {
+      "myanmar": "သူငယ်ချင်းအသစ်တွေ ဖွဲ့ဖို့ လုပ်နေတယ်။",
+      "english": "I'm working on making new friends."
+  },
+  {
+      "myanmar": "ကျွန်တော်က ကိုယ့်ကိုကိုယ် ပညာပေးဖို့ လုပ်နေတယ်။",
+      "english": "I'm working on educating myself."
+  },
+  {
+      "myanmar": "ငါ အိမ်စာတွေ လုပ်နေတယ်။",
+      "english": "I'm working on my homework."
+  },
+  {
+      "myanmar": "ကျွန်တော်က အိမ်ဆေးရေးလုပ်နေတယ်",
+      "english": "I am working on painting a house."
+  },
+  {
+      "myanmar": "ကျွန်တော် စိတ်ကူးသစ်တစ်ခုနဲ့ လုပ်နေပါတယ်။",
+      "english": "I am working on a new idea."
+  },
+  {
+      "myanmar": "ကျွန်​​တော်​က ကျွန်​​တော့်​ကွန်​ပြူတာမှာ အလုပ်​လုပ်​​နေတယ်​။",
+      "english": "I am working on my computer."
+  },
+  {
+      "myanmar": "ကျွန်​​တော်​ ကျွန်​​တော့်​ဝဘ်​ဆိုက်​မှာ လုပ်​​နေပါတယ်​။",
+      "english": "I'm working on my website."
+  },
+  {
+      "myanmar": "နောက်ကျသွားတာ တောင်းပန်ပါတယ်",
+      "english": "I'm sorry to be so late."
+  },
+  {
+      "myanmar": "မင်းဖျားနေတဲ့အမေအကြောင်းကြားရတာ စိတ်မကောင်းဘူး",
+      "english": "I'm sorry to hear about your sick mother."
+  },
+  {
+      "myanmar": "မင်းရဲ့အချိန်တွေကို ဖြုန်းမိလို့ တောင်းပန်ပါတယ်",
+      "english": "I'm sorry to waste your time."
+  },
+  {
+      "myanmar": "မင်းကို အရမ်းဝမ်းနည်းမိလို့ တောင်းပန်ပါတယ်",
+      "english": "I'm sorry to make you feel so sad."
+  },
+  {
+      "myanmar": "ငါ မင်းကို ခြောက်အောင် လုပ်ဖို့ တောင်းပန်ပါတယ်။",
+      "english": "I'm sorry to frighten you."
+  },
+  {
+      "myanmar": "မင်းရဲ့ ဆုံးဖြတ်ချက်ကို သဘောမတူလို့ တောင်းပန်ပါတယ်",
+      "english": "I'm sorry to disagree with your decision."
+  },
+  {
+      "myanmar": "ဖုန်းဆက်တာနောက်ကျလို့တောင်းပန်ပါတယ်",
+      "english": "I'm sorry to call so late."
+  },
+  {
+      "myanmar": "ငါလုပ်ခဲ့တာကို ဝန်ခံဖို့ တောင်းပန်ပါတယ်",
+      "english": ""
+  },
+  {
+      "myanmar": "ဒီဆက်ဆံရေးကို အဆုံးသတ်လိုက်ရလို့ စိတ်မကောင်းပါဘူး။",
+      "english": "I'm sorry to end this relationship."
+  },
+  {
+      "myanmar": "ဇာတ်ကားသစ်ကြည့်ဖို့ စဉ်းစားနေတာ",
+      "english": "I'm thinking of checking out the new movie."
+  },
+  {
+      "myanmar": "အားလပ်ရက်မှာ ရိုက်ကူးဖို့ စိတ်ကူးထားပါတယ်",
+      "english": "I'm thinking of filming my vacation."
+  },
+  {
+      "myanmar": "ကျန်းမာတဲ့ အစားအသောက်တွေကို လိုက်နာဖို့ စဉ်းစားနေတာ။",
+      "english": "I'm thinking of following a healthy diet."
+  },
+  {
+      "myanmar": "ကျွန်ုပ်တို့ရဲ့ လုပ်ငန်းအကြောင်း ဖော်ပြတဲ့ လက်ကမ်းစာစောင်တွေ ထုတ်ပေးဖို့ စဉ်းစားနေပါတယ်။",
+      "english": "I'm thinking of handing out flyers describing our business."
+  },
+  {
+      "myanmar": "အလုပ်တွေ တိုးဖို့ စဉ်းစားနေတယ်",
+      "english": "I'm thinking of increasing my work load."
+  },
+  {
+      "myanmar": "ငါ သူ့ကို မိတ်ဆက်ပေးဖို့ စဉ်းစားနေတာ။",
+      "english": "I am thinking of introducing myself to him."
+  },
+  {
+      "myanmar": "ဝဘ်ဆိုဒ်အသစ်တစ်ခုဖွင့်ဖို့ စဉ်းစားနေတယ်။",
+      "english": "I am thinking of launching a new website."
+  },
+  {
+      "myanmar": "မြို့သစ်ကိုပြောင်းဖို့ စဉ်းစားနေတာ",
+      "english": "I am thinking of moving to a new city."
+  },
+  {
+      "myanmar": "သူမကို ရာထူးပေးမယ်လို့ စိတ်ကူးထားတယ်။",
+      "english": "I am thinking of offering her the position."
+  },
+  {
+      "myanmar": "ဆိုင်ဖွင့်ဖို့ စိတ်ကူးထားတယ်",
+      "english": "I am thinking of opening up a store."
+  },
+  {
+      "myanmar": "ဒီည ညစာ ချက်ပြုတ်ပေးပါ့မယ်",
+      "english": "I'll help you cook dinner tonight."
+  },
+  {
+      "myanmar": "မင်းရဲ့ ပရဟိတအတွက် ငါကူညီမယ်",
+      "english": "I'll help you raise money for your charity."
+  },
+  {
+      "myanmar": "မင်းရဲ့အတန်းအတွက် အွန်လိုင်းမှာ စာရင်းသွင်းနိုင်အောင် ငါကူညီပေးမယ်။",
+      "english": "I'll help you register for your class online."
+  },
+  {
+      "myanmar": "မင်းအိမ်အသစ်ပြောင်းဖို့ ငါကူညီပေးမယ်။",
+      "english": "I'll help you move to your new house."
+  },
+  {
+      "myanmar": "ဒါမျိုး ထပ်မဖြစ်အောင် ကူညီပေးပါ့မယ်။",
+      "english": "I'll help you prevent that from happening again."
+  },
+  {
+      "myanmar": "မင်းကားရပ်ဖို့ ငါကူညီပေးမယ်။",
+      "english": "I will help you park your car."
+  },
+  {
+      "myanmar": "မင်းလိုအပ်တဲ့ အချက်အလက်အားလုံးကို ငါကူညီပေးမယ်။",
+      "english": "I will help you provide all the information you need."
+  },
+  {
+      "myanmar": "မင်းရဲ့ အလားအလာကို ငါကူညီမယ်",
+      "english": "I will help you realize your potential."
+  },
+  {
+      "myanmar": "ကျွန်တော် ဆေးလိပ်ဖြတ်ဖို့ ကူညီပေးပါ့မယ်။",
+      "english": "I will help you stop smoking."
+  },
+  {
+      "myanmar": "ငါ မင်းကို ကုန်စုံဆိုင်သွားကူပေးမယ်။",
+      "english": "I will help you shop for groceries."
+  },
+  {
+      "myanmar": "ကမ်းခြေမှာ အပန်းဖြေဖို့ သေတော့မယ်",
+      "english": "I'm dying to relax on the beach."
+  },
+  {
+      "myanmar": "လတ်ဆတ်တဲ့ အသီးအနှံတွေကို ရွေးဖို့ သေတော့မယ်",
+      "english": "I'm dying to pick some fresh fruit."
+  },
+  {
+      "myanmar": "အချိုပွဲတွေ မှာဖို့ ငါသေတော့မယ်",
+      "english": "I'm dying to order some desserts."
+  },
+  {
+      "myanmar": "ငါ အလုပ်ရလို့ သေတော့မယ်",
+      "english": "I'm dying to find out if I got the job."
+  },
+  {
+      "myanmar": "ကျွန်တော်က ပိုကြီးတဲ့အိမ်ကို ပြောင်းဖို့ သေတော့မယ်",
+      "english": "I'm dying to move to a bigger house."
+  },
+  {
+      "myanmar": "မင်းလုပ်ခဲ့တဲ့ အလုပ်တွေအားလုံးကို ငါကြည့်ဖို့ သေတော့မယ်",
+      "english": "I'm dying to look at all the work you've done."
+  },
+  {
+      "myanmar": "မင်းအကြောင်းပိုသိဖို့ ငါသေတော့မယ်",
+      "english": "I'm dying to learn more about you."
+  },
+  {
+      "myanmar": "မင်းကို ငါ့မိဘတွေနဲ့ မိတ်ဆက်ပေးဖို့ သေတော့မယ်",
+      "english": "I'm dying to introduce you to my parents."
+  },
+  {
+      "myanmar": "ငါ့လုပ်ငန်းချဲ့ထွင်ဖို့ သေတော့မယ်",
+      "english": "I'm dying to expand my business."
+  },
+  {
+      "myanmar": "စာမေးပွဲမှာ ငါ့ရမှတ်ကို စစ်ဆေးဖို့ သေတော့မယ်",
+      "english": "I'm dying to check my score on the test."
+  },
+  {
+      "myanmar": "မင်းအိမ်ကို လမ်းလျှောက်ဖို့ ငါ့အလှည့်ပဲ",
+      "english": "It's my turn to walk you home."
+  },
+  {
+      "myanmar": "အ၀တ်လျှော်ဖို့ ငါ့အလှည့်ပဲ",
+      "english": "It's my turn to do laundry."
+  },
+  {
+      "myanmar": "အလုပ်နောက်ကျတာ ငါ့အလှည့်ပဲ။",
+      "english": "It's my turn to work late."
+  },
+  {
+      "myanmar": "အမှိုက် ရှင်းဖို့ ငါ့အလှည့်ပဲ",
+      "english": "It's my turn to take out the trash."
+  },
+  {
+      "myanmar": "ငါတို့စားမယ့်နေရာကို ရွေးဖို့ ငါ့အလှည့်ပဲ",
+      "english": "It's my turn to choose where we eat."
+  },
+  {
+      "myanmar": "ညစာစားဖို့ ငါ့အလှည့်ပဲ",
+      "english": "It is my turn to pay for dinner."
+  },
+  {
+      "myanmar": "အန်စာတုံးတွေကို လှိမ့်ဖို့ ငါ့အလှည့်ပဲ",
+      "english": "It is my turn to roll the dice."
+  },
+  {
+      "myanmar": "အဖြေပေးဖို့ ငါ့အလှည့်ပဲ",
+      "english": "It is my turn to provide an answer."
+  },
+  {
+      "myanmar": "ဂိမ်းကို စမ်းဆော့ဖို့ ငါ့အလှည့်ပဲ",
+      "english": "It is my turn to try and play the game."
+  },
+  {
+      "myanmar": "ဒီပြဿနာကို ဖြေရှင်းဖို့ ကြိုးစားဖို့ ငါ့အလှည့်ပဲ",
+      "english": "It is my turn to attempt solving the problem."
+  },
+  {
+      "myanmar": "မင်းပြောတာကို လက်ခံဖို့ ခက်တယ်",
+      "english": "It's hard for me to accept what you are telling me."
+  },
+  {
+      "myanmar": "မင်းရဲ့အချက်ကို ငါငြင်းဖို့ခက်တယ်။",
+      "english": "It's hard for me to argue your point."
+  },
+  {
+      "myanmar": "ငါ့ချက်လက်မှတ်ကို လက်ကျန်စာရင်းရှင်းဖို့ ငါ့အတွက် ခက်တယ်။",
+      "english": "It's hard for me to balance my check book."
+  },
+  {
+      "myanmar": "အလုပ်အပေါ်မှာ အာရုံစူးစိုက်ဖို့ ခက်တယ်။",
+      "english": "It's hard for me to concentrate on the task."
+  },
+  {
+      "myanmar": "မင်းရဲ့ တခြားရွေးချယ်စရာတွေကို စဉ်းစားဖို့ ငါ့အတွက် ခက်တယ်။",
+      "english": "It's hard for me to consider your other options."
+  },
+  {
+      "myanmar": "မင်းကို အားကိုးရတာ ငါ့အတွက် ခက်တယ်။",
+      "english": "It's hard for me to depend on you."
+  },
+  {
+      "myanmar": "ဒီည ဘယ်ကိုသွားရမလဲ ဆုံးဖြတ်ရခက်တယ်",
+      "english": "It is hard for me to decide where to go tonight."
+  },
+  {
+      "myanmar": "ငါ့လုပ်ရပ်တွေကို ရှင်းပြဖို့ ခက်တယ်။",
+      "english": "It is hard for me to explain my actions."
+  },
+  {
+      "myanmar": "မင်းရဲ့အောင်မြင်မှုကို အာမခံဖို့ ငါ့အတွက် ခက်တယ်။",
+      "english": "It is hard for me to guarantee your success."
+  },
+  {
+      "myanmar": "အရမ်းဖိအားတွေကို ကိုင်တွယ်ရခက်တယ်",
+      "english": "It is hard for me to handle so much pressure."
+  },
+  {
+      "myanmar": "စာရေးဖို့ ခက်နေတယ်။",
+      "english": "I'm having a hard time writing."
+  },
+  {
+      "myanmar": "ငါ မင်းကို နားလည်ဖို့ ခက်နေတယ်",
+      "english": "I'm having a hard time understanding you."
+  },
+  {
+      "myanmar": "မင်းအမေးကို ငါဖြေရခက်နေတယ်။",
+      "english": "I'm having a hard time answering your question."
+  },
+  {
+      "myanmar": "ကျွန်မရဲ့ iPod မှာ သီချင်းတွေကို ဒေါင်းလုဒ်ဆွဲဖို့ ခက်နေတယ်။",
+      "english": "I'm having a hard time downloading songs to my iPod."
+  },
+  {
+      "myanmar": "စည်းကမ်းချက်တွေကို သဘောတူဖို့ ခက်နေတယ်။",
+      "english": "I'm having a hard time agreeing to the terms."
+  },
+  {
+      "myanmar": "ငါ မင်းကို ယုံဖို့ အရမ်းခက်နေတယ်",
+      "english": "I'm having an extremely hard time trusting you."
+  },
+  {
+      "myanmar": "ငါ့မိန်းမနဲ့ ငါ တော်တော် ခက်ခက်ခဲခဲ နေရတယ်",
+      "english": "I'm having an extremely hard time with my wife."
+  },
+  {
+      "myanmar": "အလုပ်ရှာရတာ အရမ်းခက်နေတယ်",
+      "english": "I'm having a very hard time finding a job."
+  },
+  {
+      "myanmar": "ငါ့ကားအတွက် အစိတ်အပိုင်းတွေ ရှာရခက်နေတယ်",
+      "english": "I'm having a very hard time finding parts for my car."
+  },
+  {
+      "myanmar": "စာဖတ်တာကို လေ့ကျင့်သင့်တယ်ထင်တယ်",
+      "english": "I think I should practice my reading."
+  },
+  {
+      "myanmar": "ကျွန်တော် လေ့လာရေး အဖွဲ့မှာ ပါဝင်သင့်တယ် ထင်တယ်",
+      "english": "I think I should join a study group."
+  },
+  {
+      "myanmar": "ဒါကို တတ်နိုင်သမျှ အမြန်ဆုံး ကိုင်တွယ်သင့်တယ် ထင်တယ်",
+      "english": "I think I should handle this as soon as possible."
+  },
+  {
+      "myanmar": "ငါ ဘွဲ့ယူသင့်ပြီထင်တယ်",
+      "english": "I think I should earn my degree."
+  },
+  {
+      "myanmar": "ငါ့ကိုယ်ငါ ရှင်းပြသင့်တယ်ထင်တယ်",
+      "english": "I think I should explain myself."
+  },
+  {
+      "myanmar": "ဒီလောက် တိုင်ကြားသင့်တယ်လို့ မထင်ဘူး",
+      "english": "I do not think I should complain so much."
+  },
+  {
+      "myanmar": "ဒီပွဲကို မတက်သင့်ဘူးထင်တယ်",
+      "english": "I do not think I should attend that event."
+  },
+  {
+      "myanmar": "ပိုက်ဆံပိုချေးသင့်တယ်မထင်ဘူး",
+      "english": "I do not think I should borrow more money."
+  },
+  {
+      "myanmar": "ငါ မင်းကို သံသယဖြစ်မယ်မထင်ဘူး။",
+      "english": "I do not think I should doubt you."
+  },
+  {
+      "myanmar": "နောက်မှဆုံးဖြတ်သင့်တယ်မထင်ဘူး",
+      "english": "I do not think I should decide until later."
+  },
+  {
+      "myanmar": "မင်း အလုပ်သစ်ရပြီလို့ ငါကြားတယ်။",
+      "english": "I've heard that you got a new job."
+  },
+  {
+      "myanmar": "မင်းအလုပ်ကထွက်ချင်တယ်လို့ ငါကြားတယ်။",
+      "english": "I've heard that you want to leave your job."
+  },
+  {
+      "myanmar": "မင်းကားအသစ်​​ရောက်​တယ်​လို့ ငါကြားတယ်​။",
+      "english": "I've heard that you got a new car."
+  },
+  {
+      "myanmar": "ပြေးရတာ ကြိုက်တယ် ကြားဖူးတယ်",
+      "english": "I've heard that you like to jog."
+  },
+  {
+      "myanmar": "မင်း ကွန်ပြူတာ ပြင်ပေးတယ်လို့ ငါကြားတယ်။",
+      "english": "I've heard that you fix computers."
+  },
+  {
+      "myanmar": "မင်း ကနေဒါကို တစ်ခါမှ မရောက်ဖူးဘူးလို့ ကြားဖူးတယ်။",
+      "english": "I've heard that you've never been to Canada."
+  },
+  {
+      "myanmar": "မင်း စျေးဝယ်ရတာ ကြိုက်တာ ငါကြားဖူးတယ်",
+      "english": "I've heard that you like to shop."
+  },
+  {
+      "myanmar": "မင်းနဲ့မင်းရဲ့ သူဌေးမပြေလည်တာ ငါကြားတယ်။",
+      "english": "I've heard that you and your boss don't get along."
+  },
+  {
+      "myanmar": "နောက်တပတ် ကျောင်းမရှိဘူးလို့ကြားတယ်",
+      "english": "I've heard that there is no school next week."
+  },
+  {
+      "myanmar": "မင်းမိန်းမက ယောဂဆရာဆိုတာ ငါကြားဖူးတယ်။",
+      "english": "I've heard that your wife is a yoga instructor."
+  },
+  {
+      "myanmar": "မင်းရဲ့ မွေးနေ့ကို မေ့သွားလို့ ဖြစ်သွားတာပါ",
+      "english": "It occurred to me that I forgot your birthday."
+  },
+  {
+      "myanmar": "ငါတို့နှစ်ယောက်လုံး Gym အတူတူတက်တာ ငါ့အတွက်ဖြစ်ခဲ့တယ်",
+      "english": "It occurred to me that we both belong to the same gym."
+  },
+  {
+      "myanmar": "ကျွန်ုပ်တို့ တူညီသောအရာများစွာကို နှစ်သက်မိသည်မှာ ကျွန်ုပ်အတွက် ဖြစ်ပေသည်။",
+      "english": "It occurred to me that we enjoy a lot of the same things."
+  },
+  {
+      "myanmar": "ဒီမှာ အိမ်ဈေးက ပိုဈေးကြီးတာ ငါ့အတွက် ကြုံဖူးတယ်",
+      "english": "It occurred to me the price for homes are more expensive here."
+  },
+  {
+      "myanmar": "ကျန်းမာရေးနဲ့ ညီညွတ်တဲ့ စားသောက်မှုဟာ ပိုမိုကောင်းမွန်တဲ့ ခံစားချက်ကို ရရှိစေပါတယ်",
+      "english": "It occurred to me that eating healthy makes me feel better."
+  },
+  {
+      "myanmar": "ကျွန်တော်က ကုန်စုံဆိုင်မှာ တစ်ခုခုမေ့သွားလို့ ဖြစ်သွားတာ။",
+      "english": "It had occurred to me that I forgot something at the grocery."
+  },
+  {
+      "myanmar": "အဲဒါက ကျွန်တော့်အတွက် ဖြစ်ခဲ့တာပါ၊ ကျွန်တော့် အီးမေးလ်လိပ်စာကို ပြောင်းဖို့ လိုနိုင်တယ်။",
+      "english": "It had occurred to me I might need to change my email address."
+  },
+  {
+      "myanmar": "အမေ့မွေးနေ့ကို မေ့သွားတယ်",
+      "english": "It has occurred to me I forgot my mom's birthday."
+  },
+  {
+      "myanmar": "အရင်က ဖြစ်ခဲ့ဖူးတယ်။",
+      "english": "It has occurred to me before."
+  },
+  {
+      "myanmar": "ငါ့ရဲ့ကိုယ်ပိုင်ဆုံးဖြတ်ချက်တွေ ချခွင့်ပေးပါ",
+      "english": "Let me make my own decisions."
+  },
+  {
+      "myanmar": "ကူညီဖို့ ကမ်းလှမ်းပါရစေ။",
+      "english": "Let me offer to help you."
+  },
+  {
+      "myanmar": "ငါ့ကို တံခါးဖွင့်ခွင့်ပေးပါ",
+      "english": "Let me open the door for you."
+  },
+  {
+      "myanmar": "ခေတ္တရပ်ပြီး ငါတို့ဘာတွေလုပ်နေတာလဲ",
+      "english": "Let me pause and think about what we are doing."
+  },
+  {
+      "myanmar": "ရပ်ကွက်ထဲက ကြိုဆိုပါရစေ။",
+      "english": "Let me welcome you to the neighborhood."
+  },
+  {
+      "myanmar": "ဒုက္ခကို ကယ်ပါရစေ။",
+      "english": "Let me save you the trouble."
+  },
+  {
+      "myanmar": "အကြံတစ်ခုပေးပါရစေ။",
+      "english": "Let me make a suggestion."
+  },
+  {
+      "myanmar": "မင်းရဲ့ကားကို ပြင်ပေးစမ်းပါ",
+      "english": "Let me try and fix your car."
+  },
+  {
+      "myanmar": "ဟင်းရည်ကို အရသာထပ်မထည့်ခင် ဟင်းချိုကို မြည်းစမ်းပါရစေ",
+      "english": "Let me taste the soup before you add more spices."
+  },
+  {
+      "myanmar": "ရေခဲမုန့် ကျွေးပါရစေ",
+      "english": "Let me treat you to some ice cream."
+  },
+  {
+      "myanmar": "ကျွန်တော့်ကို ဖိတ်တာ ကျေးဇူးတင်ပါတယ်",
+      "english": "Thank you for inviting me."
+  },
+  {
+      "myanmar": "ငါ့ကို ရွှေ့ပေးလို့ ကျေးဇူးတင်ပါတယ်",
+      "english": "Thank you for helping me move."
+  },
+  {
+      "myanmar": "အလုပ်စဖွင့်တော့ အကြောင်းကြားပေးလို့ ကျေးဇူးတင်ပါတယ်",
+      "english": "Thank you for informing me about the job opening."
+  },
+  {
+      "myanmar": "ဒီအထုပ်ကို ပို့ပေးတဲ့အတွက် ကျေးဇူးတင်ပါတယ်",
+      "english": "Thank you for mailing that package for me."
+  },
+  {
+      "myanmar": "ဒီလောက်ကြိုးစားပေးလို့ ကျေးဇူးတင်ပါတယ်",
+      "english": "Thank you for working so hard."
+  },
+  {
+      "myanmar": "လာရောက်အားပေးတဲ့အတွက် ကျေးဇူးတင်ပါတယ်",
+      "english": "Thank you for stopping by to visit."
+  },
+  {
+      "myanmar": "ကျွန်တော့် အီးမေးလ်ကို ဖြေကြားပေးတဲ့အတွက် ကျေးဇူးတင်ပါတယ်။",
+      "english": "Thank you for replying to my email."
+  },
+  {
+      "myanmar": "ကျွန်တော့်ကို အဖြေတွေပေးတဲ့အတွက် ကျေးဇူးတင်ပါတယ်",
+      "english": "Thank you for providing me with the answers."
+  },
+  {
+      "myanmar": "ညစာ အပူပေးလို့ ကျေးဇူးတင်ပါတယ်",
+      "english": "Thank you for heating up dinner."
+  },
+  {
+      "myanmar": "ဒီကို မြန်မြန်ရောက်တာ ကျေးဇူးတင်ပါတယ်",
+      "english": "Thank you for hurrying to get here."
+  },
+  {
+      "myanmar": "မင်းမေးခွန်းကို ငါဖြေလို့ရမလား?",
+      "english": "Can I answer your question?"
+  },
+  {
+      "myanmar": "ပွဲတက်လို့ရလား?",
+      "english": "Can I attend the event?"
+  },
+  {
+      "myanmar": "ငါ တခြားနေရာကို ရွှေ့လို့ရမလား",
+      "english": "Can I move to another spot?"
+  },
+  {
+      "myanmar": "မနက်ဖြန် ဖုန်းဆက်လို့ရမလား",
+      "english": "Can I call you tomorrow?"
+  },
+  {
+      "myanmar": "ဒါကို နောက်မှ ပြီးနိုင်မလား",
+      "english": "Can I complete this later?"
+  },
+  {
+      "myanmar": "ကိုယ့်ကိုယ်ကို ရှင်းပြလို့ရမလား?",
+      "english": "Can I explain myself?"
+  },
+  {
+      "myanmar": "မင်းရဲ့ အိမ်စာတွေကို ငါ ကူညီပေးနိုင်မလား",
+      "english": "Can I help you with your homework?"
+  },
+  {
+      "myanmar": "ကျွန်ုပ်တို့ရဲ့ အစီအစဉ်မှာ မင်းကို ထည့်လို့ရမလား?",
+      "english": "Can I include you in our plans?"
+  },
+  {
+      "myanmar": "မင်းကို ငါ့လုပ်ဖော်ကိုင်ဖက်တွေနဲ့ မိတ်ဆက်ပေးရမလား",
+      "english": "Can I introduce you to my co-workers?"
+  },
+  {
+      "myanmar": "ငါ မင်းကို သတင်းဆိုးတစ်ခု အကြောင်းကြားလို့ရမလား",
+      "english": "Can I inform you of some bad news?"
+  },
+  {
+      "myanmar": "ရေတစ်ခွက်ရနိုင်မလား",
+      "english": "Can I get a cup of water?"
+  },
+  {
+      "myanmar": "ခွေးရနိုင်မလား",
+      "english": "Can I get a dog?"
+  },
+  {
+      "myanmar": "နေ့လည်စာစားလို့ရမလား?",
+      "english": "Can I get lunch?"
+  },
+  {
+      "myanmar": "ငါ့ကော်ဖီထဲမှာ သကြားရနိုင်မလား",
+      "english": "Can I get sugar in my coffee?"
+  },
+  {
+      "myanmar": "ရုပ်ရှင်မှာ ပေါက်ပေါက်ရနိုင်မလား",
+      "english": "Can I get popcorn at the movie?"
+  },
+  {
+      "myanmar": "နောက်ထပ်သောက်လို့ရမလား",
+      "english": "Can I get you another drink?"
+  },
+  {
+      "myanmar": "အဲဒါကို ရွှေ့ပေးလို့ရမလား?",
+      "english": "Can I help you move that?"
+  },
+  {
+      "myanmar": "စားလို့ကောင်းတဲ့နေရာကို အကြံပေးလို့ရမလား",
+      "english": "Can I recommend a good place to eat?"
+  },
+  {
+      "myanmar": "ငါ မင်းကို အိမ်ပြန်ပေးနိုင်မလား",
+      "english": "Can I take you home?"
+  },
+  {
+      "myanmar": "မင်းရဲ့ ပရောဂျက်ကို ပြီးအောင် ငါကူညီနိုင်မလား",
+      "english": "Can I help you finish your project?"
+  },
+  {
+      "myanmar": "သူတို့က ငါ့ကို အလုပ်ပေးမလား မသေချာဘူး",
+      "english": "I am not sure if they will offer me the job."
+  },
+  {
+      "myanmar": "သူဖုန်းပြန်ခေါ်မလားတော့ မသိဘူး။",
+      "english": "I'm not sure if she'll return my call."
+  },
+  {
+      "myanmar": "ငါ့မိန်းမ နားလည်ပါ့မလားတော့ မသိဘူး။",
+      "english": "I'm not sure if my wife will understand."
+  },
+  {
+      "myanmar": "ဒီည အပြင်ထွက်မလားတော့ မသိဘူး။",
+      "english": "I'm not sure if we will go out tonight."
+  },
+  {
+      "myanmar": "မင်းရဲ့မေးခွန်းကို နားလည်လားတော့ မသိဘူး။",
+      "english": "I'm not sure if I understand your question."
+  },
+  {
+      "myanmar": "ဒါကို ထိန်းနိုင်ပါ့မလားတော့ မသိဘူး။",
+      "english": "I am not sure if I can handle it."
+  },
+  {
+      "myanmar": "ဖြစ်လာမလားတော့ မသိဘူး။",
+      "english": "I am not sure if it will happen."
+  },
+  {
+      "myanmar": "ကိစ္စရှိမရှိ မသေချာဘူး",
+      "english": "I am not sure if it will matter."
+  },
+  {
+      "myanmar": "မေမေ သတိထားမိလားတော့ မသိဘူး။",
+      "english": "I am not sure if my mom will notice."
+  },
+  {
+      "myanmar": "အဲဒီမှာ ကားရပ်ဖို့ ခွင့်ပြုမလားတော့ မသိဘူး။",
+      "english": "I am not sure if they will permit us to park there."
+  },
+  {
+      "myanmar": "ကိုယ်​​တောင်းပန်​ရင်​ မင်းစိတ်​မ​ကောင်းဘူးလား",
+      "english": "Do you mind if I excuse myself?"
+  },
+  {
+      "myanmar": "ငါတို့စောစောထွက်သွားရင် မင်းစိတ်မဆိုးဘူးလား",
+      "english": "Do you mind if we left early?"
+  },
+  {
+      "myanmar": "ငါတစ်ရေးတစ်မောအိပ်ရင် မင်းစိတ်မဆိုးဘူးလား",
+      "english": "Do you mind if I take a nap?"
+  },
+  {
+      "myanmar": "မင်းအမေကိုမေးရင် မင်းစိတ်မဆိုးဘူးလား",
+      "english": "Do you mind if I ask your mom?"
+  },
+  {
+      "myanmar": "နှင်းကျရင် စိတ်ဆိုးသလား",
+      "english": "Do you mind if it snows?"
+  },
+  {
+      "myanmar": "ငါတို့ အပြင်သွားစားရင် မင်းစိတ်ဆိုးမှာလား",
+      "english": "Would you mind if we went out to eat?"
+  },
+    {
+        "myanmar": "ငါ ပြတင်းပေါက်ဖွင့်ရင် မင်းစိတ်မဆိုးဘူးလား",
+        "english": "Would you mind if I opened the window?"
+    },
+    {
+        "myanmar": "မင်းဘာလုပ်​​နေလဲ ငါ့ကို​ပြောပြမှာလား",
+        "english": "Would you mind telling me what you're doing?"
+    },
+    {
+        "myanmar": "ခဏလောက် ငြိမ်နေမှာလား",
+        "english": "Would you mind being quiet for a minute?"
+    },
+    {
+        "myanmar": "ငါချန်နယ်ပြောင်းရင် မင်းစိတ်ဆိုးမှာလား။",
+        "english": "Would you mind if I changed the channel?"
+    },
+    {
+        "myanmar": "ညစာ ဘာစားရမှန်းမသိဘူး",
+        "english": "I don't know what to eat for dinner."
+    },
+    {
+        "myanmar": "မင်းမွေးနေ့အတွက် ဘာဝယ်ရမှန်းမသိဘူး",
+        "english": "I don't know what to buy you for your birthday."
+    },
+    {
+        "myanmar": "ဘာပြောရမှန်းမသိဘူး။",
+        "english": "I don't know what to say."
+    },
+    {
+        "myanmar": "အားလပ်ချိန်တွေမှာ ဘာလုပ်ရမှန်းမသိဘူး",
+        "english": "I don't know what to do with my spare time."
+    },
+    {
+        "myanmar": "အားလပ်ရက်မှာ ဘာလုပ်ရမှန်းမသိဘူး",
+        "english": "I don't know what to do for vacation."
+    },
+    {
+        "myanmar": "မင်းပျော်အောင် ဘာလုပ်ရမှန်းမသိဘူး",
+        "english": "I do not know what to do to make you happy."
+    },
+    {
+        "myanmar": "မင်းနားလည်အောင် ငါဘာလုပ်ရမှန်းမသိဘူး",
+        "english": "I do not know what to do to help you understand."
+    },
+    {
+        "myanmar": "ဘာတွေတွေးလို့လဲမသိဘူး။",
+        "english": "I do not know what to think."
+    },
+    {
+        "myanmar": "ဒါကို တားဆီးဖို့ ဘာလုပ်ရမှန်းမသိဘူး",
+        "english": "I do not know what to do to prevent this."
+    },
+    {
+        "myanmar": "ဘာအမိန့်ရမှန်းမသိဘူး။",
+        "english": "I do not know what to order."
+    },
+    {
+        "myanmar": "ငါ မင်းနဲ့လိုက်ခဲ့သင့်တယ်။",
+        "english": "I should have gone with you."
+    },
+    {
+        "myanmar": "ငါ့စာမေးပွဲအတွက် ငါပိုပြီးလေ့လာသင့်တယ်။",
+        "english": "I should have studied more for my test."
+    },
+    {
+        "myanmar": "မစတင်ခင် လမ်းညွှန်ချက်တွေကို ဖတ်သင့်တယ်",
+        "english": "I should have read the directions before starting."
+    },
+    {
+        "myanmar": "ငါ မနက်စာ စားသင့်တယ်",
+        "english": "I should have eaten breakfast this morning."
+    },
+    {
+        "myanmar": "မင်းရဲ့အကြံဉာဏ်ကို ငါနားထောင်သင့်တယ်",
+        "english": "I should have listened to your advice."
+    },
+    {
+        "myanmar": "အခွင့်အရေးရရင် ငါသူ့ကိုလက်ထပ်သင့်တယ်",
+        "english": "I should have married her when I had the chance."
+    },
+    {
+        "myanmar": "မနက်​ဖြန်​ထွက်​မယ်​။",
+        "english": "I shall leave tomorrow."
+    },
+    {
+        "myanmar": "နောက်တစ်ပတ် ငါအလုပ်ပြီးအောင် လုပ်မယ်",
+        "english": "I shall finish the job next week."
+    },
+    {
+        "myanmar": "မနက်ဖြန်တွေ့မယ်။",
+        "english": "I shall see it tomorrow."
+    },
+    {
+        "myanmar": "အပြင်ထွက်ရင်ကောင်းမယ်",
+        "english": "I shall go outside if it's nice out."
+    },
+    {
+        "myanmar": "ဒါကို နောက်မှ ပေးပါ့မယ်။",
+        "english": "I shall pay for this later."
+    },
+    {
+        "myanmar": "ပိုကောင်းအောင် သီချင်းဆိုချင်တယ်",
+        "english": "I wish I could sing better."
+    },
+    {
+        "myanmar": "အငြင်းအခုံကို ပြေလည်စေချင်တယ်။",
+        "english": "I wish I could settle the argument."
+    },
+    {
+        "myanmar": "ကျွန်တော် ကမ္ဘာပတ်ပြီး ရွက်လွှင့်ချင်ပါတယ်",
+        "english": "I wish I could sail around the world."
+    },
+    {
+        "myanmar": "ဒီအချိန်အတွင်းမှာ အေးအေးဆေးဆေးနေနိုင်ပါစေ",
+        "english": "I wish I could remain calm during all of this."
+    },
+    {
+        "myanmar": "သူ့နာမည်ကို မှတ်မိစေချင်တယ်။",
+        "english": "I wish I could remember his name."
+    },
+    {
+        "myanmar": "ငါ့ကားဟောင်းကို အသစ်နဲ့ အစားထိုးချင်တယ်",
+        "english": "I wish I could replace my old car with a new one."
+    },
+    {
+        "myanmar": "အပြင်မှာ ကစားချင်တယ်",
+        "english": "I wish I could play outside."
+    },
+  {
+      "myanmar": "ငါ မင်းနဲ့ ဂိမ်းသွားကစားချင်တယ်",
+      "english": "I wish I could go to the game with you."
+  },
+  {
+      "myanmar": "ပိုကောင်းအောင် ရေးနိုင်ပါစေ",
+      "english": "I wish I could write better."
+  },
+  {
+      "myanmar": "ကျွန်တော်က ကိုယ်ပိုင်လုပ်ငန်းကို ပိုင်ချင်တယ်",
+      "english": "I wish I could own my own business."
+  },
+  {
+      "myanmar": "မင်း အိပ်ရာဝင်ရမယ်။",
+      "english": "You should go to bed."
+  },
+  {
+      "myanmar": "အပြင်မထွက်ခင် အိမ်စာလုပ်သင့်တယ်",
+      "english": "You should do your homework before going outside."
+  },
+  {
+      "myanmar": "မင်းကားရဲ့ ရှေ့မီးကို အစားထိုးသင့်တယ်။",
+      "english": "You should replace your headlights on your car."
+  },
+  {
+      "myanmar": "အလုပ်မှာ လစာတိုးပေးဖို့ တောင်းဆိုရမယ်။",
+      "english": "You should request a raise at work."
+  },
+  {
+      "myanmar": "ဆေးလိပ်ဖြတ်သင့်တယ်။",
+      "english": "You should stop smoking."
+  },
+  {
+      "myanmar": "ပိုပြုံးသင့်တယ်",
+      "english": "You should smile more."
+  },
+  {
+      "myanmar": "ရပ်ကွက်ထဲမှာ ကားမောင်းတဲ့အခါ အရှိန်လျှော့သင့်တယ်။",
+      "english": "You should slow down when driving in a neighborhood."
+  },
+  {
+      "myanmar": "မင်း သူ့အကြောင်း ပြောသင့်တယ်",
+      "english": "You should talk to him about it."
+  },
+  {
+      "myanmar": "မင်း ခွေးကို လေ့ကျင့်ပေးရမယ်။",
+      "english": "You should train your dog."
+  },
+  {
+      "myanmar": "သူတို့ပြောတာကို မင်းယုံသင့်တယ်။",
+      "english": "You should trust what they say."
+  },
+  {
+      "myanmar": "ဒါကို လျှို့ဝှက်ထားရမယ်။",
+      "english": "You're supposed to keep that secret."
+  },
+  {
+      "myanmar": "မင်းထွက်သွားရင် ငါ့ကို အကြောင်းကြားရမယ်။",
+      "english": "You're supposed to let me know when you leave."
+  },
+  {
+      "myanmar": "မီးနီရောက်ရင် ရပ်သင့်တယ်",
+      "english": "You're supposed to stop when at a red light."
+  },
+  {
+      "myanmar": "မင်း အဲဒီကိုရောက်တာနဲ့ ထုပ်ပိုးရမှာ။",
+      "english": "You're supposed to unpack once you get there."
+  },
+  {
+      "myanmar": "မင်းငှားထားတဲ့ ရုပ်ရှင်တွေကို အချိန်မီ ပြန်ပေးရမယ်။",
+      "english": "You're supposed to return the movies you rent on time."
+  },
+  {
+      "myanmar": "မင်း အေးအေးဆေးဆေးနေရမယ်။",
+      "english": "You are supposed to remain calm."
+  },
+  {
+      "myanmar": "မင်း ထိုင်ခုံခါးပတ်ကို ပတ်ထားရမယ်။",
+      "english": "You are supposed to fasten your seat belt."
+  },
+  {
+      "myanmar": "မင်းရဲ့ သူငယ်ချင်းအားလုံးကို ဖိတ်ရမယ်။",
+      "english": "You are supposed to invite all your friends."
+  },
+  {
+      "myanmar": "မင်း အချင်းချင်း အားပေးရမယ်။",
+      "english": "You are supposed to encourage one another."
+  },
+  {
+      "myanmar": "မင်း လာမယ့် ကြာသပတေးနေ့ မတိုင်ခင် ဆုံးဖြတ်ရမှာ။",
+      "english": "You are supposed to decide before next Thursday."
+  },
+  {
+      "myanmar": "မင်း ပျင်းနေပုံပဲ။",
+      "english": "You seem bored."
+  },
+  {
+      "myanmar": "ရလဒ်တွေကို မင်းမကျေနပ်ဘူး",
+      "english": "You seem unhappy with the results."
+  },
+  {
+      "myanmar": "မင်း စတင်ဖို့ စိတ်အားထက်သန်ပုံရတယ်။",
+      "english": "You seem eager to begin."
+  },
+  {
+      "myanmar": "မင်းနဲ့ပေါင်းရတာ လွယ်ပုံရတယ်။",
+      "english": "You seem easy to get along with."
+  },
+  {
+      "myanmar": "သတင်းကောင်းကြားရတာ ဝမ်းသာပီတိဖြစ်ပုံရတယ်။",
+      "english": "You seem elated to hear the good news."
+  },
+  {
+      "myanmar": "မင်းကို လေးလေးနက်နက် ချစ်ပုံရတယ်။",
+      "english": "You seem deeply in love."
+  },
+  {
+      "myanmar": "မင်းက ရိုလာကိုစတာကို ကြောက်ပုံရတယ်။",
+      "english": "You seem afraid of roller coasters."
+  },
+  {
+      "myanmar": "မင်းဟာ ဂိမ်းစည်းမျဉ်းတွေနဲ့ ပတ်သက်ပြီး ရှုပ်နေပုံပဲ။",
+      "english": "You seem confused about the rules of the game."
+  },
+  {
+      "myanmar": "ဖြစ်ပျက်ခဲ့တာကို မင်းရှက်နေပုံပဲ။",
+      "english": "You seem embarrassed about what happened."
+  },
+  {
+      "myanmar": "မင်းရွေးချယ်မှုအပေါ် ပြတ်ပြတ်သားသား တွေးနေပုံပဲ။",
+      "english": "You seem decisive about your choice."
+  },
+  {
+      "myanmar": "လေ့ကျင့်ခန်းလုပ်ရင် ပိုကောင်းမယ်။",
+      "english": "You'd better exercise."
+  },
+  {
+      "myanmar": "မင်းကူညီရင် ပိုကောင်းမယ်။",
+      "english": "You'd better help out."
+  },
+  {
+      "myanmar": "အစ်ကို့ကို ဖိတ်ရင် ပိုကောင်းပါတယ်။",
+      "english": "You'd better invite your brother."
+  },
+  {
+      "myanmar": "မင်း တရားသူကြီးတွေကို အထင်ကြီးစေမယ်",
+      "english": "You'd better impress the judges."
+  },
+  {
+      "myanmar": "မင်းမိဘစကားနားထောင်ရင် ပိုကောင်းမယ်",
+      "english": "You'd better listen to your parents."
+  },
+  {
+      "myanmar": "မင်းအိမ်​​နောက်​ကျမ​ရောက်​တာ​ကောင်းတယ်​",
+      "english": "You had better not come home late."
+  },
+  {
+      "myanmar": "မင်းမှာ အကောင်းဆုံးမျှော်လင့်ချက်ရှိတယ်။",
+      "english": "You had better hope for the best."
+  },
+  {
+      "myanmar": "မင်းရဲ့ သဘောထားကို ပိုကောင်းအောင် ပြောင်းလဲခဲ့တယ်။",
+      "english": "You had better change your attitude."
+  },
+  {
+      "myanmar": "မင်း စာသင်တာ ကောင်းတယ်",
+      "english": "You would be good at teaching."
+  },
+  {
+      "myanmar": "သင်​သင်္ချာ​တော့ ​ကောင်းလိမ့်​မယ်​။",
+      "english": "You would do well at math."
+  },
+  {
+      "myanmar": "မင်း ဘောလုံးကန်နေတာလား",
+      "english": "Are you into soccer?"
+  },
+  {
+      "myanmar": "အသစ်အဆန်းတွေကို စမ်းကြည့်နေတာလား။",
+      "english": "Are you into trying new things?"
+  },
+  {
+      "myanmar": "မင်း ဝိုင် မြည်းစမ်းနေတာလား။",
+      "english": "Are you into wine tasting?"
+  },
+  {
+      "myanmar": "အိမ်မှာရော Gym မှာ လေ့ကျင့်ခန်းလုပ်နေတာလား။",
+      "english": "Are you into working out at home or at the gym?"
+  },
+  {
+      "myanmar": "မင်း ကြောက်စရာကောင်းတဲ့ ဇာတ်ကားတွေ ရိုက်နေတာလား။",
+      "english": "Are you into scary movies?"
+  },
+  {
+      "myanmar": "မင်း ဂိမ်းဆော့နေတာလား။",
+      "english": "Are you into playing games?"
+  },
+  {
+      "myanmar": "မင်း ရွရွပြေးနေတာလား။",
+      "english": "Are you into jogging?"
+  },
+  {
+      "myanmar": "မင်း ပန်းချီဆွဲနေတာလား",
+      "english": "Are you into painting?"
+  },
+  {
+      "myanmar": "မင်း ခရီးသွားနေတာလား",
+      "english": "Are you into traveling?"
+  },
+  {
+      "myanmar": "မင်းကားတွေပြင်နေတာလား",
+      "english": "Are you into fixing cars?"
+  },
+  {
+      "myanmar": "မင်းက ငါ့ကို လျစ်လျူရှုဖို့ ကြိုးစားနေတာလား။",
+      "english": "Are you trying to ignore me?"
+  },
+  {
+      "myanmar": "မင်း ပိုက်ဆံကို စီမံခန့်ခွဲဖို့ ကြိုးစားနေတာလား။",
+      "english": "Are you trying to manage your money?"
+  },
+  {
+      "myanmar": "ဒီသီချင်းကို အလွတ်ကျက်ဖို့ ကြိုးစားနေတာလား။",
+      "english": "Are you trying to memorize that song?"
+  },
+  {
+      "myanmar": "မင်းအကူအညီပေးဖို့ ကြိုးစားနေတာလား။",
+      "english": "Are you trying to offer your help?"
+  },
+  {
+      "myanmar": "မင်းဖုန်းအသစ်ကို ပရိုဂရမ်လုပ်ဖို့ ကြိုးစားနေတာလား။",
+      "english": "Are you trying to program your new phone?"
+  },
+  {
+      "myanmar": "မကြုံဖူးသလို ဟန်ဆောင်ဖို့ ကြိုးစားနေတာလား။",
+      "english": "Are you trying to pretend like it never happened?"
+  },
+  {
+      "myanmar": "ငြိမ်ငြိမ်နေဖို့ ကြိုးစားနေတာလား။",
+      "english": "Are you trying to remain calm?"
+  },
+  {
+      "myanmar": "မင်း သူ့နာမည်ကို မှတ်မိဖို့ ကြိုးစားနေတာလား။",
+      "english": "Are you trying to remember her name?"
+  },
+  {
+      "myanmar": "အတိတ်ကို ပြန်တွေးဖို့ ကြိုးစားနေတာလား။",
+      "english": "Are you trying to reflect on the past?"
+  },
+  {
+      "myanmar": "လေယာဉ်ပြောင်းဖို့ ကြိုးစားနေတာလား။",
+      "english": "Are you trying to switch flights?"
+  },
+  {
+      "myanmar": "ကျေးဇူးပြုပြီး ဆားပေးပါ",
+      "english": "Please pass me the salt."
+  },
+  {
+      "myanmar": "ကျေးဇူးပြုပြီး အကင်နဲ့ အာလူးကို မှာထားပေးပါ။",
+      "english": "Please order me the steak and potatoes."
+  },
+  {
+      "myanmar": "ကျေးဇူးပြုပြီး ငါ့ကိုအနှောက်အယှက်မဖြစ်စေနဲ့။",
+      "english": "Please stop bothering me."
+  },
+  {
+      "myanmar": "ညစာမစားခင် လက်ကိုဆေးပါ။",
+      "english": "Please wash your hands before dinner."
+  },
+  {
+      "myanmar": "ကျေးဇူးပြုပြီး အပြင်မှာ စောင့်နေပါ။",
+      "english": "Please wait outside until we are ready."
+  },
+  {
+      "myanmar": "မင်းအပြင်မထွက်ခင် မင်းရဲ့အင်္ကျီကို ဇစ်ဆွဲထားပေးပါ။",
+      "english": "Please zip up your coat before you go outside."
+  },
+  {
+      "myanmar": "ကျေးဇူးပြုပြီး ရပ်ပါ။",
+      "english": "Please stand back."
+  },
+  {
+      "myanmar": "ပန်းတွေရဲ့ ရနံ့က အရမ်းသာယာတယ်",
+      "english": "The smell of the flowers was very pleasing."
+  },
+  {
+      "myanmar": "ဒါကို သက်သေအဖြစ် တရားရုံးမှာ တင်သွင်းခွင့်ပြုပါလား။",
+      "english": "May it please the court to admit this into evidence?"
+  },
+  {
+      "myanmar": "အတန်းထဲမှာ ကလေးတွေရဲ့ အပြုအမူကို အရမ်းသဘောကျတယ်။",
+      "english": "I was very pleased with how the children behaved in class."
+  },
+  {
+      "myanmar": "လူတိုင်းကို တစ်ချိန်လုံး ကျေနပ်အောင် မလုပ်နိုင်ဘူး။",
+      "english": "You cannot please everyone all the time."
+  },
+  {
+      "myanmar": "သူမ ဝတ်ရတာ သဘောကျတယ်။",
+      "english": "She was pleased with the dress."
+  },
+  {
+      "myanmar": "ငါ့ကို လှည့်စားဖို့ မကြိုးစားနဲ့။",
+      "english": "Don't try and fool me."
+  },
+  {
+      "myanmar": "ဒီလိုဖြစ်​​အောင်​မလုပ်​နဲ့။",
+      "english": "Don't allow this to happen."
+  },
+    {
+        "myanmar": "မအိပ်ခင် ကြောက်စရာကောင်းတဲ့ ရုပ်ရှင်တွေ မကြည့်ပါနဲ့။",
+        "english": "Don't watch scary movies before you go to bed."
+    },
+    {
+        "myanmar": "နောက်ထပ် ဒုက္ခမပေးနဲ့။",
+        "english": "Don't cause any more trouble."
+    },
+    {
+        "myanmar": "အတန်းထဲမှာ ပီကေမဝါးနဲ့။",
+        "english": "Don't chew gum in class."
+    },
+    {
+        "myanmar": "အခြားသူတွေရဲ့ ပြဿနာတွေကို ကိုယ့်ကိုကိုယ် ဂရုမစိုက်ပါနဲ့။",
+        "english": "Do not concern yourself with other people's problems."
+    },
+    {
+        "myanmar": "အဲဒီလို မဆက်ဆံပါနဲ့။",
+        "english": "Do not behave that way."
+    },
+    {
+        "myanmar": "အဆင်သင့်မဖြစ်မချင်း မင်းရဲ့ဆုံးဖြတ်ချက်ကို မကြေငြာပါနဲ့။",
+        "english": "Do not announce your decision until you're ready."
+    },
+    {
+        "myanmar": "ငါ့ကို မငြင်းနဲ့။",
+        "english": "Do not argue with me."
+    },
+    {
+        "myanmar": "မင်း အစည်းအဝေးအတွက် နောက်ကျမှ မရောက်နဲ့။",
+        "english": "Do not arrive late for your meeting."
+    },
+    {
+        "myanmar": "လေယာဉ်နဲ့ ခရီးသွားရတာ ကြိုက်လား",
+        "english": "Do you like traveling on a plane?"
+    },
+    {
+        "myanmar": "တီဗီမှာ ဘေ့စ်ဘောကြည့်ရတာ ကြိုက်လား",
+        "english": "Do you like watching baseball on TV?"
+    },
+    {
+        "myanmar": "နှင်းလျှောစီးတာ ဒါမှမဟုတ် နှင်းလျှောစီးရတာကြိုက်လား။",
+        "english": "Do you like skiing or snowboarding?"
+    },
+    {
+        "myanmar": "စောစောအိပ်ရတာကြိုက်လား",
+        "english": "Do you like going to bed early?"
+    },
+    {
+        "myanmar": "မင်း ငါနဲ့ အချိန်ဖြုန်းရတာ ကြိုက်လား",
+        "english": "Do you like spending time with me?"
+    },
+    {
+        "myanmar": "အတန်းပြန်ရတာကြိုက်လား",
+        "english": "Do you like repeating the class?"
+    },
+    {
+        "myanmar": "ဗီဒီယိုဂိမ်းကစားရတာ ကြိုက်လား။",
+        "english": "Do you like playing video games?"
+    },
+    {
+        "myanmar": "သီချင်းနားထောင်ရတာကြိုက်လား",
+        "english": "Do you like listening to music?"
+    },
+    {
+        "myanmar": "စန္ဒယားတီးတာ ကြိုက်လား",
+        "english": "Do you like practicing playing the piano?"
+    },
+    {
+        "myanmar": "နင် ငါနဲ့ ပြေးရတာကြိုက်လား",
+        "english": "Do you like jogging with me?"
+    }
+]
+}
+

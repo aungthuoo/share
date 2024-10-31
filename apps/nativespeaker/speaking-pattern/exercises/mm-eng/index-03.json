@@ -1,0 +1,1203 @@
+{ "phrases": [
+  {
+      "myanmar": "ဘယ်နှစ်ကြိမ် လေ့ကျင့်ခန်းလုပ်လဲ။",
+      "english": "How often do you exercise?"
+  },
+  {
+      "myanmar": "သင့်စကားဝှက်ကို ဘယ်နှစ်ကြိမ်ပြောင်းလဲ",
+      "english": "How often do you change your password?"
+  },
+  {
+      "myanmar": "ကျောင်းမှာ မင်းက ဘယ်နှစ်ကြိမ် ကူညီပေးတာလဲ။",
+      "english": "How often do you help out at school?"
+  },
+  {
+      "myanmar": "မင်းရဲ့ MP3 ပလေယာကို ဘယ်လောက်ကြာကြာ နားထောင်လဲ။",
+      "english": "How often do you listen to your MP3 player?"
+  },
+  {
+      "myanmar": "သွားဆရာဝန်ဆီ ဘယ်နှစ်ကြိမ်သွားပြရမလဲ",
+      "english": "How often do you need to go to the dentist?"
+  },
+  {
+      "myanmar": "မင်းရဲ့ မဂ္ဂဇင်းကို မေးလ်ထဲမှာ ဘယ်နှစ်ကြိမ် လက်ခံတာလဲ။",
+      "english": "How often do you receive your magazine in the mail?"
+  },
+  {
+      "myanmar": "မင်းရဲ့ ကြီးကြပ်ရေးမှူးကို မင်း ဘယ်နှစ်ကြိမ် အစီရင်ခံလဲ။",
+      "english": "How often do you report to your supervisor?"
+  },
+  {
+      "myanmar": "လေ့ကျင့်ခန်းမလုပ်ခင် ဘယ်နှစ်ကြိမ် ဆန့်မလဲ",
+      "english": "How often do you stretch before working out?"
+  },
+  {
+      "myanmar": "မင်းမိဘတွေနဲ့ ဘယ်နှစ်ကြိမ်စကားပြောလဲ",
+      "english": "How often do you talk to your parents?"
+  },
+  {
+      "myanmar": "ဘယ်​​လောက်​ခရီးထွက်​လဲ",
+      "english": "How often do you travel?"
+  },
+  {
+      "myanmar": "က​လေး​တွေ​ကောက်​​စေချင်​လား",
+      "english": "Do you want me to pick up the kids?"
+  },
+  {
+      "myanmar": "မင်းရဲ့ တာယာပြားကို ပြင်စေချင်လား",
+      "english": "Do you want me to fix your flat tire?"
+  },
+  {
+      "myanmar": "မင်း ဒီစာအုပ်ကို ဖတ်ဖို့ ကူညီပေးချင်တာလား။",
+      "english": "Do you want me to help you read that book?"
+  },
+  {
+      "myanmar": "မင်းကိုသတိပေးချင်တာလား။",
+      "english": "Do you want me to remind you?"
+  },
+  {
+      "myanmar": "ငါ့ဖိနပ်ကို ချွတ်ချင်လို့လား",
+      "english": "Do you want me to remove my shoes?"
+  },
+  {
+      "myanmar": "မင်းကို လာစေချင်တယ်။",
+      "english": "I want you to come over."
+  },
+  {
+      "myanmar": "ငါ မင်းကို ဆုံးဖြတ်ချက်ချစေချင်တယ်။",
+      "english": "I want you to make a decision."
+  },
+  {
+      "myanmar": "ငါ မင်းကို ပန်းတွေ ရေလောင်းချင်တယ်",
+      "english": "I want you to water the flowers."
+  },
+  {
+      "myanmar": "မင်းပြောတာကို ငါနားလည်ချင်တယ်",
+      "english": "I want to understand what you are trying to say."
+  },
+  {
+      "myanmar": "ရေကူးတာ ပိုကောင်းချင်တယ်",
+      "english": "I want to be better at swimming."
+  },
+  {
+      "myanmar": "ဘုရားကျောင်းမှာ ပိုပါဝင်ချင်ပါတယ်",
+      "english": "I want to be more involved at church."
+  },
+  {
+      "myanmar": "ငါနဲ့ လက်ဖက်ရည်သောက်ဖို့ မင်းဘယ်လိုထင်လဲ",
+      "english": "What do you think about having a cup of tea with me?"
+  },
+  {
+      "myanmar": "နောက်တစ်ပတ်မှာ အချိန်ပိုလုပ်ရတာကို မင်းဘယ်လိုထင်လဲ။",
+      "english": "What do you think about working overtime next week?"
+  },
+  {
+      "myanmar": "လက်မှတ်တွေ တန်းစီစောင့်ရတာ ဘယ်လိုထင်လဲ",
+      "english": "What do you think about waiting in line for tickets?"
+  },
+  {
+      "myanmar": "ရွက်လွှင့်ဖို့ ဘယ်လိုထင်လဲ",
+      "english": "What do you think about sailing?"
+  },
+  {
+      "myanmar": "ဒီမှာ နောက်ထပ်တစ်ညနေဖို့ မင်းဘယ်လိုထင်လဲ",
+      "english": "What do you think about staying here another night?"
+  },
+  {
+      "myanmar": "မင်းအလုပ်ကနေ အနားယူဖို့ မင်းဘယ်လိုထင်လဲ",
+      "english": "What do you think about retiring from your job?"
+  },
+  {
+      "myanmar": "အိမ်နောက်ဖေးမှာ သစ်ပင်သစ်စိုက်ဖို့ ဘယ်လိုထင်လဲ",
+      "english": "What do you think about planting new trees in the backyard?"
+  },
+  {
+      "myanmar": "ကလေးထိန်းပေးဖို့ မင်းဘယ်လိုထင်လဲ",
+      "english": "What do you think about offering to babysit?"
+  },
+  {
+      "myanmar": "မြို့သစ်မှာနေဖို့ ဘယ်လိုထင်လဲ",
+      "english": "What do you think about living in a new city?"
+  },
+  {
+      "myanmar": "ကျွန်မတို့ အားလပ်ရက်မှာ ရိုက်ကူးဖို့ ဘယ်လိုထင်လဲ",
+      "english": "What do you think about filming our vacation?"
+  },
+  {
+      "myanmar": "ငါတို့ ဒီညဘာလို့ ဘိုးလင်းမသွားတာလဲ",
+      "english": "Why don't we go bowling tonight?"
+  },
+  {
+      "myanmar": "ဘာလို့ လတ်ဆတ်တဲ့ ပန်းတွေကို မကောက်တာလဲ",
+      "english": "Why don't we pick some fresh flowers?"
+  },
+  {
+      "myanmar": "ဘာလို့ စစ်တုရင်ကစားတာလဲ",
+      "english": "Why don't we play a game of chess?"
+  },
+  {
+      "myanmar": "ဘာလို့ ပိုက်ဆံပိုမစုတာလဲ",
+      "english": "Why don't we save more money?"
+  },
+  {
+      "myanmar": "ဘာလို့ ဒီနေရာကို မမှတ်မိတာလဲ",
+      "english": "Why don't we remember this place?"
+  },
+  {
+      "myanmar": "အသုံးမပြုခင် ဘာကြောင့် ဒါကို မစမ်းသပ်တာလဲ။",
+      "english": "Why don't we test this before using it?"
+  },
+  {
+      "myanmar": "ငါတို့ဘာလို့ထပ်ပြီးမကြိုးစားတာလဲ",
+      "english": "Why don't we try and do it again?"
+  },
+  {
+      "myanmar": "ကျွန်ုပ်တို့ရဲ့ရလဒ်တွေကို အွန်လိုင်းမှာ ဘာကြောင့် မတင်တာလဲ။",
+      "english": "Why don't we post our results online?"
+  },
+  {
+      "myanmar": "ဘာလို့ ထင်းပိုမကောက်တာလဲ",
+      "english": "Why don't we gather more firewood?"
+  },
+  {
+      "myanmar": "ဘာလို့ ပိုက်ဆံပိုမရှာတာလဲ။",
+      "english": "Why don't we earn more money?"
+  },
+  {
+      "myanmar": "သူမ အလုပ်ပြုတ်သွားတာ အရမ်းဆိုးတာပဲ",
+      "english": "It's too bad that she lost her job."
+  },
+  {
+      "myanmar": "သွားရမှာ အရမ်းဆိုးတယ်။",
+      "english": "It's too bad that you have to go."
+  },
+  {
+      "myanmar": "အဲဒါကို သိလိုက်ရတာက အရမ်းဆိုးတာပဲ",
+      "english": "It's too bad that I found out about it."
+  },
+  {
+      "myanmar": "အရမ်းဆိုးတယ် ငါတို့ကို အချိန်မီမရောက်ဘူး",
+      "english": "It's too bad we will not be there on time."
+  },
+  {
+      "myanmar": "ဒီဖျော်ဖြေရွှေ့တွေအတွက် လက်မှတ်တွေ အကုန်ကုန်သွားတာ မကောင်းဘူး",
+      "english": "It's too bad that tickets are all gone to that concert."
+  },
+  {
+      "myanmar": "မိုးရွာတာ အရမ်းဆိုးတာပဲ",
+      "english": "It's too bad that it is supposed to rain."
+  },
+  {
+      "myanmar": "သူမ နာကျင်ရတာ အရမ်းဆိုးတာပဲ",
+      "english": "It's too bad that she got hurt."
+  },
+  {
+      "myanmar": "ငါ့အလုပ်က လူတွေကို အလုပ်ထုတ်လိုက်တာ အရမ်းဆိုးတာပဲ",
+      "english": "It's too bad that my work has to lay off people."
+  },
+  {
+      "myanmar": "မင်း နားမလည်တာ မကောင်းဘူး",
+      "english": "It's too bad that you do not understand."
+  },
+  {
+      "myanmar": "သင် မြန်မြန်ပြီးမြောက်နိုင်ပါစေ။",
+      "english": "You could have completed it sooner."
+  },
+  {
+      "myanmar": "မင်းရဲ့အခွင့်အရေးကို ဖြုန်းတီးပစ်နိုင်တယ်။",
+      "english": "You could have blown your chance."
+  },
+  {
+      "myanmar": "စာမေးပွဲမှာ ပိုကောင်းအောင် လုပ်နိုင်တယ်။",
+      "english": "You could have done better on your exam."
+  },
+  {
+      "myanmar": "ပြင်ဆင်ရန် အချိန်ပိုပေးနိုင်သည်။",
+      "english": "You could have given me more time to get ready."
+  },
+  {
+      "myanmar": "တခြားတစ်ယောက်ဆီကနေ အဲဒါကို သင်ကြားဖူးမှာပါ။",
+      "english": "You could have heard that from someone else."
+  },
+  {
+      "myanmar": "အဲဒီပက်ကေ့ချျကို ပထမတန်းကို သင်ပို့နိုင်ခဲ့တယ်။",
+      "english": "You could have sent that package first class."
+  },
+  {
+      "myanmar": "အချိန်အနည်းငယ်ကြာအောင် အိပ်နိုင်ပါစေ။",
+      "english": "You could have slept in a little longer."
+  },
+  {
+      "myanmar": "မင်း သူ့ဆီ စာတစ်စောင် ရေးနိုင်ခဲ့တယ်။",
+      "english": "You could have written him a letter."
+  },
+  {
+      "myanmar": "လုပ်စရာတစ်ခုခုကို သင် တွေးထားနိုင်သည်။",
+      "english": "You could have thought of something to do."
+  },
+  {
+      "myanmar": "ဒီလိုပြောလို့ သူမကို စိတ်ဆိုးသွားနိုင်တယ်။",
+      "english": "You could have upset her by saying that."
+  },
+  {
+      "myanmar": "ငါသာ မင်းသာဆိုရင် ငါ့အားလပ်ရက်ကို ပျော်ပျော်နေမှာပါ",
+      "english": "If I were you, I would enjoy my vacation."
+  },
+  {
+      "myanmar": "ငါသာ မင်းဖြစ်ခဲ့ရင် ငါရှင်းပြမယ်။",
+      "english": "If I were you, I would explain what happened."
+  },
+  {
+      "myanmar": "ငါသာ မင်းဖြစ်ခဲ့ရင် ငါအလုပ်ပြီးမချင်း အလုပ်ဆက်လုပ်မယ်။",
+      "english": "If I were you, I would continue working until it is done."
+  },
+  {
+      "myanmar": "ငါသာ မင်းသာဆိုရင် ငါ ကြိုတင်မှာထားတာတွေကို အခုပဲ ကြိုတင်မှာထားမယ်။",
+      "english": "If I were you, I would book my reservations now."
+  },
+  {
+      "myanmar": "ငါက မင်းသာဆိုရင် ငါမေးခွန်းကိုဖြေမယ်။",
+      "english": "If I were you, I would answer the question."
+  },
+  {
+      "myanmar": "ငါသာ မင်းသာဆိုရင် ငါ့ရဲ့အားလပ်ရက်ကို ငါပျော်နေလိမ့်မယ်။",
+      "english": "If I were you, I would have enjoyed my vacation."
+  },
+  {
+      "myanmar": "ငါသာ မင်းဖြစ်ခဲ့ရင် ငါရှင်းပြမယ်",
+      "english": "If I were you, I would have explained what happened."
+  },
+  {
+      "myanmar": "ငါသာ မင်းဖြစ်ခဲ့ရင် ငါအလုပ်ပြီးမချင်း အလုပ်ဆက်လုပ်နေလိမ့်မယ်။",
+      "english": "If I were you, I would have continued working until it was done."
+  },
+  {
+      "myanmar": "ငါသာ မင်းသာဆိုရင် ငါ အခုပဲ ကြိုတင်မှာထားတာပဲ",
+      "english": "If I were you, I would have booked my reservations now."
+  },
+  {
+      "myanmar": "ငါက မင်းသာဆိုရင် ငါမေးခွန်းကို ဖြေရလိမ့်မယ်။",
+      "english": "If I were you, I would have answered the question."
+  },
+  {
+      "myanmar": "အရသာရှိတော့မယ်။",
+      "english": "It's going to be delicious."
+  },
+  {
+      "myanmar": "လွယ်တော့မယ်။",
+      "english": "It's gonna be easy."
+  },
+  {
+      "myanmar": "စိတ်ပျက်စရာဖြစ်လိမ့်မယ်။",
+      "english": "It's gonna be depressing."
+  },
+  {
+      "myanmar": "စိတ်လှုပ်ရှားစရာဖြစ်မယ်။",
+      "english": "It's going to be exciting."
+  },
+  {
+      "myanmar": "ရွံစရာကောင်းလိမ့်မယ်။",
+      "english": "It's going to be disgusting."
+  },
+  {
+      "myanmar": "သူက ခက်ခက်ခဲခဲ ရင်ဆိုင်ရလိမ့်မယ်။",
+      "english": "He is going to be tough to deal with."
+  },
+  {
+      "myanmar": "အဲ့ဒါဆို သူက အရမ်းကောင်းနေလိမ့်မယ်။",
+      "english": "He is going to be terrific at that."
+  },
+  {
+      "myanmar": "အဲဒါကြားတော့ သူစိတ်သက်သာရာရသွားလိမ့်မယ်။",
+      "english": "She is going to be relieved to hear that."
+  },
+  {
+      "myanmar": "ဒီဇာတ်ကားကြည့်ပြီးရင် သူကြောက်သွားလိမ့်မယ်။",
+      "english": "She is going to be scared after watching that movie."
+  },
+  {
+      "myanmar": "ဆယ်လီက အောင်မြင်တော့မယ်။",
+      "english": "Sally is going to be successful."
+  },
+  {
+      "myanmar": "ကျွန်တော် သူ့ကိုပြောပြီးရင် Mike က ဒေါသဖြစ်မယ်။",
+      "english": "Mike is going to be grumpy after I tell him."
+  },
+  {
+      "myanmar": "ကြည့်ရတာ မီးပုံးပျံနဲ့တူတယ်။",
+      "english": "It looks like a balloon."
+  },
+  {
+      "myanmar": "ဒါက ရေခူလိုပါပဲ။",
+      "english": "It looks like a jellyfish."
+  },
+  {
+      "myanmar": "ငှက်ပျောသီးနဲ့တူတယ်",
+      "english": "It looks like a banana."
+  },
+  {
+      "myanmar": "ဒါက ငါးတစ်ကောင်လိုပါပဲ။",
+      "english": "It looks like a fish."
+  },
+  {
+      "myanmar": "ကြည့်ရတာ မိုးရွာတော့မယ်။",
+      "english": "It looks like it's going to rain."
+  },
+  {
+      "myanmar": "ကြည့်ရတာ ပျော်စရာကောင်းနေပုံပဲ။",
+      "english": "It looks like it's going to be fun."
+  },
+  {
+      "myanmar": "ကြည့်ရတာ တစ်နေ့တာ ကြာသွားပုံပဲ။",
+      "english": "It looks like it's going to be a long day."
+  },
+  {
+      "myanmar": "သူတို့ထွက်သွားပုံရတယ်။",
+      "english": "It looks like they are leaving."
+  },
+  {
+      "myanmar": "သူ ငါတို့ကို လက်ပြနှုတ်ဆက်နေပုံပဲ။",
+      "english": "It looks like he is waving to us."
+  },
+  {
+      "myanmar": "ကြည့်ရတာ ပျောက်နေသလိုပဲ။",
+      "english": "It looks like she is lost."
+  },
+  {
+      "myanmar": "သူတို့ ပြိုင်နေပုံပဲ။",
+      "english": "It looks like they are racing."
+  },
+  {
+      "myanmar": "အဲဒါကြောင့် လူတွေက မင်းကို သဘောကျတယ်။",
+      "english": "That's why people admire you."
+  },
+  {
+      "myanmar": "အဲဒါကြောင့် သူ အရမ်းပျော်နေပုံရတယ်။",
+      "english": "That's why she appears so happy."
+  },
+  {
+      "myanmar": "ဒါကြောင့် ကလေးတွေက လမ်းမလျှောက်ခင်မှာ တွားသွားတတ်ကြတယ်။",
+      "english": "That's why babies crawl before they can walk."
+  },
+  {
+      "myanmar": "ဒါကြောင့် Pam က ဝမ်းနည်းစရာရုပ်ရှင်တွေမှာ ငိုတယ်။",
+      "english": "That's why Pam cries at sad movies."
+  },
+  {
+      "myanmar": "အဲဒါကြောင့် မင်းနားမလည်ဘူး။",
+      "english": "That's why you fail to understand."
+  },
+  {
+      "myanmar": "အဲဒါကြောင့် မင်းလိုအပ်နေတဲ့သူတွေကို ကူညီမယ်။",
+      "english": "That is why you help out people in need."
+  },
+  {
+      "myanmar": "အဲဒါကြောင့် မင်းလူတိုင်းကို ပေါင်းနိုင်အောင်ကြိုးစားမယ်။",
+      "english": "That is why you try and include everyone."
+  },
+  {
+      "myanmar": "ဒါကြောင့် မင်းအိမ်ကထွက်သွားတဲ့အခါ မင်း တံခါးကို သော့ခတ်ထားတယ်",
+      "english": "That is why you lock your doors when you leave home."
+  },
+  {
+      "myanmar": "အဲဒါကြောင့် မင်းလမ်းလျှောက်ရင် သူက ပြုံးတယ်။",
+      "english": "That is why she smiles when you walk by."
+  },
+  {
+      "myanmar": "အဲဒါကြောင့် အရေးပေါ်အခြေအနေမှာ သုံးတာလား။",
+      "english": "That is why you use it for emergencies."
+  },
+  {
+      "myanmar": "နှုတ်ဆက်ချိန်ရောက်ပြီ",
+      "english": "It's time to say goodbye."
+  },
+  {
+      "myanmar": "လစာတိုးဖို့ အချိန်တန်ပြီ",
+      "english": "It's time to ask for a raise."
+  },
+  {
+      "myanmar": "ငါတို့ပိုက်ဆံစုဖို့အချိန်ရောက်ပြီ",
+      "english": "It's time to collect our money."
+  },
+  {
+      "myanmar": "ကျွန်​​တော်​တို့အဖွဲ့အတွက်​ အား​ပေးရမယ့်​အချိန်​ပဲ",
+      "english": "It's time to cheer for our team."
+  },
+  {
+      "myanmar": "နာရီတွေပြောင်းဖို့အချိန်ရောက်ပြီ",
+      "english": "It's time to change the clocks."
+  },
+  {
+      "myanmar": "ဘာလုပ်ရမယ်ဆိုတာ ဆုံးဖြတ်ဖို့ အချိန်တန်ပြီ",
+      "english": "It is time to decide what to do."
+  },
+  {
+      "myanmar": "ကိုယ့်ကိုကိုယ် ပျော်ဖို့အချိန်တန်ပြီ",
+      "english": "It is time to enjoy ourselves."
+  },
+  {
+      "myanmar": "ဖြစ်ပျက်နေတာတွေကို ဖြည့်ဖို့အချိန်တန်ပြီ",
+      "english": "It is time to fill me in on what's going on."
+  },
+  {
+      "myanmar": "ကူညီဖို့အချိန်တန်ပြီ",
+      "english": "It is time to help out."
+  },
+  {
+      "myanmar": "Gym ဆော့ဖို့ အချိန်တန်ပြီ",
+      "english": "It is time to join a gym."
+  },
+  {
+      "myanmar": "အဓိကကတော့ စာကျက်ရင် ကျောင်းမှာ ကောင်းကောင်းလုပ်နိုင်မယ်",
+      "english": "The point is that if you study you will do well in school."
+  },
+  {
+      "myanmar": "အဓိကအချက်က သူမ နားမလည်ဘူး",
+      "english": "The point is that she does not understand."
+  },
+  {
+      "myanmar": "အဓိကကတော့ ဒီနေ့ ဒီဟာကို ပြီးအောင်လုပ်ဖို့လိုတယ်။",
+      "english": "The point is that we need this done today."
+  },
+  {
+      "myanmar": "အဓိကအချက်က ကမ္ဘာကြီးက ပိုကောင်းတဲ့ နေရာတစ်ခု ဖြစ်မှာပါ",
+      "english": "The point is that the world would be a better place."
+  },
+  {
+      "myanmar": "အဓိကအချက်က ကူညီသင့်တယ်",
+      "english": "The point is that we should help."
+  },
+  {
+      "myanmar": "အဓိကအချက်ကတော့ မြွေတွေက အန္တရာယ်ရှိနိုင်တယ်။",
+      "english": "The point is that snakes can be dangerous."
+  },
+  {
+      "myanmar": "အဓိကအချက်ကတော့ ကလေးကို တစ်ယောက်တည်းထားခဲ့တာဟာ ကောင်းတဲ့အကြံမဟုတ်ဘူး",
+      "english": "The point is that leaving a baby alone is not a good idea."
+  },
+  {
+      "myanmar": "အဓိကအချက်က ငါတို့အခုမထွက်ရင် ငါတို့နောက်ကျလိမ့်မယ်",
+      "english": "The point is that if we do not leave now we will be late."
+  },
+  {
+      "myanmar": "အဓိကအချက်ကတော့ သူမအနေနဲ့ ပိုပြီးတာဝန်ယူဖို့ လိုပါတယ်။",
+      "english": "The point is that she needs to be more responsible."
+  },
+  {
+      "myanmar": "အဓိကအချက်က ကျွန်တော်တို့ လက်တွဲလုပ်ဆောင်ဖို့ လိုပါတယ်။",
+      "english": "The point is that we need to work together."
+  },
+  {
+      "myanmar": "မင်း တွေ့ဆုံမှု ဘယ်လိုလဲ",
+      "english": "How was your meeting?"
+  },
+  {
+      "myanmar": "မင်း ဆရာဝန်ချိန်းထားတာ ဘယ်လိုလဲ",
+      "english": "How was your doctor's appointment?"
+  },
+  {
+      "myanmar": "မွေးနေ့ပွဲက ဘယ်လိုလဲ",
+      "english": "How was the birthday party?"
+  },
+  {
+      "myanmar": "နေ့လည်စာ ဘယ်လိုလဲ",
+      "english": "How was lunch?"
+  },
+  {
+      "myanmar": "လေယာဉ်က ဘယ်လိုလဲ",
+      "english": "How was the airplane ride?"
+  },
+  {
+      "myanmar": "အားလပ်ရက်က ဘယ်လိုလဲ",
+      "english": "How was vacation?"
+  },
+  {
+      "myanmar": "မင်းမိဘတွေ နေကောင်းလား",
+      "english": "How were your parents?"
+  },
+  {
+      "myanmar": "အိမ်​​ရောက်​ရင်​ လမ်း​တွေဘယ်​လိုလဲ",
+      "english": "How were roads when you drove home?"
+  },
+  {
+      "myanmar": "ဖြစ်ပျက်ပြီးရင် လူတွေကရော ဘယ်လိုလဲ",
+      "english": "How were people acting after what happened?"
+  },
+  {
+      "myanmar": "အားလပ်ရက်မှာ မိသားစုနဲ့ ဘယ်လိုလဲ",
+      "english": "How were holidays with the family?"
+  },
+  {
+      "myanmar": "ဘယ်လိုသီချင်းဆိုလဲ",
+      "english": "How about singing?"
+  },
+  {
+      "myanmar": "ဒီည ဘယ်လိုထွက်မလဲ",
+      "english": "How about hanging out tonight?"
+  },
+  {
+      "myanmar": "ငါ့အတွက် အဝတ်တွေကို ဘယ်လိုခေါက်ရမလဲ",
+      "english": "How about folding the laundry for me?"
+  },
+  {
+      "myanmar": "ငါတို့ကို ဘယ်လိုကူညီပေးရမလဲ",
+      "english": "How about helping us out?"
+  },
+  {
+      "myanmar": "ဘာဖြစ်​သွားတာလဲ ​ပြောပြ​ပေးပါဦး",
+      "english": "How about describing to me what happened?"
+  },
+  {
+      "myanmar": "စိတ်ကူးသစ်တွေကို ဘယ်လိုရှာဖွေမလဲ",
+      "english": "How about exploring new ideas?"
+  },
+  {
+      "myanmar": "မဝယ်ခင် ဈေးနှုန်းကို ဘယ်လို နှိုင်းယှဉ်မလဲ",
+      "english": "How about comparing prices before we buy it?"
+  },
+  {
+      "myanmar": "ဘယ်လိုစဉ်းစားလဲ?",
+      "english": "How about considering it?"
+  },
+  {
+      "myanmar": "ငါ့ကို သူတို့အိမ်နောက်ကို ဘယ်လိုလိုက်ရမလဲ",
+      "english": "How about following me to their house?"
+  },
+  {
+      "myanmar": "ခွေးတွေကို ဘယ်လိုကျွေးရမလဲ",
+      "english": "How about feeding the dogs?"
+  },
+  {
+      "myanmar": "ဘတ်စကား လွတ်သွားရင် ဘယ်လိုလုပ်မလဲ",
+      "english": "What if I miss the bus?"
+  },
+  {
+      "myanmar": "ညစာနောက်ကျရင် ဘယ်လိုလုပ်မလဲ",
+      "english": "What if I were late to dinner?"
+  },
+  {
+      "myanmar": "မနက်​ဖြန်​​ခေါ်ရင်​ ဘာဖြစ်​မလဲ",
+      "english": "What if I called her tomorrow?"
+  },
+  {
+      "myanmar": "ငါ နားမလည်ရင် ဘာဖြစ်လဲ",
+      "english": "What if I don't understand?"
+  },
+  {
+      "myanmar": "တစ်ယောက်ယောက် ငါ့ကိုမြင်ရင် ဘယ်လိုလုပ်မလဲ",
+      "english": "What if someone sees me?"
+  },
+  {
+      "myanmar": "အိမ်မှာ ဘယ်သူမှမရှိရင် ဘယ်လိုလုပ်မလဲ",
+      "english": "What if no one is home?"
+  },
+  {
+      "myanmar": "နေဖို့ ဆုံးဖြတ်ရင် ဘာဖြစ်မလဲ",
+      "english": "What if they decide to stay?"
+  },
+  {
+      "myanmar": "ငါတို့စခန်းချရင်း မိုးရွာရင် ဘာဖြစ်လဲ",
+      "english": "What if it rains while we are camping?"
+  },
+  {
+      "myanmar": "အချိန်မီမပြီးရင် ဘယ်လိုလုပ်မလဲ",
+      "english": "What if I do not finish on time?"
+  },
+  {
+      "myanmar": "ငါတို့ ကိုယ့်ကို အရင်မိတ်ဆက်ရင် ဘာဖြစ်မလဲ",
+      "english": "What if we introduce ourselves first?"
+  },
+  {
+      "myanmar": "ဥရောပကို ပျံသန်းဖို့ ဘယ်လောက်ကုန်ကျလဲ။",
+      "english": "How much does it cost to fly to Europe?"
+  },
+  {
+      "myanmar": "အိမ်တစ်လုံးပိုင်ဆိုင်ဖို့ ဘယ်လောက်ကုန်ကျလဲ။",
+      "english": "How much does it cost to own a house?"
+  },
+  {
+      "myanmar": "ဂေါက်ရိုက်ရင် ဘယ်လောက်ကျမလဲ",
+      "english": "How much does it cost to play a round of golf?"
+  },
+  {
+      "myanmar": "Gymတက်ရင် ဘယ်လောက်ကျမလဲ",
+      "english": "How much does it cost to join a gym?"
+  },
+  {
+      "myanmar": "ငါ့ကားကို ပြင်ဖို့ ဘယ်လောက်ကုန်ကျလဲ",
+      "english": "How much does it cost to repair my car?"
+  },
+  {
+      "question": "အဝေးက စကားပြောရင် ဘယ်လောက်ကျမလဲ",
+      "answer": "How much would it cost to talk long distance?"
+  },
+  {
+      "question": "ဝဘ်ဆိုဒ်တစ်ခုလည်ပတ်ဖို့ ဘယ်လောက်ကုန်ကျမလဲ။",
+      "answer": "How much would it cost to run a website?"
+  },
+  {
+      "question": "ငါ့ကားကိုရေဆေးဖို့ဘယ်လောက်ကုန်ကျမှာလဲ",
+      "answer": "How much would it cost to wash my car?"
+  },
+  {
+      "question": "ကားငှားရင် ဘယ်လောက်ကျမလဲ",
+      "answer": "How much would it cost to rent a car?"
+  },
+  {
+      "question": "ရုပ်ရှင်သွားကြည့်ရင် ဘယ်လောက်ကျမလဲ",
+      "answer": "How much would it cost to go to the movies?"
+  },
+  {
+      "question": "မိဘတွေက ဘယ်လိုဖြစ်လို့ စိတ်ပူနေရတာလဲ",
+      "answer": "How come parents worry so much?"
+  },
+  {
+      "question": "လူတွေက ကားကြုံက ဘယ်လိုလာတာလဲ",
+      "answer": "How come people carpool to work?"
+  },
+  {
+      "question": "မင်းက ဘယ်လိုဖြစ်လို့ စိတ်ဆိုးနေတာလဲ",
+      "answer": "How come you are so upset?"
+  },
+  {
+      "question": "ဘာလို့ မင်းကိုမခေါ်တာလဲ",
+      "answer": "How come he will not call you?"
+  },
+  {
+      "question": "မင်းက ဘယ်လိုဖြစ်လို့ နောက်ကျနေတာလဲ",
+      "answer": "How come you stayed out so late?"
+  },
+  {
+      "question": "မင်း ဆုံးဖြတ်ချက်မချနိုင်ရင် ဘယ်လိုလုပ်မှာလဲ",
+      "answer": "How come you cannot make a decision?"
+  },
+  {
+      "question": "မင်းက ငါ့ကို အမြဲမေးနေတာ ဘယ်လိုလဲ",
+      "answer": "How come you always question me?"
+  },
+  {
+      "question": "ငါတို့ဘယ်တုန်းကမှသဘောမတူတာလဲ",
+      "answer": "How come we never agree?"
+  },
+  {
+      "question": "မင်းခွေးက ခြံထဲမှာ ဘယ်လိုတူးတာလဲ",
+      "answer": "How come your dog digs in the yard?"
+  },
+  {
+      "question": "သူမက ဘယ်လိုဖြစ်လို့ မလာရတာလဲ",
+      "answer": "How come she will not come over?"
+  },
+  {
+      "question": "လက်မှတ်ရနိုင်ခြေကဘာလဲ။",
+      "answer": "What are the chances of getting tickets?"
+  },
+  {
+      "question": "ဒီလိုဖြစ်နိုင်ခြေကဘာလဲ။",
+      "answer": "What are the chances of that happening?"
+  },
+  {
+      "question": "ဒီနေ့ မိုးရွာဖို့ အလားအလာ ဘယ်လိုရှိလဲ။",
+      "answer": "What are the chances of it raining today?"
+  },
+  {
+      "question": "ထီပေါက်ဖို့ အခွင့်အလမ်းတွေက ဘာတွေလဲ။",
+      "answer": "What are the chances of winning the lottery?"
+  },
+  {
+      "question": "ဒီနေ့ အိမ်မှာနေဖို့ အခွင့်အလမ်းက ဘာလဲ",
+      "answer": "What are the chances of you staying home today?"
+  },
+  {
+      "question": "အလုပ်ရဖို့ အခွင့်အလမ်းက ဘာလဲ",
+      "answer": "What are your chances of getting the job?"
+  },
+  {
+      "question": "တိုးတက်ဖို့ အခွင့်အလမ်းကဘာလဲ။",
+      "answer": "What are your chances of improving?"
+  },
+  {
+      "question": "ပြောင်းရွှေ့ဖို့ အခွင့်အလမ်းက ဘာလဲ",
+      "answer": "What are your chances of moving?"
+  },
+  {
+      "question": "ငါတို့အတူတူနေဖို့ အခွင့်အလမ်းကဘာလဲ",
+      "answer": "What are our chances of staying together?"
+  },
+  {
+      "question": "ငါတို့ အတူတူ အလုပ်လုပ်ဖို့ အခွင့်အလမ်းက ဘာလဲ",
+      "answer": "What are our chances of working together?"
+  },
+  {
+      "question": "ငါတို့ အတူတူသွားဖို့ အခွင့်အလမ်းကဘာလဲ",
+      "answer": "What are our chances of going together?"
+  },
+  {
+      "question": "ငါ့လက်တော့ပ်မှာ တစ်ခုခုမှားနေပြီလား။",
+      "answer": "There is something wrong with my laptop."
+  },
+  {
+      "question": "ငါ့ကားမှာ တစ်ခုခုမှားနေပြီလား။",
+      "answer": "There is something wrong with my car."
+  },
+  {
+      "question": "ငါ့ဖုန်းမှာ တစ်ခုခုမှားနေပြီလား။",
+      "answer": "There is something wrong with my cell phone."
+  },
+  {
+      "question": "ခေါင်းထဲမှာ တစ်ခုခုမှားနေပြီလား။",
+      "answer": "There is something wrong with my head."
+  },
+  {
+      "question": "မင်းရဲ့အဖြေစက်မှာ တစ်ခုခုမှားနေပြီလား။",
+      "answer": "There is something wrong with your answering machine."
+  },
+  {
+      "question": "မင်းရဲ့အတွေးအမြင်မှာ တစ်ခုခုမှားနေပြီလား။",
+      "answer": "There is something wrong with your way of thinking."
+  },
+  {
+      "question": "မင်းရဲ့ သဘောထား တစ်ခုခုတော့ မှားနေပြီ",
+      "answer": "There is something wrong with your attitude."
+  },
+  {
+      "question": "မင်းခွေးမှာ တစ်ခုခုမှားနေပြီလား။",
+      "answer": "There is something wrong with your dog."
+  },
+  {
+      "question": "ငါတို့ဆက်ဆံရေးမှာ တစ်ခုခုမှားနေပြီ",
+      "answer": "There is something wrong with our relationship."
+  },
+  {
+      "question": "ငါတို့နှိုးစက်မှာ တစ်ခုခုမှားနေပြီလား။",
+      "answer": "There is something wrong with our alarm clock."
+  },
+  {
+      "question": "ကဲ ဒီအကြောင်း မဆွေးနွေးရအောင်။",
+      "answer": "Let's not discuss this now."
+  },
+  {
+      "question": "ဒီမှာ အကြာကြီးမနေရအောင်။",
+      "answer": "Let's not stay here too long."
+  },
+  {
+      "question": "လမ်းမှာဘယ်မှမရပ်ရအောင်။",
+      "answer": "Let's not stop anywhere on the way."
+  },
+  {
+      "question": "တစ်ယောက်နဲ့တစ်ယောက် စိတ်ဆိုးမနေကြနဲ့။",
+      "answer": "Let's not remain mad at each other."
+  },
+  {
+      "question": "သူတစ်ပါးရဲ့စီးပွားရေးကို မစွက်ဖက်ရအောင်။",
+      "answer": "Let's not meddle in other people's business."
+  },
+  {
+      "question": "ကျွန်​​တော်​တို့ သိပ်​စိတ်​မ၀င်​စားရ​အောင်​။",
+      "answer": "Let us not get too excited."
+  },
+  {
+      "question": "ကျွန်​​တော်​တို့ သိပ်​မစိုးရိမ်​ရ​အောင်​။",
+      "answer": "Let us not worry too much."
+  },
+  {
+      "question": "သူတို့ စကားပြောတဲ့အခါ ငါတို့ကို မနှောင့်ယှက်နဲ့။",
+      "answer": "Let us not interrupt them when they are talking."
+  },
+  {
+      "question": "ငါတို့ မင်းကို ကူညီရအောင်။",
+      "answer": "Let us help you."
+  },
+  {
+      "question": "ဒါကို မင်းအတွက် ရအောင်ယူ။",
+      "answer": "Let us get that for you."
+  },
+  {
+      "question": "မင်းငါးဖမ်းရတာကြိုက်တယ်ဆိုပါစို့",
+      "answer": "Let's say that you love to fish."
+  },
+  {
+      "question": "ငါတို့တွေ့ပြီ ဆိုကြပါစို့။",
+      "answer": "Let's say we found it."
+  },
+  {
+      "question": "သူတို့နဲ့ အတူရှိရတာ ပျော်တယ်ဆိုကြပါစို့။",
+      "answer": "Let's say that we enjoy being with them."
+  },
+  {
+      "question": "ငါတို့ ကောင်းကောင်းနေခဲ့တယ် ဆိုကြပါစို့။",
+      "answer": "Let's say that we had a good time."
+  },
+  {
+      "question": "ဆုံးဖြတ်ရခက်တယ်ဆိုပါစို့။",
+      "answer": "Let's say that it's hard to decide."
+  },
+  {
+      "question": "ငါတို့သွားစရာရှိတယ်ဆိုပါစို့။",
+      "answer": "Let's say that we have to go."
+  },
+  {
+      "question": "အိမ်ရှင်လို့ ဆိုကြပါစို့။",
+      "answer": "Let's say that we can host."
+  },
+  {
+      "question": "အလုပ်​လုပ်​ရမယ်​ဆိုပါစို့",
+      "answer": "Let's say that I have to work."
+  },
+  {
+      "question": "ရုပ်ရှင်က တကယ်ကောင်းတယ်လို့ ဆိုကြပါစို့။",
+      "answer": "Let's say that the movie was really good."
+  },
+  {
+      "question": "စိတ်ပူစရာမလိုပါဘူး။",
+      "answer": "There's no need to worry."
+  },
+  {
+      "question": "စိတ်ဆိုးနေစရာမလိုပါဘူး။",
+      "answer": "There's no need to be upset."
+  },
+  {
+      "question": "ဒီလောက် ထူးဆန်းနေစရာ မလိုဘူး",
+      "answer": "There's no need to act so strange."
+  },
+  {
+      "question": "အရမ်းရှက်ဖို့ မလိုဘူး",
+      "answer": "There's no need to act so shy."
+  },
+  {
+      "question": "အလျင်စလို ထွက်နေဖို့ မလိုဘူး။",
+      "answer": "There's no need to rush off."
+  },
+  {
+      "question": "အခုပြောစရာ မလိုဘူး",
+      "answer": "There's no need to talk now."
+  },
+  {
+      "question": "ဖုန်းဆက်ဖို့ နောက်ကျနေစရာ မလိုဘူး",
+      "answer": "There is no need to call this late."
+  },
+  {
+      "question": "သူ့ကို အနှောက်အယှက် ပေးစရာ မလိုဘူး။",
+      "answer": "There is no need to bother him."
+  },
+  {
+      "question": "ထွက်ပြေးစရာ မလိုဘူး။",
+      "answer": "There is no need to run away."
+  },
+  {
+      "question": "အခု ရပ်နေစရာ မလိုဘူး။",
+      "answer": "There is no need to stop now."
+  },
+  {
+      "question": "အဲဒီကိုရောက်ဖို့ တစ်နာရီလောက်ကြာတယ်။",
+      "answer": "It takes one hour to get there."
+  },
+  {
+      "question": "အဆင်သင့်ဖြစ်ဖို့အတွက် လေးဆယ့်ငါးမိနစ်လောက်ကြာတယ်။",
+      "answer": "It takes forty-five minutes for me to get ready."
+  },
+  {
+      "question": "ဘောလုံးပွဲပြီးအောင်လုပ်ဖို့ လေးပုံတစ်ပုံလောက်လိုတယ်။",
+      "answer": "It takes four quarters to complete a football game."
+  },
+  {
+      "question": "ငါ့ကားက တစ်နာရီ မိုင် 60 နှုန်းနဲ့သွားဖို့ 7 စက္ကန့်ပဲ ကြာတယ်။",
+      "answer": "It takes 7 seconds for my car to go 60 miles per hour."
+  },
+  {
+      "question": "ဂေါက်ရိုက်ဖို့ တစ်ရက်လုံးလိုတယ်။",
+      "answer": "It takes all day for us to finish golfing."
+  },
+  {
+      "question": "ဂစ်တာတီးတတ်ဖို့ နှစ်တွေကြာတယ်။",
+      "answer": "It takes years to learn to play guitar."
+  },
+  {
+      "question": "မြို့လယ်ကိုရောက်ဖို့ ၁၅ မိနစ်လောက်ကြာတယ်။",
+      "answer": "It takes 15 minutes to get to downtown."
+  },
+  {
+      "question": "ဟင်းချက်ဖို့ တစ်နာရီလောက်ကြာတယ်။",
+      "answer": "It takes me one hour to cook."
+  },
+      {
+        "myanmar": "ကျေးဇူးပြုပြီး သူ အချိန်မှန်နိုးထဖို့ သေချာပါစေ။",
+        "translation": "Please make sure that she wakes up on time."
+      },
+      {
+        "myanmar": "ကျေးဇူးပြုပြီး သူကျောင်းတက်ဖို့သေချာပါစေ။",
+        "translation": "Please make sure that she gets to school."
+      },
+      {
+        "myanmar": "အိမ်ပြန်ရောက်ရင် ညစာ အဆင်သင့်ဖြစ်မှာ သေချာပါစေ။",
+        "translation": "Please make sure that dinner is ready when we get home."
+      },
+      {
+        "myanmar": "ကျေးဇူးပြုပြီး မင်းရဲ့တာဝန်ကို ပြီးအောင်သေချာအောင်လုပ်ပါ။",
+        "translation": "Please make sure that your assignment is done."
+      },
+      {
+        "myanmar": "ရေအရမ်းမပူစေနဲ့။",
+        "translation": "Please make sure that the water is not too hot."
+      },
+      {
+        "myanmar": "ကျေးဇူးပြုပြီး မင်းအသားကို အကြာကြီးချက်ထားပေးပါ",
+        "translation": "Please make sure you cook the meat long enough."
+      },
+      {
+        "myanmar": "ကျေးဇူးပြုပြီး သူ့သူငယ်ချင်းအသစ်တွေနဲ့ ပေါင်းဖို့သေချာပါစေ။",
+        "translation": "Please make sure that she is getting along with her new friends."
+      },
+      {
+        "myanmar": "ကျေးဇူးပြုပြီး အချိန်မီထွက်ဖို့ သေချာပါစေ။",
+        "translation": "Please make sure that we leave on time."
+      },
+      {
+        "myanmar": "ကျွန်ုပ်တို့ အကြိုက်ဆုံး တီဗီရှိုးကို သေချာ မှတ်တမ်းတင်ပါ။",
+        "translation": "Please make sure you record our favorite TV show."
+      },
+      {
+        "myanmar": "မင်း အပြင်မှာ အရမ်းနောက်ကျမနေဖို့ သေချာပါစေ။",
+        "translation": "Please make sure that you don't stay out too late."
+      },
+      {
+        "myanmar": "ဒီမှာ အောင်နိုင်သူလေ!",
+        "translation": "Here's to the winner!"
+      },
+      {
+        "myanmar": "ဒီမှာ မင်းရဲ့အိမ်ထောင်ရေး!",
+        "translation": "Here's to your marriage!"
+      },
+      {
+        "myanmar": "နှစ်သစ်ရောက်ပြီ!",
+        "translation": "Here's to the New Year!"
+      },
+      {
+        "myanmar": "ဒီမှာ သူငယ်ချင်းကောင်းတွေပဲ!",
+        "translation": "Here's to great friends!"
+      },
+      {
+        "myanmar": "ဒီမှာ အလုပ်သစ်စလုပ်မယ်!",
+        "translation": "Here's to starting a new job!"
+      },
+      {
+        "myanmar": "ဒီမှာ ကမ္ဘာပေါ်မှာ ကံအကောင်းဆုံးလူပဲ!",
+        "translation": "Here is to the luckiest guy in the world!"
+      },
+      {
+        "myanmar": "ဒီမှာ မင်းအတွက်!",
+        "translation": "Here is to you!"
+      },
+      {
+        "myanmar": "ဒီမှာ ပျော်ရွှင်မှု !",
+        "translation": "Here is to happiness!"
+      },
+      {
+        "myanmar": "ဒီမှာ အံ့သြစရာကောင်းတဲ့ နေ့တစ်နေ့ပေါ့!",
+        "translation": "Here is to a wonderful day!"
+      },
+      {
+        "myanmar": "ဒီမှာ အမှတ်ရစရာတွေ အများကြီးရှိတယ်!",
+        "translation": "Here is to great memories!"
+      },
+      {
+        "myanmar": "ငိုတာက အသုံးမကျဘူး",
+        "translation": "It's no use crying."
+      },
+      {
+        "myanmar": "သူတို့ကို ခွဲဖို့က အသုံးမ၀င်ဘူး။",
+        "translation": "It's no use separating them."
+      },
+      {
+        "myanmar": "သူမနဲ့စကားပြောတာက အသုံးမကျဘူး",
+        "translation": "It's no use talking to her."
+      },
+      {
+        "myanmar": "အဲဒါနဲ့ ပတ်သက်ပြီး ညည်းတွားတာ အသုံးမကျဘူး။",
+        "translation": "It's no use whining about it."
+      },
+      {
+        "myanmar": "တောင်းပန်တာ အသုံးမကျဘူး",
+        "translation": "It's no use apologizing."
+      },
+      {
+        "myanmar": "သူ့ကို ကျေနပ်အောင်ကြိုးစားတာ ဘာမှ အသုံးမကျဘူး",
+        "translation": "It's no use attempting to please him."
+      },
+      {
+        "myanmar": "အဲဒါကို ငြင်းခုံတာက အသုံးမဝင်ဘူး။",
+        "translation": "It's no use arguing about it."
+      },
+      {
+        "myanmar": "ဒီလို ဆက်ဆံတာ အသုံးမကျဘူး",
+        "translation": "It's no use behaving that way."
+      },
+      {
+        "myanmar": "သန့်ရှင်းရေးက အသုံးမကျဘူး",
+        "translation": "It's no use cleaning up."
+      },
+      {
+        "myanmar": "စစ်ဆေးတာတော့ အသုံးမကျသေးဘူး",
+        "translation": "It's no use checking on it yet."
+      },
+      {
+        "myanmar": "အချိန်မီ ပြီးအောင် လုပ်ဖို့ မရှိပါဘူး။",
+        "translation": "There's no way you finish on time."
+      },
+      {
+        "myanmar": "ငါတို့ အချိန်မီ ပြီးအောင် လုပ်ဖို့ဆိုတာ မရှိပါဘူး။",
+        "translation": "There's no way we complete on time."
+      },
+      {
+        "myanmar": "မင်းအမေက သဘောမတူဘူး",
+        "translation": "There's no way your mother approves."
+      },
+      {
+        "myanmar": "ဘယ်​သူမှ​ပြောခွင့်​မရှိဘူး",
+        "translation": "There's no way no one claims it."
+      },
+      {
+        "myanmar": "သူတို့ မျှော်လင့်ထားသလို မရှိပါဘူး။",
+        "translation": "There's no way they expect it."
+      },
+      {
+        "myanmar": "သူ ပြင်လို့ မရဘူး။",
+        "translation": "There's no way he can fix it."
+      },
+      {
+        "myanmar": "သူ ဒီသတင်းကို ဘယ်လိုမှ ထိန်းနိုင်မှာ မဟုတ်ဘူး။",
+        "translation": "There's no way he can handle the news."
+      },
+      {
+        "myanmar": "မင်းအစ်ကိုက သူ့ခြေကျင်းဝတ်ကို ဒဏ်ရာရစေမယ့် နည်းလမ်းမရှိဘူး",
+        "translation": "There's no way your brother injured his ankle."
+      },
+      {
+        "myanmar": "မြင်းခုန်ချဖို့ နည်းလမ်းမရှိဘူး",
+        "translation": "There is no way that horse jumps it."
+      },
+      {
+        "myanmar": "သူ လွတ်သွားတာတော့ မရှိပါဘူး",
+        "translation": "There is no way he missed it."
+      },
+      {
+        "myanmar": "မင်းက ငါ့ကို အလုပ်ကမ်းလှမ်းတာ အရမ်းသဘောကောင်းတာပဲ",
+        "translation": "It's very kind of you to offer me the job."
+      },
+      {
+        "myanmar": "မင်းငါ့စကားနားထောင်ရတာ အရမ်းသဘောကောင်းတယ်",
+        "translation": "It's very kind of you to listen to me."
+      },
+      {
+        "myanmar": "မင်းငါ့ကိုတွဲရတာ အရမ်းသဘောကောင်းတယ်",
+        "translation": "It's very kind of you to join me."
+      },
+      {
+        "myanmar": "မင်း ငါတို့ကို ဖိတ်တာ အရမ်းကောင်းတာပဲ",
+        "translation": "It's very kind of you to invite us."
+      },
+      {
+        "myanmar": "ဖြစ်ပျက်ခဲ့တာတွေကို ကျွန်တော်တို့ကို အကြောင်းကြားရတာ အရမ်းကောင်းပါတယ်။",
+        "translation": "It's very kind of you to inform us what happened."
+      },
+      {
+        "myanmar": "မင်း ငါတို့ကို ကူညီရတာ တစ်မျိုးပဲ",
+        "translation": "It is kind of you to help us."
+      },
+      {
+        "myanmar": "မင်းက ငါ့ကို ဖြည့်ခိုင်းတာ တစ်မျိုးပဲ",
+        "translation": "It is kind of you to fill me in."
+      },
+      {
+        "myanmar": "မင်း ငါတို့ကို ဖျော်ဖြေရတာ တစ်မျိုးပဲ",
+        "translation": "It is kind of you to entertain us."
+      },
+        {
+            "myanmar": "မင်း ငါ့လစာ နှစ်ဆတိုးရတာ တစ်မျိုးပဲ",
+            "translation": "It is kind of you to double my salary."
+        },
+        {
+            "myanmar": "ပါတီပွဲအတွက် အလှဆင်ရတာ တစ်မျိုးပဲ",
+            "translation": "It is kind of you to decorate for the party."
+        },
+        {
+            "myanmar": "မင်းကို ဒုက္ခပေးလို့ မရဘူး",
+            "translation": "There's nothing you can harm."
+        },
+        {
+            "myanmar": "ရဲက ဘာကိုမှ ဖော်ထုတ်လို့ မရဘူး။",
+            "translation": "There's nothing the police can identify."
+        },
+        {
+            "myanmar": "ငါတို့သဘောတူလို့မရဘူး။",
+            "translation": "There's nothing we can agree on."
+        },
+        {
+            "myanmar": "ငါတို့ဘာမှ တွဲလို့မရဘူး။",
+            "translation": "There's nothing we can join."
+        },
+        {
+            "myanmar": "သူမ ထမင်းချက်နိုင်တာ ဘာမှမရှိဘူး",
+            "translation": "There's nothing she can cook."
+        },
+        {
+            "myanmar": "ငါ့ခွေးက ဘာပညာမှ မတတ်ဘူး။",
+            "translation": "There's nothing my dog can learn."
+        },
+        {
+            "myanmar": "ငါမတောင်းနိုင်တာ ဘာမှမရှိဘူး",
+            "translation": "There is nothing I cannot ask for."
+        },
+        {
+            "myanmar": "ငါတို့မပြီးမြောက်နိုင်တာ ဘာမှမရှိဘူး။",
+            "translation": "There's nothing we cannot accomplish."
+        },
+        {
+            "myanmar": "ငါတို့ခွေးက ဖွင့်လို့မရဘူး",
+            "translation": "There's nothing our dog cannot open."
+        },
+        {
+            "myanmar": "ထရပ်ကား ရွေ့လို့မရဘူး",
+            "translation": "There's nothing that truck cannot move."
+        },
+        {
+            "myanmar": "ဒီကစားသမားကို အရောင်းအဝယ်လုပ်မယ်လို့ ကောလဟာလတွေရှိတယ်။",
+            "translation": "Rumor has it that that player will get traded."
+        },
+        {
+            "myanmar": "သူမက သူ့ကိုလှည့်စားတယ်လို့ ကောလဟာလတွေရှိတယ်။",
+            "translation": "Rumor has it that she cheated on him."
+        },
+        {
+            "myanmar": "သူတို့လက်ထပ်တော့မယ်ဆိုတဲ့ ကောလဟာလတွေရှိတယ်။",
+            "translation": "Rumor has it that they are going to get married."
+        },
+        {
+            "myanmar": "မင်းဆေးခြယ်ရတာ ကြိုက်တယ်ဆိုတဲ့ ကောလဟာလတွေရှိတယ်။",
+            "translation": "Rumor has it that you like to paint."
+        },
+        {
+            "myanmar": "ကောလဟာလတွေရှိတယ်၊ ဒီပွဲက ပြီးတော့မယ်။",
+            "translation": "Rumor has it that show is going to end."
+        },
+        {
+            "myanmar": "သူ လစာတိုးတော့မယ်ဆိုတဲ့ ကောလဟာလတွေရှိတယ်။",
+            "translation": "Rumor has it that he is going to get a raise."
+        },
+        {
+            "myanmar": "မင်းညီမ ဒုက္ခရောက်သွားတယ်ဆိုတဲ့ ကောလဟာလတွေရှိတယ်။",
+            "translation": "Rumor has it that your sister got in trouble."
+        },
+        {
+            "myanmar": "သူမ ငါတို့ Gym ကိုသွားတယ်ဆိုတဲ့ ကောလဟာလတွေရှိတယ်",
+            "translation": "Rumor has it that she goes to our gym."
+        },
+        {
+            "myanmar": "သူပြန်လာမှာမဟုတ်ဘူးလို့ ကောလဟာလတွေရှိတယ်။",
+            "translation": "Rumor has it that he will not return."
+        },
+        {
+            "myanmar": "စာပို့ရင်းနဲ့ ဖြစ်သွားတဲ့ ကောလဟာလတွေရှိတယ်။",
+            "translation": "Rumor has it that it happened while texting."
+        }
+    ]
+  }
