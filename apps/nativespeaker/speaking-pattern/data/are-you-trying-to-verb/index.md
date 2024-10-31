@@ -1,7 +1,8 @@
-## Are you trying to + (verb)
-
+<h1 class="font-bold"> Are you trying to + (verb)</h1>
+<p>
 သင်သည် တစ်စုံတစ်ဦးကို တစ်ခုခုလုပ်ရန် ကြိုးစားနေသလားဟု မေးနေသည်။ ဒါက စိတ်ပိုင်းဆိုင်ရာ ဒါမှမဟုတ် ရုပ်ပိုင်းဆိုင်ရာ တစ်ခုခုဖြစ်နိုင်ပါတယ်။
 You are asking someone if they are attempting to do something. This can be something mentally or physically.
+</p>
 
 <details>
 <summary>မင်းက ငါ့ကို လျစ်လျူရှုဖို့ ကြိုးစားနေတာလား။</summary>
