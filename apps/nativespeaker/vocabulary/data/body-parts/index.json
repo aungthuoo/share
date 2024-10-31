@@ -1,0 +1,10 @@
+{
+  "id" : "",
+  "title": "Body parts",
+  "description" : "",
+  "prefix" : "https://raw.githubusercontent.com/aungthuoo/share/refs/heads/main/apps/nativespeaker/vocabulary/data/body-parts/images/", 
+  "images" : [
+    "img-001.png",
+    "img-002.png"
+  ]
+}
