@@ -3,18 +3,18 @@
     {
       "id" : 1,
       "title" : "Vocabulary",
-      "slug" : "vocabulary", 
+      "slug" : "words", 
       "description" : "",
-      "link": "",
+      "link": "/words",
       "image" : "https://raw.githubusercontent.com/aungthuoo/apis/refs/heads/main/apps/speaknow/category/images/img-001.png"
 
     },
     {
       "id" : 2,
       "title" : "Speaking pattern",
-      "slug" : "speaking-pattern", 
+      "slug" : "patterns", 
       "description" : "",
-      "link": "",
+      "link": "/patterns",
       "image" : "https://raw.githubusercontent.com/aungthuoo/apis/refs/heads/main/apps/speaknow/category/images/img-002.png"
     },
 
@@ -23,15 +23,15 @@
       "title" : "Grammer",
       "slug" : "grammer", 
       "description" : "",
-      "link": "",
+      "link": "/grammer",
       "image" : "https://raw.githubusercontent.com/aungthuoo/apis/refs/heads/main/apps/speaknow/category/images/img-003.png"
     },
     {
       "id" : 4,
-      "title" : "Short stories",
-      "slug" : "short-stories", 
+      "title" : "Stories",
+      "slug" : "stories", 
       "description" : "",
-      "link": "",
+      "link": "/stories",
       "image" : "https://raw.githubusercontent.com/aungthuoo/apis/refs/heads/main/apps/speaknow/category/images/img-004.png"
     },
     {
@@ -39,7 +39,7 @@
       "title" : "Essays",
       "slug" : "essays", 
       "description" : "",
-      "link": "",
+      "link": "/essays",
       "image" : "https://raw.githubusercontent.com/aungthuoo/apis/refs/heads/main/apps/speaknow/category/images/img-005.png"
     }
   ],
