@@ -1,0 +1,29 @@
+[
+    {
+      "id": 1,
+      "slug": "body-part",
+      "title" : "Body Part",
+      "desciption": "desc", 
+      "images" : [
+        "https://raw.githubusercontent.com/aungthuoo/apis/refs/heads/main/apps/speaknow/words/images/img-001.png"
+      ]
+    },
+    {
+        "id": 1,
+        "slug": "body-part",
+        "title" : "Body Part",
+        "desciption": "desc", 
+        "images" : [
+            "https://raw.githubusercontent.com/aungthuoo/apis/refs/heads/main/apps/speaknow/words/images/img-001.png"
+        ]
+    },
+    {
+        "id": 1,
+        "slug": "body-part",
+        "title" : "Body Part",
+        "desciption": "desc", 
+        "images" : [
+            "https://raw.githubusercontent.com/aungthuoo/apis/refs/heads/main/apps/speaknow/words/images/img-001.png"
+        ]
+    }
+  ]
