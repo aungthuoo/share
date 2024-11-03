@@ -1,0 +1,180 @@
+/* Base settings to mimic Tailwind */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Colors */
+  --color-primary: #3b82f6; /* Tailwind's blue-500 */
+  --color-gray-100: #f3f4f6;
+  --color-gray-900: #111827;
+
+  /* Font */
+  --font-sans: 'Helvetica Neue', sans-serif;
+}
+
+/* Base styling */
+html {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: var(--font-sans);
+  color: var(--color-gray-900);
+  background-color: var(--color-gray-100);
+}
+
+body {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 65px 10px;
+}
+
+/* Headings */
+h1 {
+  font-size: 2rem; /* text-2xl */
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 20px 0 10px 0;
+}
+
+h2 {
+  font-size: 1.5rem; /* text-xl */
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 20px 0 10px 0;
+}
+
+h3 {
+  font-size: 1.25rem; /* text-lg */
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 20px 0 10px 0;
+}
+
+/* Paragraphs */
+p {
+  /* margin-bottom: 1rem; */
+  line-height: 1.6;
+}
+
+/* Links */
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Button styling */
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.375rem;
+  background-color: var(--color-primary);
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+button:hover {
+  background-color: #2563eb; /* Tailwind's blue-600 */
+}
+
+/* Flexbox Layout */
+section,
+header,
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 0.375rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+/* Basic typography */
+small {
+  font-size: 0.875rem;
+  color: #6b7280; /* Tailwind's gray-500 */
+}
+
+/* Container (similar to Tailwind's container class) */
+main {
+  max-width: 1280px;
+  margin: auto;
+  padding: 1rem;
+}
+
+/* Utility-like padding and margin for direct usage */
+.padding-medium {
+  padding: 1rem;
+}
+.margin-medium {
+  margin: 1rem;
+}
+
+/* Background colors */
+.bg-primary {
+  background-color: var(--color-primary);
+  color: white;
+  padding: 1rem;
+  border-radius: 0.375rem;
+}
+.bg-gray {
+  background-color: var(--color-gray-100);
+  color: var(--color-gray-900);
+  padding: 1rem;
+  border-radius: 0.375rem;
+}
+
+/* Custom alignment styles */
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* Borders */
+.border {
+  border: 1px solid var(--color-gray-100);
+  border-radius: 0.375rem;
+  padding: 1rem;
+}
+hr{
+  margin-top: 1rem;
+}
+img{
+  /* max-width: 1024px; */
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+details{
+  padding: 6px 0;
+}
+summary {
+  font-weight: 800;
+  color: darkblue;
+  cursor: pointer;
+}
+
+summary ~ p{
+
+  padding: 5px 0 10px 15px; 
+}

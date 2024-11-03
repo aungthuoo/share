@@ -1,0 +1,177 @@
+{
+  "categories": [
+    {
+      "id" : 1,
+      "title" : "Vocabulary",
+      "slug" : "words", 
+      "description" : "",
+      "link": "/words",
+      "image" : "https://raw.githubusercontent.com/aungthuoo/share/refs/heads/main/apps/nativespeaker/assets/home/images/img-001.png"
+
+    },
+    {
+      "id" : 2,
+      "title" : "Speaking pattern",
+      "slug" : "patterns", 
+      "description" : "",
+      "link": "/patterns",
+      "image" : "https://raw.githubusercontent.com/aungthuoo/share/refs/heads/main/apps/nativespeaker/assets/home/images/img-002.png"
+    },
+
+    {
+      "id" : 3,
+      "title" : "Grammer",
+      "slug" : "grammer", 
+      "description" : "",
+      "link": "/grammer",
+      "image" : "https://raw.githubusercontent.com/aungthuoo/share/refs/heads/main/apps/nativespeaker/assets/home/images/img-003.png"
+    },
+    {
+      "id" : 4,
+      "title" : "Stories",
+      "slug" : "stories", 
+      "description" : "",
+      "link": "/stories",
+      "image" : "https://raw.githubusercontent.com/aungthuoo/share/refs/heads/main/apps/nativespeaker/assets/home/images/img-004.png"
+    },
+    {
+      "id" : 5,
+      "title" : "Essays",
+      "slug" : "essays", 
+      "description" : "",
+      "link": "/essays",
+      "image" : "https://raw.githubusercontent.com/aungthuoo/share/refs/heads/main/apps/nativespeaker/assets/home/images/img-005.png"
+    }
+  ],
+  
+  "words": [
+    {
+      "id" : 1,
+      "title" : "Body part",
+      "slug" : "body-part", 
+      "description" : "",
+      "images": [
+        "https://raw.githubusercontent.com/aungthuoo/share/refs/heads/main/apps/nativespeaker/vocabulary/images/img-001.png"
+      ],
+      "link" : ""
+
+    },
+    {
+      "id" : 1,
+      "title" : "Body part",
+      "slug" : "body-part", 
+      "description" : "",
+      "images": [
+        "https://raw.githubusercontent.com/aungthuoo/share/refs/heads/main/apps/nativespeaker/vocabulary/images/img-001.png"
+      ],
+      "link" : ""
+
+    },
+  ],
+  "patterns": [
+    {
+      "id" : 1,
+      "title" : "Vocabulary",
+      "slug" : "vocabulary", 
+      "description" : "",
+      "images": [
+        "https://raw.githubusercontent.com/aungthuoo/share/refs/heads/main/apps/speaknow/vocabulary/images/img-001.png"
+      ],
+      "link" : ""
+
+    },
+    {
+      "id" : 2,
+      "title" : "Speaking pattern",
+      "slug" : "speaking-pattern", 
+      "description" : "",
+      "images": [
+        "https://raw.githubusercontent.com/aungthuoo/share/refs/heads/main/apps/speaknow/vocabulary/images/img-002.png"
+      ],
+      "link" : ""
+    },
+    {
+      "id" : 3,
+      "title" : "Grammer",
+      "slug" : "grammer", 
+      "description" : "",
+      "images": [
+        "https://raw.githubusercontent.com/aungthuoo/share/refs/heads/main/apps/speaknow/vocabulary/images/img-003.png"
+      ],
+      "link" : ""
+    },
+    {
+      "id" : 4,
+      "title" : "Short stories",
+      "slug" : "short-stories", 
+      "description" : "",
+      "images": [
+        "https://raw.githubusercontent.com/aungthuoo/share/refs/heads/main/apps/speaknow/vocabulary/images/img-004.png"
+      ],
+      "link" : ""
+    },
+    {
+      "id" : 5,
+      "title" : "Essays",
+      "slug" : "essays", 
+      "description" : "",
+      "images": [
+        "https://raw.githubusercontent.com/aungthuoo/share/refs/heads/main/apps/speaknow/vocabulary/images/img-005.png"
+      ],
+      "link" : ""
+    }
+  ],
+  "stories": [
+    {
+      "id" : 1,
+      "title" : "Vocabulary",
+      "slug" : "vocabulary", 
+      "description" : "",
+      "images": [
+        "https://raw.githubusercontent.com/aungthuoo/share/refs/heads/main/apps/speaknow/vocabulary/images/img-001.png"
+      ],
+      "link" : ""
+
+    },
+    {
+      "id" : 2,
+      "title" : "Speaking pattern",
+      "slug" : "speaking-pattern", 
+      "description" : "",
+      "images": [
+        "https://raw.githubusercontent.com/aungthuoo/share/refs/heads/main/apps/speaknow/vocabulary/images/img-002.png"
+      ],
+      "link" : ""
+    },
+    {
+      "id" : 3,
+      "title" : "Grammer",
+      "slug" : "grammer", 
+      "description" : "",
+      "images": [
+        "https://raw.githubusercontent.com/aungthuoo/share/refs/heads/main/apps/speaknow/vocabulary/images/img-003.png"
+      ],
+      "link" : ""
+    },
+    {
+      "id" : 4,
+      "title" : "Short stories",
+      "slug" : "short-stories", 
+      "description" : "",
+      "images": [
+        "https://raw.githubusercontent.com/aungthuoo/apis/refs/heads/main/apps/speaknow/vocabulary/images/img-004.png"
+      ],
+      "link" : ""
+    },
+    {
+      "id" : 5,
+      "title" : "Essays",
+      "slug" : "essays", 
+      "description" : "",
+      "images": [
+        "https://raw.githubusercontent.com/aungthuoo/apis/refs/heads/main/apps/speaknow/vocabulary/images/img-005.png"
+      ],
+      "link" : ""
+    }
+  ]
+}
