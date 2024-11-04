@@ -2,21 +2,25 @@
 const dynamicContent = `
   <div class="w-full h-1 bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 animate-border fixed top-0 left-0 right-0"></div>
   
+
+  <!-- Go Back -->
+  <a  id="backButton" class="fixed flex items-center p-2 space-x-2 top-5 left-4 cursor-pointer">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-normal" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+    </svg>
+  </a>
+
+
+
   <!-- Logo -->
-  <a href="https://infolink.vercel.app/" class="fixed flex items-center p-2 space-x-2 top-4 left-4">
+  <a href="https://infolink.vercel.app/" class="fixed flex items-center top-4 left-16">
     <span>
-      <img src="https://infolink.vercel.app/static/images/logos/softwarezay.gif" alt="infolink" class="w-10 h-10"/>
+      <img src="https://infolink.vercel.app/static/images/logos/softwarezay.gif" alt="infolink" class="w-30 h-30 p-0"/>
       <span class="block text-xs font-bold text-transparent bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text lg:hidden">InfoLink</span>
     </span>
     <span class="hidden text-xl font-bold text-transparent lg:inline bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text">InfoLink</span>
   </a>
 
-  <!-- Menu -->
-  <style>
-    body {
-      overflow: hidden;
-    }
-  </style>
 
   <!-- Toggle Icon Button -->
   <button id="menu-toggle" class="fixed p-2 bg-white rounded-full shadow-lg top-4 right-4">
@@ -38,7 +42,7 @@ const dynamicContent = `
       <div class="flex items-center justify-between">
         <div class="flex items-center space-x-3">
           <a href="https://linkedin.com/in/aungthuoo">
-            <img alt="" loading="lazy" width="50" height="50" decoding="async" data-nimg="1" class="h-auto max-w-full bg-gray-100 rounded-full" src="https://aungthuoo.github.io/images/profile/ato.jpeg" style="color: transparent;">
+            <img alt="" loading="lazy" decoding="async" data-nimg="1" class="h-12 w-12  p-0 bg-gray-100 rounded-full" src="https://aungthuoo.github.io/images/profile/ato.jpeg" style="color: transparent;">
           </a>
           <div>
             <p class="text-sm font-bold text-gray-700">Available for Work</p>
@@ -64,4 +68,9 @@ document.addEventListener("DOMContentLoaded", () => {
       floatingMenu.classList.toggle('hidden'); // Toggle visibility
     });
   }
+});
+
+document.getElementById('backButton').addEventListener('click', function() {
+  const redirectUrl = 'https://infolink.vercel.com';
+  window.location.href = redirectUrl;
 });

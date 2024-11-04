@@ -71,6 +71,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 document.getElementById('backButton').addEventListener('click', function() {
-  const redirectUrl = 'https://example.com';
+  const redirectUrl = 'https://infolink.vercel.com';
   window.location.href = redirectUrl;
 });
