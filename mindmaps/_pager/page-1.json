@@ -7,6 +7,31 @@
       "link": "https://linkedin.com/in/aungthuoo"
     },
     "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
+    "link": "https://aungthuoo.github.io/share/mindmaps/tailwind-css-classes-and-directives/index.html", 
+    "categories": [
+      {
+        "name": "CSS"
+      },
+      {
+        "name": "TailwindCSS"
+      }
+    ],
+    "date": "6 Nov, 2024",
+    "title": "Tailwind CSS classes and directives",
+    "slug": "reactjs-hooks",
+    "images": [
+      "images/img-001.gif"
+    ],
+    "description": "Tailwind CSS classes and directives"
+  },
+  {
+    "author": {
+      "name": "Aung Thu Oo",
+      "image": "https://raw.githubusercontent.com/aungthuoo/apis/main/personal/ato/ato.jpeg",
+      "position": "Senior developer",
+      "link": "https://linkedin.com/in/aungthuoo"
+    },
+    "site": "https://raw.githubusercontent.com/aungthuoo/apis/main/blogs/",
     "link": "https://aungthuoo.github.io/share/mindmaps/reactjs-hooks/index.html", 
     "categories": [
       {
