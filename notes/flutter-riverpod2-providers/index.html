@@ -763,6 +763,42 @@ It’s a modern, declarative way to handle async operations (like <code>API call
   }
 }
 </div></code></pre>
+<h2 id="compare-asyncnotifierprovider-and-futureprovider-in-flutter-riverpod">Compare AsyncNotifierProvider and FutureProvider in Flutter Riverpod</h2>
+<p>Great question! Let's quickly compare AsyncNotifierProvider and FutureProvider in Flutter Riverpod so you can decide which one fits your use case better.</p>
+<h3 id="use-futureprovider-if">Use FutureProvider if:</h3>
+<ul>
+<li>You are only fetching data once.</li>
+<li>You don’t need internal state or logic.</li>
+<li>You want something lightweight and simple.</li>
+</ul>
+<pre class="hljs"><code><div><span class="hljs-keyword">final</span> myDataProvider = FutureProvider&lt;<span class="hljs-built_in">String</span>&gt;((ref) <span class="hljs-keyword">async</span> {
+  <span class="hljs-keyword">return</span> <span class="hljs-keyword">await</span> fetchSomething();
+});
+</div></code></pre>
+<p>Ideal for one-time HTTP calls, file reads, etc.</p>
+<h3 id="use-asyncnotifierprovider-if">Use AsyncNotifierProvider if:</h3>
+<ul>
+<li>You need more control or complex logic inside the provider.</li>
+<li>You want to manage internal state, refresh logic, or expose methods.</li>
+<li>You need fine-grained async logic + mutable state.</li>
+</ul>
+<pre class="hljs"><code><div><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyNotifier</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">AsyncNotifier</span>&lt;<span class="hljs-title">String</span>&gt; </span>{
+  <span class="hljs-meta">@override</span>
+  Future&lt;<span class="hljs-built_in">String</span>&gt; build() <span class="hljs-keyword">async</span> {
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">await</span> fetchSomething();
+  }
+
+  Future&lt;<span class="hljs-keyword">void</span>&gt; refresh() <span class="hljs-keyword">async</span> {
+    state = <span class="hljs-keyword">const</span> AsyncLoading();
+    state = <span class="hljs-keyword">await</span> AsyncValue.guard(() =&gt; fetchSomething());
+  }
+}
+
+<span class="hljs-keyword">final</span> myNotifierProvider = AsyncNotifierProvider&lt;MyNotifier, <span class="hljs-built_in">String</span>&gt;(() {
+  <span class="hljs-keyword">return</span> MyNotifier();
+});
+</div></code></pre>
+<p>Great for user interactions (e.g., <code>retry buttons</code>), or when you want methods like <code>refresh()</code> or <code>loadMore()</code>.</p>
 <h2 id="%E2%9A%A1-summary-table">⚡ Summary Table</h2>
 <table>
 <thead>
@@ -921,17 +957,4 @@ ref.watch(greetProvider(<span class="hljs-string">'Andrew'</span>));
 </ul>
 
 </body>
-
-
-<link rel="stylesheet" href="../style.css">
-<script src="https://cdn.tailwindcss.com"></script>
-<script src="../script.js"></script>
-<script>
-  const titleElements = document.getElementsByTagName('title');
-  if (titleElements.length > 0) {
-    titleElements[0].innerText = "Flutter Riverpod 2 : The different kinds of providers"; // Set your dynamic title here
-  }
-</script>
-
-  
 </html>

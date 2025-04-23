@@ -396,6 +396,53 @@ class MessageScreen extends ConsumerWidget {
 }
 ```
 
+
+
+
+## Compare AsyncNotifierProvider and FutureProvider in Flutter Riverpod
+
+Great question! Let's quickly compare AsyncNotifierProvider and FutureProvider in Flutter Riverpod so you can decide which one fits your use case better.
+
+### Use FutureProvider if:
+- You are only fetching data once.
+- You don’t need internal state or logic.
+- You want something lightweight and simple.
+
+```dart
+final myDataProvider = FutureProvider<String>((ref) async {
+  return await fetchSomething();
+});
+```
+Ideal for one-time HTTP calls, file reads, etc.
+
+### Use AsyncNotifierProvider if:
+- You need more control or complex logic inside the provider.
+- You want to manage internal state, refresh logic, or expose methods.
+- You need fine-grained async logic + mutable state.
+
+```dart
+class MyNotifier extends AsyncNotifier<String> {
+  @override
+  Future<String> build() async {
+    return await fetchSomething();
+  }
+
+  Future<void> refresh() async {
+    state = const AsyncLoading();
+    state = await AsyncValue.guard(() => fetchSomething());
+  }
+}
+
+final myNotifierProvider = AsyncNotifierProvider<MyNotifier, String>(() {
+  return MyNotifier();
+});
+```
+Great for user interactions (e.g., `retry buttons`), or when you want methods like `refresh()` or `loadMore()`.
+
+
+
+
+
 ## ⚡ Summary Table
 
 | Provider Type           | Use Case                            | State | Async | Mutable |
