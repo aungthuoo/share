@@ -397,9 +397,10 @@ code {
           : 'default'
     });
   </script>
-<h1 id="%E2%9C%85-flutter-riverpod-2-cheat-sheet">✅ Flutter Riverpod 2 Cheat Sheet</h1>
+<h1 id="%E2%9C%85-flutter-riverpod-2--the-different-kinds-of-providers">✅ Flutter Riverpod 2 : The different kinds of providers</h1>
 <h2 id="%F0%9F%94%B9-1-providert">🔹 1. Provider<T></h2>
-<p>Description: Exposes a value that doesn’t change (pure getter or computed).</p>
+<p>Provider is great for accessing dependencies that don't change, such as the <code>repositories</code> in our app.<br>
+You may use this to access <code>a repository</code>, <code>a logger</code>, or some other class that <code>doesn't contain mutable state</code>.</p>
 <p>Example:</p>
 <pre class="hljs"><code><div><span class="hljs-keyword">final</span> nameProvider = Provider&lt;<span class="hljs-built_in">String</span>&gt;((ref) =&gt; <span class="hljs-string">'Riverpod'</span>);
 
@@ -412,7 +413,7 @@ code {
 }
 </div></code></pre>
 <h2 id="%F0%9F%94%B9-2-stateprovidert">🔹 2. StateProvider<T></h2>
-<p>Description: A mutable state holder for simple values (like useState in React).</p>
+<p>StateProvider is ideal for storing simple state variables, such as <code>enums</code>, <code>strings</code>, <code>booleans</code>, and <code>numbers</code>.</p>
 <p>Example:</p>
 <pre class="hljs"><code><div><span class="hljs-keyword">final</span> counterProvider = StateProvider&lt;<span class="hljs-built_in">int</span>&gt;((ref) =&gt; <span class="hljs-number">0</span>);
 
@@ -433,115 +434,331 @@ code {
 }
 </div></code></pre>
 <h2 id="%F0%9F%94%B9-3-statenotifierprovidertnotifier-tstate">🔹 3. StateNotifierProvider&lt;TNotifier, TState&gt;</h2>
-<p>Description: More complex state management with logic in a StateNotifier.</p>
+<p><code>StateNotifierProvider</code> is used when you need more <code>structured</code>, <code>controllable</code>, and <code>testable</code> state management — especially for <code>complex</code> or <code>multi-step state</code> changes.</p>
 <p>Example:</p>
-<pre class="hljs"><code><div><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">CounterNotifier</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">StateNotifier</span>&lt;<span class="hljs-title">int</span>&gt; </span>{
-  CounterNotifier() : <span class="hljs-keyword">super</span>(<span class="hljs-number">0</span>);
-  <span class="hljs-keyword">void</span> increment() =&gt; state++;
+<pre class="hljs"><code><div><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Todo</span> </span>{
+  <span class="hljs-keyword">final</span> <span class="hljs-built_in">int</span> id;
+  <span class="hljs-keyword">final</span> <span class="hljs-built_in">String</span> title;
+  <span class="hljs-keyword">final</span> <span class="hljs-built_in">bool</span> isCompleted;
+
+  Todo({
+    required <span class="hljs-keyword">this</span>.id,
+    required <span class="hljs-keyword">this</span>.title,
+    <span class="hljs-keyword">this</span>.isCompleted = <span class="hljs-keyword">false</span>,
+  });
+
+  <span class="hljs-comment">// to update the completed status immutably</span>
+  Todo copyWith({<span class="hljs-built_in">bool</span>? isCompleted}) {
+    <span class="hljs-keyword">return</span> Todo(
+      id: id,
+      title: title,
+      isCompleted: isCompleted ?? <span class="hljs-keyword">this</span>.isCompleted,
+    );
+  }
 }
 
-<span class="hljs-keyword">final</span> counterNotifierProvider =
-    StateNotifierProvider&lt;CounterNotifier, <span class="hljs-built_in">int</span>&gt;((ref) =&gt; CounterNotifier());
+<span class="hljs-comment">// TodoNotifier.dart </span>
+<span class="hljs-keyword">import</span> <span class="hljs-string">'package:flutter_riverpod/flutter_riverpod.dart'</span>;
 
-<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyCounter</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">ConsumerWidget</span> </span>{
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">TodoNotifier</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">StateNotifier</span>&lt;<span class="hljs-title">List</span>&lt;<span class="hljs-title">Todo</span>&gt;&gt; </span>{
+  TodoNotifier() : <span class="hljs-keyword">super</span>([]);
+
+  <span class="hljs-keyword">void</span> addTodo(<span class="hljs-built_in">String</span> title) {
+    <span class="hljs-keyword">final</span> newTodo = Todo(
+      id: <span class="hljs-built_in">DateTime</span>.now().millisecondsSinceEpoch,
+      title: title,
+    );
+    state = [...state, newTodo];
+  }
+
+  <span class="hljs-keyword">void</span> toggleTodo(<span class="hljs-built_in">int</span> id) {
+    state = [
+      <span class="hljs-keyword">for</span> (<span class="hljs-keyword">final</span> todo <span class="hljs-keyword">in</span> state)
+        <span class="hljs-keyword">if</span> (todo.id == id)
+          todo.copyWith(isCompleted: !todo.isCompleted)
+        <span class="hljs-keyword">else</span>
+          todo
+    ];
+  }
+
+  <span class="hljs-keyword">void</span> removeTodo(<span class="hljs-built_in">int</span> id) {
+    state = state.where((todo) =&gt; todo.id != id).toList();
+  }
+}
+
+<span class="hljs-keyword">final</span> todoProvider = StateNotifierProvider&lt;TodoNotifier, <span class="hljs-built_in">List</span>&lt;Todo&gt;&gt;((ref) {
+  <span class="hljs-keyword">return</span> TodoNotifier();
+});
+
+
+<span class="hljs-comment">// main.dart </span>
+<span class="hljs-keyword">import</span> <span class="hljs-string">'package:flutter/material.dart'</span>;
+<span class="hljs-keyword">import</span> <span class="hljs-string">'package:flutter_riverpod/flutter_riverpod.dart'</span>;
+
+<span class="hljs-keyword">void</span> main() {
+  runApp(<span class="hljs-keyword">const</span> ProviderScope(child: MyApp()));
+}
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyApp</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">StatelessWidget</span> </span>{
+  <span class="hljs-keyword">const</span> MyApp({<span class="hljs-keyword">super</span>.key});
+
+  <span class="hljs-meta">@override</span>
+  Widget build(BuildContext context) {
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">const</span> MaterialApp(home: TodoPage());
+  }
+}
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">TodoPage</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">ConsumerWidget</span> </span>{
+  <span class="hljs-keyword">const</span> TodoPage({<span class="hljs-keyword">super</span>.key});
+
   <span class="hljs-meta">@override</span>
   Widget build(BuildContext context, WidgetRef ref) {
-    <span class="hljs-keyword">final</span> count = ref.watch(counterNotifierProvider);
-    <span class="hljs-keyword">return</span> Column(
-      children: [
-        Text(<span class="hljs-string">'Count: <span class="hljs-subst">$count</span>'</span>),
-        ElevatedButton(
-          onPressed: () =&gt; ref.read(counterNotifierProvider.notifier).increment(),
-          child: Text(<span class="hljs-string">'Increment'</span>),
-        ),
-      ],
+    <span class="hljs-keyword">final</span> todos = ref.watch(todoProvider); <span class="hljs-comment">// watch todos</span>
+    <span class="hljs-keyword">final</span> todoNotifier = ref.read(todoProvider.notifier); <span class="hljs-comment">// get notifier</span>
+
+    <span class="hljs-keyword">final</span> controller = TextEditingController();
+
+    <span class="hljs-keyword">return</span> Scaffold(
+      appBar: AppBar(title: <span class="hljs-keyword">const</span> Text(<span class="hljs-string">'Todo List'</span>)),
+      body: Column(
+        children: [
+          Padding(
+            padding: <span class="hljs-keyword">const</span> EdgeInsets.all(<span class="hljs-number">12.0</span>),
+            child: TextField(
+              controller: controller,
+              decoration: <span class="hljs-keyword">const</span> InputDecoration(labelText: <span class="hljs-string">'New todo'</span>),
+              onSubmitted: (value) {
+                <span class="hljs-keyword">if</span> (value.isNotEmpty) {
+                  todoNotifier.addTodo(value);
+                  controller.clear();
+                }
+              },
+            ),
+          ),
+          Expanded(
+            child: ListView.builder(
+              itemCount: todos.length,
+              itemBuilder: (context, index) {
+                <span class="hljs-keyword">final</span> todo = todos[index];
+                <span class="hljs-keyword">return</span> ListTile(
+                  title: Text(
+                    todo.title,
+                    style: TextStyle(
+                      decoration: todo.isCompleted
+                          ? TextDecoration.lineThrough
+                          : <span class="hljs-keyword">null</span>,
+                    ),
+                  ),
+                  leading: Checkbox(
+                    value: todo.isCompleted,
+                    onChanged: (_) {
+                      todoNotifier.toggleTodo(todo.id);
+                    },
+                  ),
+                  trailing: IconButton(
+                    icon: <span class="hljs-keyword">const</span> Icon(Icons.delete),
+                    onPressed: () {
+                      todoNotifier.removeTodo(todo.id);
+                    },
+                  ),
+                );
+              },
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
 </div></code></pre>
 <h2 id="%F0%9F%94%B9-4-futureprovidert">🔹 4. FutureProvider<T></h2>
-<p>Description: Asynchronously provides a future value (e.g. from API).</p>
+<p><code>FutureProvider</code> is used when you need <code>to fetch asynchronous data</code> — something that returns a Future, like fetching data from a <code>database</code>, <code>API</code>, or <code>local storage</code>.</p>
+<p>It listens to a Future and exposes its result to your UI safely, handling the <code>loading</code>, <code>success</code>, and <code>error</code> states for you.</p>
 <p>Example:</p>
-<pre class="hljs"><code><div><span class="hljs-keyword">final</span> userProvider = FutureProvider&lt;<span class="hljs-built_in">String</span>&gt;((ref) <span class="hljs-keyword">async</span> {
-  <span class="hljs-keyword">await</span> Future.delayed(<span class="hljs-built_in">Duration</span>(seconds: <span class="hljs-number">2</span>));
-  <span class="hljs-keyword">return</span> <span class="hljs-string">'User Loaded'</span>;
+<pre class="hljs"><code><div><span class="hljs-comment">// MessageProvider.dart </span>
+<span class="hljs-keyword">import</span> <span class="hljs-string">'package:flutter_riverpod/flutter_riverpod.dart'</span>;
+
+<span class="hljs-comment">// A FutureProvider that simulates fetching a message</span>
+<span class="hljs-keyword">final</span> messageProvider = FutureProvider&lt;<span class="hljs-built_in">String</span>&gt;((ref) <span class="hljs-keyword">async</span> {
+  <span class="hljs-keyword">await</span> Future.delayed(<span class="hljs-keyword">const</span> <span class="hljs-built_in">Duration</span>(seconds: <span class="hljs-number">2</span>));  <span class="hljs-comment">// simulate delay</span>
+  <span class="hljs-keyword">return</span> <span class="hljs-string">"Hello from Riverpod FutureProvider!"</span>;
 });
 
-<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">UserWidget</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">ConsumerWidget</span> </span>{
+<span class="hljs-comment">// main.dart </span>
+<span class="hljs-keyword">import</span> <span class="hljs-string">'package:flutter/material.dart'</span>;
+<span class="hljs-keyword">import</span> <span class="hljs-string">'package:flutter_riverpod/flutter_riverpod.dart'</span>;
+
+<span class="hljs-keyword">void</span> main() {
+  runApp(<span class="hljs-keyword">const</span> ProviderScope(child: MyApp()));
+}
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyApp</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">StatelessWidget</span> </span>{
+  <span class="hljs-keyword">const</span> MyApp({<span class="hljs-keyword">super</span>.key});
+
+  <span class="hljs-meta">@override</span>
+  Widget build(BuildContext context) {
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">const</span> MaterialApp(
+      home: MessageScreen(),
+    );
+  }
+}
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MessageScreen</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">ConsumerWidget</span> </span>{
+  <span class="hljs-keyword">const</span> MessageScreen({<span class="hljs-keyword">super</span>.key});
+
   <span class="hljs-meta">@override</span>
   Widget build(BuildContext context, WidgetRef ref) {
-    <span class="hljs-keyword">final</span> userAsync = ref.watch(userProvider);
-    <span class="hljs-keyword">return</span> userAsync.when(
-      data: (name) =&gt; Text(name),
-      loading: () =&gt; CircularProgressIndicator(),
-      error: (err, _) =&gt; Text(<span class="hljs-string">'Error: <span class="hljs-subst">$err</span>'</span>),
+    <span class="hljs-keyword">final</span> messageAsyncValue = ref.watch(messageProvider);
+
+    <span class="hljs-keyword">return</span> Scaffold(
+      appBar: AppBar(title: <span class="hljs-keyword">const</span> Text(<span class="hljs-string">'FutureProvider Example'</span>)),
+      body: Center(
+        child: messageAsyncValue.when(
+          data: (message) =&gt; Text(message, style: <span class="hljs-keyword">const</span> TextStyle(fontSize: <span class="hljs-number">20</span>)),
+          loading: () =&gt; <span class="hljs-keyword">const</span> CircularProgressIndicator(),
+          error: (err, stack) =&gt; Text(<span class="hljs-string">'Error: <span class="hljs-subst">$err</span>'</span>),
+        ),
+      ),
     );
   }
 }
 </div></code></pre>
 <h2 id="%F0%9F%94%B9-5-streamprovidert">🔹 5. StreamProvider<T></h2>
-<p>Description: Provides a stream of values and listens for changes.</p>
+<p>Use <code>StreamProvider</code> to watch a Stream of results from a <code>realtime API</code> and <code>reactively</code> <code>rebuild</code> the UI.<br>
+StreamProvider is a provider designed to expose <code>stream-based asynchronous data</code> to your Flutter widgets.</p>
 <p>Example:</p>
-<pre class="hljs"><code><div><span class="hljs-keyword">final</span> timeProvider = StreamProvider&lt;<span class="hljs-built_in">int</span>&gt;((ref) {
-  <span class="hljs-keyword">return</span> Stream.periodic(<span class="hljs-built_in">Duration</span>(seconds: <span class="hljs-number">1</span>), (count) =&gt; count);
+<pre class="hljs"><code><div><span class="hljs-comment">// StreamProvider.dart </span>
+<span class="hljs-keyword">import</span> <span class="hljs-string">'package:flutter_riverpod/flutter_riverpod.dart'</span>;
+
+<span class="hljs-keyword">final</span> counterStreamProvider = StreamProvider&lt;<span class="hljs-built_in">int</span>&gt;((ref) {
+  <span class="hljs-keyword">return</span> Stream.periodic(
+    <span class="hljs-keyword">const</span> <span class="hljs-built_in">Duration</span>(seconds: <span class="hljs-number">1</span>),
+    (count) =&gt; count,
+  );
 });
 
-<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">TimerWidget</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">ConsumerWidget</span> </span>{
+
+<span class="hljs-comment">// main.dart </span>
+<span class="hljs-keyword">import</span> <span class="hljs-string">'package:flutter/material.dart'</span>;
+<span class="hljs-keyword">import</span> <span class="hljs-string">'package:flutter_riverpod/flutter_riverpod.dart'</span>;
+
+<span class="hljs-keyword">void</span> main() {
+  runApp(<span class="hljs-keyword">const</span> ProviderScope(child: MyApp()));
+}
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyApp</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">StatelessWidget</span> </span>{
+  <span class="hljs-keyword">const</span> MyApp({<span class="hljs-keyword">super</span>.key});
+  
   <span class="hljs-meta">@override</span>
-  Widget build(BuildContext context, WidgetRef ref) {
-    <span class="hljs-keyword">final</span> timeAsync = ref.watch(timeProvider);
-    <span class="hljs-keyword">return</span> timeAsync.when(
-      data: (time) =&gt; Text(<span class="hljs-string">'Time: <span class="hljs-subst">$time</span>'</span>),
-      loading: () =&gt; CircularProgressIndicator(),
-      error: (err, _) =&gt; Text(<span class="hljs-string">'Error: <span class="hljs-subst">$err</span>'</span>),
+  Widget build(BuildContext context) {
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">const</span> MaterialApp(
+      home: CounterStreamPage(),
     );
   }
 }
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">CounterStreamPage</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">ConsumerWidget</span> </span>{
+  <span class="hljs-keyword">const</span> CounterStreamPage({<span class="hljs-keyword">super</span>.key});
+  
+  <span class="hljs-meta">@override</span>
+  Widget build(BuildContext context, WidgetRef ref) {
+    <span class="hljs-keyword">final</span> counterAsyncValue = ref.watch(counterStreamProvider);
+    
+    <span class="hljs-keyword">return</span> Scaffold(
+      appBar: AppBar(title: <span class="hljs-keyword">const</span> Text(<span class="hljs-string">'Riverpod StreamProvider'</span>)),
+      body: Center(
+        child: counterAsyncValue.when(
+          data: (value) =&gt; Text(
+            <span class="hljs-string">'Counter: <span class="hljs-subst">$value</span>'</span>,
+            style: <span class="hljs-keyword">const</span> TextStyle(fontSize: <span class="hljs-number">30</span>),
+          ),
+          loading: () =&gt; <span class="hljs-keyword">const</span> CircularProgressIndicator(),
+          error: (error, stack) =&gt; Text(<span class="hljs-string">'Error: <span class="hljs-subst">$error</span>'</span>),
+        ),
+      ),
+    );
+  }
+}
+
 </div></code></pre>
-<h2 id="%F0%9F%94%B9-6-notifierprovidertnotifier-tstate">🔹 6. NotifierProvider&lt;TNotifier, TState&gt;</h2>
-<p>Description: Uses the new Notifier class (replacing StateNotifier) to manage state.</p>
-<p>Example:</p>
-<pre class="hljs"><code><div><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Counter</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Notifier</span>&lt;<span class="hljs-title">int</span>&gt; </span>{
+<h2 id="%F0%9F%94%B9-6-notifierprovider">🔹 6. NotifierProvider</h2>
+<p>This is used when your state is <code>synchronous</code> — meaning updates happen instantly, <code>without waiting</code> for asynchronous operations like network requests, file I/O, or database calls. State updates are <code>immediate</code> and can be controlled with state = assignments.<br>
+It combines the simplicity of <code>StateNotifierProvider</code> from <code>Riverpod 1.x</code> with a cleaner, more scalable pattern.</p>
+<h3 id="old-way--riverpod-1x--still-valid">(Old Way — Riverpod 1.x / still valid)</h3>
+<pre class="hljs"><code><div><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">CounterNotifier</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">StateNotifier</span>&lt;<span class="hljs-title">int</span>&gt; </span>{
+  CounterNotifier() : <span class="hljs-keyword">super</span>(<span class="hljs-number">0</span>);
+
+  <span class="hljs-keyword">void</span> increment() =&gt; state++;
+}
+
+<span class="hljs-keyword">final</span> counterProvider = StateNotifierProvider&lt;CounterNotifier, <span class="hljs-built_in">int</span>&gt;((ref) {
+  <span class="hljs-keyword">return</span> CounterNotifier();
+});
+</div></code></pre>
+<h3 id="new-way--riverpod-2x-recommended">(New Way — Riverpod 2.x, recommended)</h3>
+<pre class="hljs"><code><div><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">CounterNotifier</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Notifier</span>&lt;<span class="hljs-title">int</span>&gt; </span>{
   <span class="hljs-meta">@override</span>
   <span class="hljs-built_in">int</span> build() =&gt; <span class="hljs-number">0</span>;
 
   <span class="hljs-keyword">void</span> increment() =&gt; state++;
 }
 
-<span class="hljs-keyword">final</span> counterProvider = NotifierProvider&lt;Counter, <span class="hljs-built_in">int</span>&gt;(Counter.<span class="hljs-keyword">new</span>);
+<span class="hljs-keyword">final</span> counterProvider = NotifierProvider&lt;CounterNotifier, <span class="hljs-built_in">int</span>&gt;(() {
+  <span class="hljs-keyword">return</span> CounterNotifier();
+});
+</div></code></pre>
+<h2 id="%F0%9F%94%B9-7-asyncnotifierprovidertnotifier-tstate">🔹 7. AsyncNotifierProvider&lt;TNotifier, TState&gt;</h2>
+<p>In Riverpod 2, <code>AsyncNotifierProvider</code> is a provider <code>for managing asynchronous state</code> using a class that extends <code>AsyncNotifier&lt;T&gt;</code>.<br>
+It’s a modern, declarative way to handle async operations (like <code>API calls</code>, <code>DB queries</code>, etc.) — replacing patterns that previously involved <code>FutureProvider</code> and <code>StateNotifier</code>.</p>
+<pre class="hljs"><code><div>
+<span class="hljs-keyword">import</span> <span class="hljs-string">'package:flutter/material.dart'</span>;
+<span class="hljs-keyword">import</span> <span class="hljs-string">'package:flutter_riverpod/flutter_riverpod.dart'</span>;
 
-<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">CounterUI</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">ConsumerWidget</span> </span>{
+<span class="hljs-comment">// Define an AsyncNotifier</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MessageNotifier</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">AsyncNotifier</span>&lt;<span class="hljs-title">String</span>&gt; </span>{
   <span class="hljs-meta">@override</span>
-  Widget build(BuildContext context, WidgetRef ref) {
-    <span class="hljs-keyword">final</span> count = ref.watch(counterProvider);
-    <span class="hljs-keyword">return</span> ElevatedButton(
-      onPressed: () =&gt; ref.read(counterProvider.notifier).increment(),
-      child: Text(<span class="hljs-string">'Count: <span class="hljs-subst">$count</span>'</span>),
+  Future&lt;<span class="hljs-built_in">String</span>&gt; build() <span class="hljs-keyword">async</span> {
+    <span class="hljs-keyword">await</span> Future.delayed(<span class="hljs-keyword">const</span> <span class="hljs-built_in">Duration</span>(seconds: <span class="hljs-number">2</span>));  <span class="hljs-comment">// Simulate network delay</span>
+    <span class="hljs-keyword">return</span> <span class="hljs-string">"Hello from AsyncNotifier!"</span>;
+  }
+}
+
+<span class="hljs-comment">// Create a provider for the notifier</span>
+<span class="hljs-keyword">final</span> messageProvider = AsyncNotifierProvider&lt;MessageNotifier, <span class="hljs-built_in">String</span>&gt;(() =&gt; MessageNotifier());
+
+<span class="hljs-comment">// Main App</span>
+<span class="hljs-keyword">void</span> main() {
+  runApp(<span class="hljs-keyword">const</span> ProviderScope(child: MyApp()));
+}
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyApp</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">StatelessWidget</span> </span>{
+  <span class="hljs-keyword">const</span> MyApp({<span class="hljs-keyword">super</span>.key});
+  
+  <span class="hljs-meta">@override</span>
+  Widget build(BuildContext context) {
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">const</span> MaterialApp(
+      home: MessageScreen(),
     );
   }
 }
-</div></code></pre>
-<h2 id="%F0%9F%94%B9-7-asyncnotifierprovidertnotifier-tstate">🔹 7. AsyncNotifierProvider&lt;TNotifier, TState&gt;</h2>
-<p>Description: Like Notifier, but supports async initialization.</p>
-<p>Example:</p>
-<pre class="hljs"><code><div><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">UserAsyncNotifier</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">AsyncNotifier</span>&lt;<span class="hljs-title">String</span>&gt; </span>{
-  <span class="hljs-meta">@override</span>
-  Future&lt;<span class="hljs-built_in">String</span>&gt; build() <span class="hljs-keyword">async</span> {
-    <span class="hljs-keyword">await</span> Future.delayed(<span class="hljs-built_in">Duration</span>(seconds: <span class="hljs-number">1</span>));
-    <span class="hljs-keyword">return</span> <span class="hljs-string">'Async User'</span>;
-  }
-}
 
-<span class="hljs-keyword">final</span> userProvider = AsyncNotifierProvider&lt;UserAsyncNotifier, <span class="hljs-built_in">String</span>&gt;(UserAsyncNotifier.<span class="hljs-keyword">new</span>);
-
-<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">UserUI</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">ConsumerWidget</span> </span>{
+<span class="hljs-comment">// Widget to consume the provider</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MessageScreen</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">ConsumerWidget</span> </span>{
+  <span class="hljs-keyword">const</span> MessageScreen({<span class="hljs-keyword">super</span>.key});
+  
   <span class="hljs-meta">@override</span>
   Widget build(BuildContext context, WidgetRef ref) {
-    <span class="hljs-keyword">final</span> userAsync = ref.watch(userProvider);
-    <span class="hljs-keyword">return</span> userAsync.when(
-      data: (user) =&gt; Text(<span class="hljs-string">'User: <span class="hljs-subst">$user</span>'</span>),
-      loading: () =&gt; CircularProgressIndicator(),
-      error: (err, _) =&gt; Text(<span class="hljs-string">'Error: <span class="hljs-subst">$err</span>'</span>),
+    <span class="hljs-keyword">final</span> messageAsync = ref.watch(messageProvider);
+
+    <span class="hljs-keyword">return</span> Scaffold(
+      appBar: AppBar(title: <span class="hljs-keyword">const</span> Text(<span class="hljs-string">"AsyncNotifierProvider Example"</span>)),
+      body: Center(
+        child: messageAsync.when(
+          data: (message) =&gt; Text(message, style: <span class="hljs-keyword">const</span> TextStyle(fontSize: <span class="hljs-number">24</span>)),
+          loading: () =&gt; <span class="hljs-keyword">const</span> CircularProgressIndicator(),
+          error: (err, stack) =&gt; Text(<span class="hljs-string">"Error: <span class="hljs-subst">$err</span>"</span>),
+        ),
+      ),
     );
   }
 }
@@ -704,18 +921,4 @@ ref.watch(greetProvider(<span class="hljs-string">'Andrew'</span>));
 </ul>
 
 </body>
-
-
-<link rel="stylesheet" href="../style.css">
-<script src="https://cdn.tailwindcss.com"></script>
-<script src="../script.js"></script>
-<script>
-  const titleElements = document.getElementsByTagName('title');
-  if (titleElements.length > 0) {
-    titleElements[0].innerText = "Flutter Riverpod 2 Cheat Sheet"; // Set your dynamic title here
-  }
-</script>
-
-  
-
 </html>
