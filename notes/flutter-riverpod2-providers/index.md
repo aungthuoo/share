@@ -550,3 +550,83 @@ void main() {
 - Compose small providers.
 
 - Use `.family` for parameterized data.
+
+
+## Example Usage : How to call the `provider service` from inside `AsyncNotifier`:
+
+### define the UserService provider:
+```dart
+final userServiceProvider = Provider<UserService>((ref) {
+  return UserService();
+});
+
+class UserService {
+  String getUserName() {
+    return 'Aung Thu Oo';
+  }
+
+  Future<String> userInfo() async {
+    await Future.delayed(const Duration(seconds: 1)); // Simulate delay
+    return "User Information!";
+  }
+}
+```
+
+### Then modify your UserNotifier to use `ref.read(...)`:
+```dart
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+class UserNotifier extends AsyncNotifier<String> {
+  late final UserService userService;
+
+  @override
+  Future<String> build() async {
+    userService = ref.read(userServiceProvider);
+    return await userService.userInfo();
+  }
+
+
+  Future<void> refresh() async {
+    state = const AsyncLoading();
+    state = await AsyncValue.guard(() => fetchSomething());
+  }
+
+  Future<String> fetchSomething() async {
+    await Future.delayed(const Duration(seconds: 2));
+    return "Hello from ${userService.getUserName()}!";
+  }
+
+}
+
+final userNotifierProvider =
+    AsyncNotifierProvider<UserNotifier, String>(() => UserNotifier());
+```
+
+### Use in Widget:
+```dart
+class UserScreen extends ConsumerWidget {
+  const UserScreen({super.key});
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final calcState = ref.watch(userNotifierProvider);
+
+    return Scaffold(
+      appBar: AppBar(title: const Text('Voucher Calculator')),
+      body: Center(
+        child: calcState.when(
+          loading: () => const CircularProgressIndicator(),
+          error: (e, _) => Text('Error: $e'),
+          data: (data) => Text(data),
+        ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          ref.read(userNotifierProvider.notifier).refresh();
+        },
+        child: const Icon(Icons.refresh),
+      ),
+    );
+  }
+}
+```
