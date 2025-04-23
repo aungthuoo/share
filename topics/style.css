@@ -178,3 +178,9 @@ summary ~ p{
 
   padding: 5px 0 10px 15px; 
 }
+
+menu, ol, ul {
+  margin: 0;
+  padding: 15px !important;
+  list-style: disc !important;
+}
