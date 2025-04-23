@@ -1,6 +1,7 @@
-# ✅ Flutter Riverpod 2 Cheat Sheet
+# ✅ Flutter Riverpod 2 : The different kinds of providers
 ## 🔹 1. Provider<T>
-Description: Exposes a value that doesn’t change (pure getter or computed).
+Provider is great for accessing dependencies that don't change, such as the `repositories` in our app. 
+You may use this to access `a repository`, `a logger`, or some other class that `doesn't contain mutable state`.
 
 Example:
 ```dart
@@ -18,7 +19,7 @@ class MyWidget extends ConsumerWidget {
 
 
 ## 🔹 2. StateProvider<T>
-Description: A mutable state holder for simple values (like useState in React).
+StateProvider is ideal for storing simple state variables, such as `enums`, `strings`, `booleans`, and `numbers`. 
 
 Example:
 ```dart
@@ -42,129 +43,354 @@ class CounterWidget extends ConsumerWidget {
 ```
 
 ## 🔹 3. StateNotifierProvider<TNotifier, TState>
-Description: More complex state management with logic in a StateNotifier.
+`StateNotifierProvider` is used when you need more `structured`, `controllable`, and `testable` state management — especially for `complex` or `multi-step state` changes.
 
 Example:
+
+```dart
+class Todo {
+  final int id;
+  final String title;
+  final bool isCompleted;
+
+  Todo({
+    required this.id,
+    required this.title,
+    this.isCompleted = false,
+  });
+
+  // to update the completed status immutably
+  Todo copyWith({bool? isCompleted}) {
+    return Todo(
+      id: id,
+      title: title,
+      isCompleted: isCompleted ?? this.isCompleted,
+    );
+  }
+}
+
+// TodoNotifier.dart 
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+class TodoNotifier extends StateNotifier<List<Todo>> {
+  TodoNotifier() : super([]);
+
+  void addTodo(String title) {
+    final newTodo = Todo(
+      id: DateTime.now().millisecondsSinceEpoch,
+      title: title,
+    );
+    state = [...state, newTodo];
+  }
+
+  void toggleTodo(int id) {
+    state = [
+      for (final todo in state)
+        if (todo.id == id)
+          todo.copyWith(isCompleted: !todo.isCompleted)
+        else
+          todo
+    ];
+  }
+
+  void removeTodo(int id) {
+    state = state.where((todo) => todo.id != id).toList();
+  }
+}
+
+final todoProvider = StateNotifierProvider<TodoNotifier, List<Todo>>((ref) {
+  return TodoNotifier();
+});
+
+
+// main.dart 
+import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+void main() {
+  runApp(const ProviderScope(child: MyApp()));
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const MaterialApp(home: TodoPage());
+  }
+}
+
+class TodoPage extends ConsumerWidget {
+  const TodoPage({super.key});
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final todos = ref.watch(todoProvider); // watch todos
+    final todoNotifier = ref.read(todoProvider.notifier); // get notifier
+
+    final controller = TextEditingController();
+
+    return Scaffold(
+      appBar: AppBar(title: const Text('Todo List')),
+      body: Column(
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(12.0),
+            child: TextField(
+              controller: controller,
+              decoration: const InputDecoration(labelText: 'New todo'),
+              onSubmitted: (value) {
+                if (value.isNotEmpty) {
+                  todoNotifier.addTodo(value);
+                  controller.clear();
+                }
+              },
+            ),
+          ),
+          Expanded(
+            child: ListView.builder(
+              itemCount: todos.length,
+              itemBuilder: (context, index) {
+                final todo = todos[index];
+                return ListTile(
+                  title: Text(
+                    todo.title,
+                    style: TextStyle(
+                      decoration: todo.isCompleted
+                          ? TextDecoration.lineThrough
+                          : null,
+                    ),
+                  ),
+                  leading: Checkbox(
+                    value: todo.isCompleted,
+                    onChanged: (_) {
+                      todoNotifier.toggleTodo(todo.id);
+                    },
+                  ),
+                  trailing: IconButton(
+                    icon: const Icon(Icons.delete),
+                    onPressed: () {
+                      todoNotifier.removeTodo(todo.id);
+                    },
+                  ),
+                );
+              },
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+```
+
+
+## 🔹 4. FutureProvider<T>
+`FutureProvider` is used when you need `to fetch asynchronous data` — something that returns a Future, like fetching data from a `database`, `API`, or `local storage`.
+
+It listens to a Future and exposes its result to your UI safely, handling the `loading`, `success`, and `error` states for you.
+
+Example:
+```dart
+// MessageProvider.dart 
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+// A FutureProvider that simulates fetching a message
+final messageProvider = FutureProvider<String>((ref) async {
+  await Future.delayed(const Duration(seconds: 2));  // simulate delay
+  return "Hello from Riverpod FutureProvider!";
+});
+
+// main.dart 
+import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+void main() {
+  runApp(const ProviderScope(child: MyApp()));
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const MaterialApp(
+      home: MessageScreen(),
+    );
+  }
+}
+
+class MessageScreen extends ConsumerWidget {
+  const MessageScreen({super.key});
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final messageAsyncValue = ref.watch(messageProvider);
+
+    return Scaffold(
+      appBar: AppBar(title: const Text('FutureProvider Example')),
+      body: Center(
+        child: messageAsyncValue.when(
+          data: (message) => Text(message, style: const TextStyle(fontSize: 20)),
+          loading: () => const CircularProgressIndicator(),
+          error: (err, stack) => Text('Error: $err'),
+        ),
+      ),
+    );
+  }
+}
+```
+
+
+## 🔹 5. StreamProvider<T>
+Use `StreamProvider` to watch a Stream of results from a `realtime API` and `reactively` `rebuild` the UI.
+StreamProvider is a provider designed to expose `stream-based asynchronous data` to your Flutter widgets. 
+
+Example:
+
+```dart 
+// StreamProvider.dart 
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+final counterStreamProvider = StreamProvider<int>((ref) {
+  return Stream.periodic(
+    const Duration(seconds: 1),
+    (count) => count,
+  );
+});
+
+
+// main.dart 
+import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+void main() {
+  runApp(const ProviderScope(child: MyApp()));
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+  
+  @override
+  Widget build(BuildContext context) {
+    return const MaterialApp(
+      home: CounterStreamPage(),
+    );
+  }
+}
+
+class CounterStreamPage extends ConsumerWidget {
+  const CounterStreamPage({super.key});
+  
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final counterAsyncValue = ref.watch(counterStreamProvider);
+    
+    return Scaffold(
+      appBar: AppBar(title: const Text('Riverpod StreamProvider')),
+      body: Center(
+        child: counterAsyncValue.when(
+          data: (value) => Text(
+            'Counter: $value',
+            style: const TextStyle(fontSize: 30),
+          ),
+          loading: () => const CircularProgressIndicator(),
+          error: (error, stack) => Text('Error: $error'),
+        ),
+      ),
+    );
+  }
+}
+
+```
+
+## 🔹 6. NotifierProvider 
+This is used when your state is `synchronous` — meaning updates happen instantly, `without waiting` for asynchronous operations like network requests, file I/O, or database calls. State updates are `immediate` and can be controlled with state = assignments.
+It combines the simplicity of `StateNotifierProvider` from `Riverpod 1.x` with a cleaner, more scalable pattern.
+
+### (Old Way — Riverpod 1.x / still valid)
+
 ```dart
 class CounterNotifier extends StateNotifier<int> {
   CounterNotifier() : super(0);
+
   void increment() => state++;
 }
 
-final counterNotifierProvider =
-    StateNotifierProvider<CounterNotifier, int>((ref) => CounterNotifier());
-
-class MyCounter extends ConsumerWidget {
-  @override
-  Widget build(BuildContext context, WidgetRef ref) {
-    final count = ref.watch(counterNotifierProvider);
-    return Column(
-      children: [
-        Text('Count: $count'),
-        ElevatedButton(
-          onPressed: () => ref.read(counterNotifierProvider.notifier).increment(),
-          child: Text('Increment'),
-        ),
-      ],
-    );
-  }
-}
-```
-
-## 🔹 4. FutureProvider<T>
-Description: Asynchronously provides a future value (e.g. from API).
-
-Example:
-```dart
-final userProvider = FutureProvider<String>((ref) async {
-  await Future.delayed(Duration(seconds: 2));
-  return 'User Loaded';
+final counterProvider = StateNotifierProvider<CounterNotifier, int>((ref) {
+  return CounterNotifier();
 });
-
-class UserWidget extends ConsumerWidget {
-  @override
-  Widget build(BuildContext context, WidgetRef ref) {
-    final userAsync = ref.watch(userProvider);
-    return userAsync.when(
-      data: (name) => Text(name),
-      loading: () => CircularProgressIndicator(),
-      error: (err, _) => Text('Error: $err'),
-    );
-  }
-}
 ```
 
-## 🔹 5. StreamProvider<T>
-Description: Provides a stream of values and listens for changes.
+### (New Way — Riverpod 2.x, recommended)
 
-Example:
 ```dart
-final timeProvider = StreamProvider<int>((ref) {
-  return Stream.periodic(Duration(seconds: 1), (count) => count);
-});
-
-class TimerWidget extends ConsumerWidget {
-  @override
-  Widget build(BuildContext context, WidgetRef ref) {
-    final timeAsync = ref.watch(timeProvider);
-    return timeAsync.when(
-      data: (time) => Text('Time: $time'),
-      loading: () => CircularProgressIndicator(),
-      error: (err, _) => Text('Error: $err'),
-    );
-  }
-}
-```
-
-## 🔹 6. NotifierProvider<TNotifier, TState>
-Description: Uses the new Notifier class (replacing StateNotifier) to manage state.
-
-Example:
-```dart
-class Counter extends Notifier<int> {
+class CounterNotifier extends Notifier<int> {
   @override
   int build() => 0;
 
   void increment() => state++;
 }
 
-final counterProvider = NotifierProvider<Counter, int>(Counter.new);
-
-class CounterUI extends ConsumerWidget {
-  @override
-  Widget build(BuildContext context, WidgetRef ref) {
-    final count = ref.watch(counterProvider);
-    return ElevatedButton(
-      onPressed: () => ref.read(counterProvider.notifier).increment(),
-      child: Text('Count: $count'),
-    );
-  }
-}
+final counterProvider = NotifierProvider<CounterNotifier, int>(() {
+  return CounterNotifier();
+});
 ```
 
 ## 🔹 7. AsyncNotifierProvider<TNotifier, TState>
-Description: Like Notifier, but supports async initialization.
+In Riverpod 2, `AsyncNotifierProvider` is a provider `for managing asynchronous state` using a class that extends `AsyncNotifier<T>`.
+It’s a modern, declarative way to handle async operations (like `API calls`, `DB queries`, etc.) — replacing patterns that previously involved `FutureProvider` and `StateNotifier`.
 
-Example:
 ```dart
-class UserAsyncNotifier extends AsyncNotifier<String> {
+
+import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+// Define an AsyncNotifier
+class MessageNotifier extends AsyncNotifier<String> {
   @override
   Future<String> build() async {
-    await Future.delayed(Duration(seconds: 1));
-    return 'Async User';
+    await Future.delayed(const Duration(seconds: 2));  // Simulate network delay
+    return "Hello from AsyncNotifier!";
   }
 }
 
-final userProvider = AsyncNotifierProvider<UserAsyncNotifier, String>(UserAsyncNotifier.new);
+// Create a provider for the notifier
+final messageProvider = AsyncNotifierProvider<MessageNotifier, String>(() => MessageNotifier());
 
-class UserUI extends ConsumerWidget {
+// Main App
+void main() {
+  runApp(const ProviderScope(child: MyApp()));
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+  
+  @override
+  Widget build(BuildContext context) {
+    return const MaterialApp(
+      home: MessageScreen(),
+    );
+  }
+}
+
+// Widget to consume the provider
+class MessageScreen extends ConsumerWidget {
+  const MessageScreen({super.key});
+  
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final userAsync = ref.watch(userProvider);
-    return userAsync.when(
-      data: (user) => Text('User: $user'),
-      loading: () => CircularProgressIndicator(),
-      error: (err, _) => Text('Error: $err'),
+    final messageAsync = ref.watch(messageProvider);
+
+    return Scaffold(
+      appBar: AppBar(title: const Text("AsyncNotifierProvider Example")),
+      body: Center(
+        child: messageAsync.when(
+          data: (message) => Text(message, style: const TextStyle(fontSize: 24)),
+          loading: () => const CircularProgressIndicator(),
+          error: (err, stack) => Text("Error: $err"),
+        ),
+      ),
     );
   }
 }
