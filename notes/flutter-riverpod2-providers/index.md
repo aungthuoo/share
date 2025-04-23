@@ -396,10 +396,7 @@ class MessageScreen extends ConsumerWidget {
 }
 ```
 
-
-
-
-## Compare AsyncNotifierProvider and FutureProvider in Flutter Riverpod
+## Compare `AsyncNotifierProvider` and `FutureProvider` in Flutter Riverpod
 
 Great question! Let's quickly compare AsyncNotifierProvider and FutureProvider in Flutter Riverpod so you can decide which one fits your use case better.
 
