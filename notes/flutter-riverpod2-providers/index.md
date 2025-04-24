@@ -604,8 +604,27 @@ final userNotifierProvider =
 
 ### Use in Widget:
 ```dart
-class UserScreen extends ConsumerWidget {
+
+
+
+class UserScreen extends ConsumerStatefulWidget {
   const UserScreen({super.key});
+
+  @override
+  ConsumerState<UserScreen> createState() => _UserScreenState();
+}
+
+class _UserScreenState extends ConsumerState<UserScreen> {
+  @override
+  void initState() {
+    super.initState();
+
+    // Recalculate when this page opens
+    Future.microtask(() {
+      ref.read(userNotifierProvider.notifier).refresh();
+    });
+  }
+
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {

@@ -1000,8 +1000,27 @@ ref.watch(greetProvider(<span class="hljs-string">'Andrew'</span>));
     AsyncNotifierProvider&lt;UserNotifier, <span class="hljs-built_in">String</span>&gt;(() =&gt; UserNotifier());
 </div></code></pre>
 <h3 id="use-in-widget">Use in Widget:</h3>
-<pre class="hljs"><code><div><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">UserScreen</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">ConsumerWidget</span> </span>{
+<pre class="hljs"><code><div>
+
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">UserScreen</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">ConsumerStatefulWidget</span> </span>{
   <span class="hljs-keyword">const</span> UserScreen({<span class="hljs-keyword">super</span>.key});
+
+  <span class="hljs-meta">@override</span>
+  ConsumerState&lt;UserScreen&gt; createState() =&gt; _UserScreenState();
+}
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">_UserScreenState</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">ConsumerState</span>&lt;<span class="hljs-title">UserScreen</span>&gt; </span>{
+  <span class="hljs-meta">@override</span>
+  <span class="hljs-keyword">void</span> initState() {
+    <span class="hljs-keyword">super</span>.initState();
+
+    <span class="hljs-comment">// Recalculate when this page opens</span>
+    Future.microtask(() {
+      ref.read(userNotifierProvider.notifier).refresh();
+    });
+  }
+
 
   <span class="hljs-meta">@override</span>
   Widget build(BuildContext context, WidgetRef ref) {
@@ -1030,18 +1049,14 @@ ref.watch(greetProvider(<span class="hljs-string">'Andrew'</span>));
 </body>
 
 
-
 <link rel="stylesheet" href="../style.css">
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="../script.js"></script>
 <script>
   const titleElements = document.getElementsByTagName('title');
   if (titleElements.length > 0) {
-    titleElements[0].innerText = "JavaScript Hoisted"; // Set your dynamic title here
+    titleElements[0].innerText = "flutter-riverpod2-providers"; // Set your dynamic title here
   }
 </script>
-
-  
-
 
 </html>
